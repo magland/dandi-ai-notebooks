@@ -1,10 +1,8 @@
 # DANDI AI Notebooks
 
-This repository automates the generation of Jupyter notebooks for analyzing DANDI datasets (dandisets). It processes multiple dandisets and creates customized analysis notebooks based on configuration files. The automation uses:
-- [dandi-notebook-gen](https://github.com/magland/dandi-notebook-gen) - for generating DANDI analysis notebooks
-- [minicline](https://github.com/magland/minicline) - for command-line interaction and notebook generation
+This repository automates the generation of Jupyter notebooks for analyzing DANDI datasets (dandisets). It processes multiple dandisets and creates customized analysis notebooks based on configuration files. The automation uses [dandi-notebook-gen](https://github.com/magland/dandi-notebook-gen) and [minicline](https://github.com/magland/minicline).
 
-This package was created as part of the [Pre-COSYNE Brainhack](https://pre-cosyne-brainhack.github.io/hackathon2025/posts/about/), March 2025, Montreal.
+This packages were created as part of the [Pre-COSYNE Brainhack](https://pre-cosyne-brainhack.github.io/hackathon2025/posts/about/), March 2025, Montreal.
 
 For now, during development phase, we are using the google/gemini-2.0-flash-001 model because it is fast and inexpensive. Later on, we will switch to something like anthropic/claude-3.5-sonnet.
 
