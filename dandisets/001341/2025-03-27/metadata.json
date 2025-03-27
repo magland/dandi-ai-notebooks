@@ -1,0 +1,14 @@
+{
+  "dandi_notebook_gen_version": "0.1.0",
+  "system_info": {
+    "platform": "Linux-6.8.0-1021-azure-x86_64-with-glibc2.39",
+    "hostname": "fv-az1120-17",
+    "processor": "x86_64",
+    "python_version": "3.11.11"
+  },
+  "model": "google/gemini-2.0-flash-001",
+  "total_prompt_tokens": 187873,
+  "total_completion_tokens": 3942,
+  "timestamp": "2025-03-27 19:38:44",
+  "elapsed_time_seconds": 62.754329204559326
+}
