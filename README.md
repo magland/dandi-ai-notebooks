@@ -6,6 +6,8 @@ This repository automates the generation of Jupyter notebooks for analyzing DAND
 
 This package was created as part of the [Pre-COSYNE Brainhack](https://pre-cosyne-brainhack.github.io/hackathon2025/posts/about/), March 2025, Montreal.
 
+For now, during development phase, we are using the google/gemini-2.0-flash-001 model because it is fast and inexpensive. Later on, we will switch to something like anthropic/claude-3.5-sonnet.
+
 ## Repository Structure
 
 ```
