@@ -55,3 +55,7 @@ For each processed dandiset:
   - dandi_notebook_gen
   - pyyaml
   - jupyter
+
+## Notes
+
+For the gh workflow to be able to push updates back to the repo you need to enable "Read and write permissions" in Settings -> Actions for the repo.
