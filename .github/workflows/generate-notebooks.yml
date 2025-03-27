@@ -37,11 +37,13 @@ jobs:
           git config user.email "actions@github.com"
 
       - name: Commit and push if changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [[ -n $(git status --porcelain) ]]; then
             git add .
             git commit -m "Auto-generate notebooks using dandi-notebook-gen"
-            git push
+            git push "https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           else
             echo "No changes to commit"
           fi
