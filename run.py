@@ -1,5 +1,6 @@
 import os
 import json
+from matplotlib.pylab import f
 import yaml
 import shutil
 import platform
@@ -10,6 +11,22 @@ import dandi_notebook_gen
 def get_relative_path(path: str) -> str:
     """Convert absolute path to relative path from current directory."""
     return os.path.relpath(path, os.path.dirname(__file__))
+
+def _get_cost_for_model(model):
+    if model == 'google/gemini-2.0-flash-001':
+        return 0.1, 0.4
+    elif model == 'openai/gpt-4o':
+        return 2.5, 10
+    elif model == 'anthropic/claude-3.5-sonnet':
+        return 3, 15
+    elif model == 'anthropic/claude-3.7-sonnet':
+        return 3, 15
+    elif model == 'anthropic/claude-3.7-sonnet:thinking':
+        return 3, 15
+    elif model == 'deepseek/deepseek-r1':
+        return 0.55, 2.19
+    else:
+        return None, None
 
 def collect_notebook_info(notebook_dir: str, dandiset_id: str, subfolder: str) -> Dict[str, Any]:
     """Collect all information about a notebook."""
@@ -152,8 +169,8 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
     # Create summary table
     md = "# DANDI Notebook Generation Results\n\n"
     md += "## Summary\n\n"
-    md += "| Dandiset ID | Model | Generated At | Generation Time (s) | Images | Notebook |\n"
-    md += "|-------------|-------|--------------|-------------------|---------|----------|\n"
+    md += "| Dandiset ID | Notebook | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |\n"
+    md += "|-------------|----------|-------|--------------|---------------------|--------| ------ | ----- |\n"
 
     for nb in sorted_notebooks:
         runtime = nb['metadata'].get('elapsed_time_seconds', 0)
@@ -162,7 +179,18 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         image_count = len(nb['paths'].get('images', []))
         notebook_link = nb['paths']['notebook']
 
-        md += f"| {nb['dandiset_id']} | {model} | {timestamp} | {runtime:.2f} | {image_count} | [{nb['dandiset_id']}.ipynb]({notebook_link}) |\n"
+        total_prompt_tokens = nb['metadata'].get('total_prompt_tokens', 0)
+        total_completion_tokens = nb['metadata'].get('total_completion_tokens', 0)
+        total_prompt_tokens_k = total_prompt_tokens / 1000
+        total_completion_tokens_k = total_completion_tokens / 1000
+
+        prompt_cost, completion_cost = _get_cost_for_model(model)
+        if prompt_cost is not None and completion_cost is not None:
+            est_cost = total_prompt_tokens / 1e6 * prompt_cost + total_completion_tokens / 1e6 * completion_cost
+        else:
+            est_cost = "unknown"
+
+        md += f"| {nb['dandiset_id']} | [{nb['dandiset_id']}.ipynb]({notebook_link}) | {model} | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k / {total_completion_tokens_k:.1f}k | {est_cost:.2f} |\n"
 
     # Detailed sections grouped by dandiset
     current_dandiset = None
@@ -175,6 +203,15 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         md += f"**Model:** {nb['config'].get('model', 'N/A')}  \n"
         md += f"**Generated:** {nb['metadata'].get('timestamp', 'N/A')}  \n"
         md += f"**Generation Time:** {nb['metadata'].get('elapsed_time_seconds', 0):.2f}s  \n"
+        md += f"**Prompt Tokens:** {nb['metadata'].get('total_prompt_tokens', 0) / 1000:.1f}k  \n"
+        md += f"**Completion Tokens:** {nb['metadata'].get('total_completion_tokens', 0) / 1000:.1f}k  \n"
+        prompt_cost, completion_cost = _get_cost_for_model(nb['config'].get('model'))
+        if prompt_cost is not None and completion_cost is not None:
+            est_cost = nb['metadata'].get('total_prompt_tokens', 0) / 1e6 * prompt_cost + nb['metadata'].get('total_completion_tokens', 0) / 1e6 * completion_cost
+            md += f"**Estimated Cost:** ${est_cost:.2f}  \n"
+        else:
+            md += f"**Estimated Cost:** unknown  \n"
+        md += f"**Notebook:** [{nb['dandiset_id']}.ipynb]({nb['paths']['notebook']})  \n"
 
         # Add images if any
         if nb['paths'].get('images'):
