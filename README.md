@@ -4,6 +4,8 @@ This repository automates the generation of Jupyter notebooks for analyzing DAND
 
 This packages were created as part of the [Pre-COSYNE Brainhack](https://pre-cosyne-brainhack.github.io/hackathon2025/posts/about/), March 2025, Montreal.
 
+[View results](./results.md) (updates regularly)
+
 ## Repository Structure
 
 ```
