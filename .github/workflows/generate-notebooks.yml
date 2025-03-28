@@ -26,25 +26,38 @@ jobs:
           cd /tmp/dandi-notebook-gen
           pip install -e .
 
-      - name: Generate notebooks
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python run.py
-
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-      - name: Commit and push if changes
+      - name: Run generate-commit loop
         env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git pull # in case there were changes in the repo
-          if [[ -n $(git status --porcelain) ]]; then
-            git add .
-            git commit -m "Auto-generate notebooks using dandi-notebook-gen"
-            git push "https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-          else
-            echo "No changes to commit"
+          count=0
+          max_iterations=15
+
+          while [ $count -lt $max_iterations ]; do
+            echo "Iteration $((count + 1)) of $max_iterations"
+            echo "Running notebook generation..."
+            python run.py
+
+            git pull # in case there were changes in the repo
+            if [[ -n $(git status --porcelain) ]]; then
+              echo "Changes detected, committing and pushing..."
+              git add .
+              git commit -m "Auto-generate notebooks using dandi-notebook-gen"
+              git push "https://$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+              echo "Changes pushed, continuing loop..."
+              count=$((count + 1))
+            else
+              echo "No changes detected, exiting..."
+              break
+            fi
+          done
+
+          if [ $count -eq $max_iterations ]; then
+            echo "Reached maximum number of iterations ($max_iterations)"
           fi
