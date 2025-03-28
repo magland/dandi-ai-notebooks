@@ -1,0 +1,14 @@
+{
+  "dandi_notebook_gen_version": "0.1.0",
+  "system_info": {
+    "platform": "Linux-6.8.0-1021-azure-x86_64-with-glibc2.39",
+    "hostname": "fv-az813-620",
+    "processor": "x86_64",
+    "python_version": "3.11.11"
+  },
+  "model": "anthropic/claude-3.7-sonnet",
+  "total_prompt_tokens": 586170,
+  "total_completion_tokens": 19856,
+  "timestamp": "2025-03-28 00:47:46",
+  "elapsed_time_seconds": 886.2685124874115
+}
