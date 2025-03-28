@@ -9,6 +9,7 @@
 | 001174 | [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 |
 | 001176 | [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 |
 | 001275 | [001275.ipynb](dandisets/001275/2025-03-27/001275.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 15:15:23 | 191.15 | 3 | 344.8k / 6.0k | 0.04 |
+| 001276 | [001276.ipynb](dandisets/001276/2025-03-28-gemini-2.0-flash-001/001276.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 11:58:57 | 193.12 | 1 | 525.9k / 5.3k | 0.05 |
 | 001276 | [001276.ipynb](dandisets/001276/2025-03-28-claude-3.7-sonnet/001276.ipynb) | anthropic/claude-3.7-sonnet | 2025-03-28 15:22:37 | 755.89 | 7 | 874.2k / 28.7k | 3.05 |
 | 001333 | [001333.ipynb](dandisets/001333/2025-03-27-flash/001333.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 15:00:01 | 241.53 | 1 | 778.8k / 12.0k | 0.08 |
 | 001333 | [001333.ipynb](dandisets/001333/2025-03-28-claude-3.7-sonnet/001333.ipynb) | anthropic/claude-3.7-sonnet | 2025-03-28 10:41:29 | 516.22 | 8 | 1095.0k / 14.2k | 3.50 |
@@ -115,6 +116,20 @@
 
 
 ## Dandiset 001276
+
+### 2025-03-28-gemini-2.0-flash-001
+
+**Model:** google/gemini-2.0-flash-001  
+**Generated:** 2025-03-28 11:58:57  
+**Generation Time:** 193.12s  
+**Prompt Tokens:** 525.9k  
+**Completion Tokens:** 5.3k  
+**Estimated Cost:** $0.05  
+**Notebook:** [001276.ipynb](dandisets/001276/2025-03-28-gemini-2.0-flash-001/001276.ipynb)  
+
+**Generated Images:**
+
+![001276_5_1.png](dandisets/001276/2025-03-28-gemini-2.0-flash-001/001276_files/001276_5_1.png)  
 
 ### 2025-03-28-claude-3.7-sonnet
 
