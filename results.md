@@ -4,6 +4,7 @@
 
 | Dandiset ID | Notebook | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |-------------|----------|-------|--------------|---------------------|--------| ------ | ----- |
+| 000673 | [000673.ipynb](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 15:09:58 | 91.28 | 2 | 257.4k / 5.2k | 0.03 |
 | 000945 | [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 |
 | 001174 | [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 |
 | 001176 | [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 |
@@ -18,6 +19,24 @@
 | 001341 | [001341.ipynb](dandisets/001341/2025-03-27-flash/001341.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 19:38:44 | 62.75 | 2 | 187.9k / 3.9k | 0.02 |
 | 001363 | [001363.ipynb](dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 14:53:26 | 96.19 | 3 | 242.0k / 4.7k | 0.03 |
 | 001366 | [001366.ipynb](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 10:47:32 | 341.66 | 2 | 203.0k / 4.9k | 0.02 |
+
+## Dandiset 000673
+
+### 2025-03-28-gemini-2.0-flash-001
+
+**Model:** google/gemini-2.0-flash-001  
+**Generated:** 2025-03-28 15:09:58  
+**Generation Time:** 91.28s  
+**Prompt Tokens:** 257.4k  
+**Completion Tokens:** 5.2k  
+**Estimated Cost:** $0.03  
+**Notebook:** [000673.ipynb](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673.ipynb)  
+
+**Generated Images:**
+
+![000673_5_0.png](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673_files/000673_5_0.png)  
+![000673_7_0.png](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673_files/000673_7_0.png)  
+
 
 ## Dandiset 000945
 
