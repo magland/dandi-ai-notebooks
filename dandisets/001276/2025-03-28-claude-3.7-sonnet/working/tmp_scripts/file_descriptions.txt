@@ -1,0 +1,250 @@
+File 1: sub-P1-20240627-A2/sub-P1-20240627-A2_obj-fniblx_image.nwb
+Subject: sub-P1-20240627-A2, Object: fniblx
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_A2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 2: sub-P1-20240627-A3/sub-P1-20240627-A3_obj-1h4rh2m_image.nwb
+Subject: sub-P1-20240627-A3, Object: 1h4rh2m
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_A3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 3: sub-P1-20240627-A2/sub-P1-20240627-A2_obj-1aoyzxh_image.nwb
+Subject: sub-P1-20240627-A2, Object: 1aoyzxh
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_A2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 4: sub-P1-20240627-A3/sub-P1-20240627-A3_obj-k9o87l_image.nwb
+Subject: sub-P1-20240627-A3, Object: k9o87l
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_A3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 5: sub-P1-20240627-B1/sub-P1-20240627-B1_obj-1qpzwid_image.nwb
+Subject: sub-P1-20240627-B1, Object: 1qpzwid
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_B1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 6: sub-P1-20240627-B1/sub-P1-20240627-B1_obj-4puzhd_image.nwb
+Subject: sub-P1-20240627-B1, Object: 4puzhd
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_B1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 7: sub-P1-20240627-B2/sub-P1-20240627-B2_obj-1nit1bi_image.nwb
+Subject: sub-P1-20240627-B2, Object: 1nit1bi
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_B2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 8: sub-P1-20240627-B2/sub-P1-20240627-B2_obj-31iy1r_image.nwb
+Subject: sub-P1-20240627-B2, Object: 31iy1r
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_B2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 9: sub-P1-20240627-B3/sub-P1-20240627-B3_obj-1p8hcsr_image.nwb
+Subject: sub-P1-20240627-B3, Object: 1p8hcsr
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_B3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 10: sub-P1-20240627-B3/sub-P1-20240627-B3_obj-1j97opj_image.nwb
+Subject: sub-P1-20240627-B3, Object: 1j97opj
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_B3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 11: sub-P1-20240702-A1/sub-P1-20240702-A1_image.nwb
+Subject: sub-P1-20240702-A1, Object: None
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_A1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 12: sub-P1-20240702-A2/sub-P1-20240702-A2_obj-15cihl_image.nwb
+Subject: sub-P1-20240702-A2, Object: 15cihl
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_A2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 13: sub-P1-20240702-A2/sub-P1-20240702-A2_obj-jf0h62_image.nwb
+Subject: sub-P1-20240702-A2, Object: jf0h62
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_A2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 14: sub-P1-20240702-A3/sub-P1-20240702-A3_obj-54imh9_image.nwb
+Subject: sub-P1-20240702-A3, Object: 54imh9
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_A3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 15: sub-P1-20240702-A3/sub-P1-20240702-A3_obj-1cjyr4h_image.nwb
+Subject: sub-P1-20240702-A3, Object: 1cjyr4h
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_A3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 16: sub-P1-20240702-B1/sub-P1-20240702-B1_obj-1jruk0v_image.nwb
+Subject: sub-P1-20240702-B1, Object: 1jruk0v
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_B1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 17: sub-P1-20240702-B1/sub-P1-20240702-B1_obj-1x8s0cn_image.nwb
+Subject: sub-P1-20240702-B1, Object: 1x8s0cn
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_B1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 18: sub-P1-20240702-B3/sub-P1-20240702-B3_obj-1rnsmhu_image.nwb
+Subject: sub-P1-20240702-B3, Object: 1rnsmhu
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_B3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 19: sub-P1-20240702-B3/sub-P1-20240702-B3_obj-1vh4bm0_image.nwb
+Subject: sub-P1-20240702-B3, Object: 1vh4bm0
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240702_B3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 20: sub-P1-20240703-A1/sub-P1-20240703-A1_obj-1p7fajh_image.nwb
+Subject: sub-P1-20240703-A1, Object: 1p7fajh
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_A1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 21: sub-P1-20240703-A1/sub-P1-20240703-A1_obj-ue0goa_image.nwb
+Subject: sub-P1-20240703-A1, Object: ue0goa
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_A1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 22: sub-P1-20240703-A2/sub-P1-20240703-A2_obj-1843hmm_image.nwb
+Subject: sub-P1-20240703-A2, Object: 1843hmm
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_A2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 23: sub-P1-20240703-A2/sub-P1-20240703-A2_obj-f3x1wk_image.nwb
+Subject: sub-P1-20240703-A2, Object: f3x1wk
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_A2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 24: sub-P1-20240703-A3/sub-P1-20240703-A3_obj-7sf57u_image.nwb
+Subject: sub-P1-20240703-A3, Object: 7sf57u
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_A3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 25: sub-P1-20240703-A3/sub-P1-20240703-A3_obj-9uod2r_image.nwb
+Subject: sub-P1-20240703-A3, Object: 9uod2r
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_A3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 26: sub-P1-20240703-B1/sub-P1-20240703-B1_obj-9zhflm_image.nwb
+Subject: sub-P1-20240703-B1, Object: 9zhflm
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_B1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 27: sub-P1-20240703-B1/sub-P1-20240703-B1_obj-u2w91q_image.nwb
+Subject: sub-P1-20240703-B1, Object: u2w91q
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_B1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 28: sub-P1-20240703-B2/sub-P1-20240703-B2_obj-1d7vzdr_image.nwb
+Subject: sub-P1-20240703-B2, Object: 1d7vzdr
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_B2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 29: sub-P1-20240703-B2/sub-P1-20240703-B2_obj-shjxch_image.nwb
+Subject: sub-P1-20240703-B2, Object: shjxch
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_B2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 30: sub-P1-20240703-B3/sub-P1-20240703-B3_obj-1b6f7l3_image.nwb
+Subject: sub-P1-20240703-B3, Object: 1b6f7l3
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_B3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 31: sub-P1-20240813-A1/sub-P1-20240813-A1_obj-f3q721_image.nwb
+Subject: sub-P1-20240813-A1, Object: f3q721
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_A1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  Control protocol (no canceling pulses applied),013: Protocol consisted 9 packets of pulses delivered at 1Hz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 32: sub-P1-20240813-A1/sub-P1-20240813-A1_obj-kzl47x_image.nwb
+Subject: sub-P1-20240813-A1, Object: kzl47x
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_A1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  Control protocol (no canceling pulses applied),013: Protocol consisted 9 packets of pulses delivered at 1Hz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless s...
+--------------------------------------------------------------------------------
+
+File 33: sub-P1-20240703-B3/sub-P1-20240703-B3_obj-10yjgby_image.nwb
+Subject: sub-P1-20240703-B3, Object: 10yjgby
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240703_B3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 34: sub-P1-20240813-A2/sub-P1-20240813-A2_obj-14d0rni_image.nwb
+Subject: sub-P1-20240813-A2, Object: 14d0rni
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_A2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),013: Protocol consisted 9 packets of pulses delivered at 1Hz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless steel set...
+--------------------------------------------------------------------------------
+
+File 35: sub-P1-20240813-A2/sub-P1-20240813-A2_obj-v5anci_image.nwb
+Subject: sub-P1-20240813-A2, Object: v5anci
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_A2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),013: Protocol consisted 9 packets of pulses delivered at 1Hz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless steel se...
+--------------------------------------------------------------------------------
+
+File 36: sub-P1-20240813-A3/sub-P1-20240813-A3_obj-f0m2f7_image.nwb
+Subject: sub-P1-20240813-A3, Object: f0m2f7
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_A3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 37: sub-P1-20240813-A3/sub-P1-20240813-A3_obj-1d3h6ur_image.nwb
+Subject: sub-P1-20240813-A3, Object: 1d3h6ur
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_A3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 2 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 38: sub-P1-20240813-B1/sub-P1-20240813-B1_obj-6kw6h2_image.nwb
+Subject: sub-P1-20240813-B1, Object: 6kw6h2
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_B1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 39: sub-P1-20240813-B1/sub-P1-20240813-B1_obj-1rb7dpa_image.nwb
+Subject: sub-P1-20240813-B1, Object: 1rb7dpa
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_B1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 40: sub-P1-20240813-B2/sub-P1-20240813-B2_obj-10julcy_image.nwb
+Subject: sub-P1-20240813-B2, Object: 10julcy
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_B2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 1 time at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless stee...
+--------------------------------------------------------------------------------
+
+File 41: sub-P1-20240813-B3/sub-P1-20240813-B3_obj-dae57j_image.nwb
+Subject: sub-P1-20240813-B3, Object: dae57j
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_B3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 42: sub-P1-20240813-B2/sub-P1-20240813-B2_obj-1ej1j97_image.nwb
+Subject: sub-P1-20240813-B2, Object: 1ej1j97
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_B2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 1 time at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 43: sub-P1-20240813-B3/sub-P1-20240813-B3_obj-1bd7g44_image.nwb
+Subject: sub-P1-20240813-B3, Object: 1bd7g44
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240813_B3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 44: sub-P1-20240821-A1/sub-P1-20240821-A1_obj-1ncbvx5_image.nwb
+Subject: sub-P1-20240821-A1, Object: 1ncbvx5
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A1, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 1 time at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless stee...
+--------------------------------------------------------------------------------
+
+File 45: sub-P1-20240821-A2/sub-P1-20240821-A2_obj-fkppt9_image.nwb
+Subject: sub-P1-20240821-A2, Object: fkppt9
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 46: sub-P1-20240821-A1/sub-P1-20240821-A1_obj-tpqva3_image.nwb
+Subject: sub-P1-20240821-A1, Object: tpqva3
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A1, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 1 time at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 47: sub-P1-20240821-A2/sub-P1-20240821-A2_obj-10gndju_image.nwb
+Subject: sub-P1-20240821-A2, Object: 10gndju
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A2, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+
+File 48: sub-P1-20240821-A3/sub-P1-20240821-A3_obj-1c8wwrq_image.nwb
+Subject: sub-P1-20240821-A3, Object: 1c8wwrq
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A3, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 49: sub-P1-20240821-A2/sub-P1-20240821-A2_obj-uyfadb_image.nwb
+Subject: sub-P1-20240821-A2, Object: uyfadb
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 6 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless st...
+--------------------------------------------------------------------------------
+
+File 50: sub-P1-20240821-A3/sub-P1-20240821-A3_obj-11jj6uw_image.nwb
+Subject: sub-P1-20240821-A3, Object: 11jj6uw
+Description: Acquisition Description (Subject-Specific): Subject ID: P1_20240821_A3, Fluorescent Channel: DAPI, Phase: pre (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same well after exposure).  CanCan protocol (with canceling pulses),011: Protocol consisted of 9 packets of pulses delivered at 0.2MHz frequency, protocol repeated 4 times at 1Hz frequency. General Protocol Description (Subject-Independent): Experiments were conducted using a four-electrode stainless ste...
+--------------------------------------------------------------------------------
+

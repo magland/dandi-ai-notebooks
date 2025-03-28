@@ -1,0 +1,48 @@
+Exploring Dandiset 001276
+--------------------------------------------------
+Dandiset name: NG-CANCAN Remote Targeting Electroporation: Impact of Burst Number Variation on Permeabilization Distribution in Confluent Cell Monolayers
+Dandiset metadata: draft
+Dandiset description: [Not available through this interface]
+Number of assets: 108
+--------------------------------------------------
+Asset path patterns:
+Number of unique subjects: 54
+Example subjects: ['sub-P2-20240827-B2', 'sub-P3-20240827-A1', 'sub-P2-20240827-B3', 'sub-P3-20240827-B2', 'sub-P1-20240918-B2']
+File types: {'nwb'}
+Number of unique object patterns: 107
+Example object patterns: ['d6v6fx', '1jxsr1i', 'z83rz4', '1rnsmhu', '1nit1bi']
+--------------------------------------------------
+Examining asset: sub-P1-20240627-A2/sub-P1-20240627-A2_obj-fniblx_image.nwb
+Asset ID: d22476ad-fa18-4aa0-84bf-13fd0113a52c
+Loading file from: https://lindi.neurosift.org/dandi/dandisets/001276/assets/d22476ad-fa18-4aa0-84bf-13fd0113a52c/nwb.lindi.json
+NWB File Metadata:
+Session description: Acquisition Description (Subject-Specific): Subject ID: P1_20240627_A2, Fluorescent Channel: FITC, Phase: post (where 'pre' indicates imaging prior to exposure and 'post' indicates imaging of the same...
+Identifier: 46d0cf2b-609a-440c-852b-f7d8139e9466
+Session start time: 2024-12-12 14:44:22.516529-05:00
+File creation date: [datetime.datetime(2024, 12, 12, 14, 44, 22, 516529, tzinfo=tzoffset(None, -18000))]
+Experimenter(s): ('Giedre Silkuniene, Mantas Silkunas',)
+Institution: Old Dominion University
+Lab: Pakhomov Lab
+
+Subject Information:
+Subject ID: P1_20240627_A2
+Species: http://purl.obolibrary.org/obo/NCBITaxon_10090
+Sex: U
+
+Acquisition Data:
+  - SingleTimePointImaging: ImageSeries
+    Dimensions: (1, 19190, 19190)
+    Data type: uint16
+    Data sample min: 0
+    Data sample max: 65443
+
+Additional NWB Structures:
+No processing modules found.
+No intervals found.
+Error loading or processing the NWB file: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/home/runner/work/dandi-ai-notebooks/dandi-ai-notebooks/dandisets/001276/2025-03-28-claude-3.7-sonnet/working/tmp_scripts/explore_dandiset.py", line 134, in <module>
+    if len(nwb.units) > 0:
+       ^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+
