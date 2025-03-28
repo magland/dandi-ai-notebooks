@@ -16,6 +16,7 @@
 | 001335 | [001335.ipynb](dandisets/001335/2025-03-27-gpt-4o/001335.ipynb) | openai/gpt-4o | 2025-03-28 01:46:41 | 63.25 | 1 | 120.6k / 2.7k | 0.33 |
 | 001335 | [001335.ipynb](dandisets/001335/2025-03-27-deepseek-r1/001335.ipynb) | deepseek/deepseek-r1 | 2025-03-28 02:24:23 | 2055.52 | 0 | 483.1k / 35.8k | 0.34 |
 | 001341 | [001341.ipynb](dandisets/001341/2025-03-27-flash/001341.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 19:38:44 | 62.75 | 2 | 187.9k / 3.9k | 0.02 |
+| 001366 | [001366.ipynb](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 10:47:32 | 341.66 | 2 | 203.0k / 4.9k | 0.02 |
 
 ## Dandiset 000945
 
@@ -226,4 +227,22 @@
 
 ![001341_12_0.png](dandisets/001341/2025-03-27-flash/001341_files/001341_12_0.png)  
 ![001341_9_0.png](dandisets/001341/2025-03-27-flash/001341_files/001341_9_0.png)  
+
+
+## Dandiset 001366
+
+### 2025-03-28-gemini-2.0-flash-001
+
+**Model:** google/gemini-2.0-flash-001  
+**Generated:** 2025-03-28 10:47:32  
+**Generation Time:** 341.66s  
+**Prompt Tokens:** 203.0k  
+**Completion Tokens:** 4.9k  
+**Estimated Cost:** $0.02  
+**Notebook:** [001366.ipynb](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366.ipynb)  
+
+**Generated Images:**
+
+![001366_10_1.png](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366_files/001366_10_1.png)  
+![001366_7_1.png](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366_files/001366_7_1.png)  
 
