@@ -1,0 +1,7 @@
+{
+  "model": "deepseek/deepseek-r1",
+  "total_prompt_tokens": 483060,
+  "total_completion_tokens": 35838,
+  "timestamp": "2025-03-28 02:24:23",
+  "elapsed_time_seconds": 2055.524085521698
+}
