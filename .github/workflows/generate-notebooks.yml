@@ -40,6 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git pull # in case there were changes in the repo
           if [[ -n $(git status --porcelain) ]]; then
             git add .
             git commit -m "Auto-generate notebooks using dandi-notebook-gen"
