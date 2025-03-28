@@ -2,6 +2,7 @@ import os
 import json
 from matplotlib.pylab import f
 import yaml
+import time
 import shutil
 import platform
 from typing import Dict, List, Any
@@ -60,7 +61,7 @@ def collect_notebook_info(notebook_dir: str, dandiset_id: str, subfolder: str) -
         }
     }
 
-def process_dandiset_directory(dandiset_path, notebooks_data):
+def process_dandiset_directory(dandiset_path, notebooks_data, start_time, timeout_sec):
     dandiset_id = os.path.basename(dandiset_path)
     print(f"\nProcessing dandiset: {dandiset_id}")
 
@@ -161,6 +162,14 @@ def process_dandiset_directory(dandiset_path, notebooks_data):
                 collect_notebook_info(notebook_dir, dandiset_id, subdir)
             )
 
+            # Check if we've exceeded the timeout
+            elapsed_time = time.time() - start_time
+            if elapsed_time > timeout_sec:
+                print(f"\nTimeout reached after {elapsed_time:.1f} seconds. Stopping notebook generation.")
+                return True  # Signal that we hit the timeout
+
+    return False  # Signal that we haven't hit the timeout
+
 def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
     """Generate a markdown report from the notebook data."""
     # Sort notebooks by dandiset ID and then by timestamp
@@ -224,6 +233,8 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
     return md
 
 def main():
+    timeout_sec = 60 * 60  # 1 hour timeout
+    start_time = time.time()
     dandisets_dir = os.path.join(os.path.dirname(__file__), "dandisets")
     print(f"Starting notebook generation process")
     print(f"Scanning dandisets directory: {dandisets_dir}")
@@ -235,7 +246,9 @@ def main():
     for item in os.listdir(dandisets_dir):
         dandiset_path = os.path.join(dandisets_dir, item)
         if os.path.isdir(dandiset_path):
-            process_dandiset_directory(dandiset_path, notebooks_data)
+            timeout_reached = process_dandiset_directory(dandiset_path, notebooks_data, start_time, timeout_sec)
+            if timeout_reached:
+                break
 
     # Write all notebook data to results.json
     with open('results.json', 'w') as f:
