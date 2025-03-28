@@ -1,0 +1,107 @@
+{
+  "results": {
+    "count": 52,
+    "results": [
+      {
+        "asset_id": "b344c8b7-422f-46bb-b016-b47dc1e87c65",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-162_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "da77917e-655c-4eeb-a0a6-7529a8a35901",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-218_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "aa743a96-e79b-40b1-a0df-55ef3460e856",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-279_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "d0e8beef-ee7a-44a9-bebc-e0865b4c8f42",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-345_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "068afe41-3b8e-402f-91d4-9f297df677a2",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-423_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "1800fb0a-1e60-459f-9631-878fbc7438ed",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-452_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "4f2100fa-9767-4612-9914-8cf7195e4421",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-516_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "73214862-df4b-452b-a35c-d1f3bdb68180",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-54_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "3e725ab6-1770-4b9c-a615-488e5e6b38e1",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-646_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "f0bbde56-41b8-4d8d-82ea-f1860dd863fb",
+        "path": "sub-healthy-simulated-beta/sub-healthy-simulated-beta_ses-78_ecephys.nwb",
+        "size": 225936
+      },
+      {
+        "asset_id": "5409700b-e080-44e6-a6db-1d3e8890cd6c",
+        "path": "sub-healthy-simulated-data/sub-healthy-simulated-data_ses-001_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "00df5264-001b-4bb0-a987-0ddfb6058961",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-162_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "d92648ad-a2f8-4ec6-a125-363f45aa7f35",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-218_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "b29a7d22-0d2c-4067-9436-73599e70b112",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-279_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "5625d510-89eb-458c-b4b1-d9466bfcac47",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-345_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "d55db7c7-9957-4c1a-8855-3a7568dc14df",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-423_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "d3d17629-3cad-4d94-a69a-431e761747d8",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-452_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "0ed8b387-7062-4ed3-b9da-8bf11973fe00",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-516_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "3cf468a1-4933-4aa6-b1c3-4a261b3ee6db",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-54_ecephys.nwb",
+        "size": 822640
+      },
+      {
+        "asset_id": "2a94cac8-920a-464d-a466-e54082e682c3",
+        "path": "sub-healthy-simulated-lfp/sub-healthy-simulated-lfp_ses-646_ecephys.nwb",
+        "size": 822640
+      }
+    ]
+  }
+}
