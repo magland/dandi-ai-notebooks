@@ -47,6 +47,18 @@ For each processed dandiset:
   - Execution logs
   - Temporary processing files
 
+## Usage
+
+### Creating New Configurations
+
+Use `add_config.py` to create new dandiset configurations:
+
+```bash
+python add_config.py <dandiset_id> <model>
+```
+
+This creates a new dated directory with a config.yaml file. For models with paths (e.g., 'deepseek/deepseek-r1'), only the final part is used in the directory name.
+
 ## Requirements
 
 - Python packages:
