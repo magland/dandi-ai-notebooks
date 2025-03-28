@@ -64,35 +64,6 @@
       }
     },
     {
-      "dandiset_id": "000945",
-      "subfolder": "2025-03-27-flash",
-      "config": {
-        "model": "google/gemini-2.0-flash-001"
-      },
-      "metadata": {
-        "dandi_notebook_gen_version": "0.1.0",
-        "system_info": {
-          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
-          "hostname": "system76-pc",
-          "processor": "x86_64",
-          "python_version": "3.12.2"
-        },
-        "model": "google/gemini-2.0-flash-001",
-        "total_prompt_tokens": 283360,
-        "total_completion_tokens": 4289,
-        "timestamp": "2025-03-27 14:51:00",
-        "elapsed_time_seconds": 85.52301025390625
-      },
-      "paths": {
-        "notebook": "dandisets/000945/2025-03-27-flash/000945.ipynb",
-        "html": "dandisets/000945/2025-03-27-flash/000945.html",
-        "images": [
-          "dandisets/000945/2025-03-27-flash/000945_files/000945_5_0.png",
-          "dandisets/000945/2025-03-27-flash/000945_files/000945_7_0.png"
-        ]
-      }
-    },
-    {
       "dandiset_id": "001366",
       "subfolder": "2025-03-28-gemini-2.0-flash-001",
       "config": {
@@ -122,34 +93,6 @@
       }
     },
     {
-      "dandiset_id": "001174",
-      "subfolder": "2025-03-27-flash",
-      "config": {
-        "model": "google/gemini-2.0-flash-001"
-      },
-      "metadata": {
-        "dandi_notebook_gen_version": "0.1.0",
-        "system_info": {
-          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
-          "python_version": "3.12.2"
-        },
-        "model": "google/gemini-2.0-flash-001",
-        "total_prompt_tokens": 263391,
-        "total_completion_tokens": 6311,
-        "timestamp": "2025-03-27 14:48:31",
-        "elapsed_time_seconds": 112.0747480392456
-      },
-      "paths": {
-        "notebook": "dandisets/001174/2025-03-27-flash/001174.ipynb",
-        "html": "dandisets/001174/2025-03-27-flash/001174.html",
-        "images": [
-          "dandisets/001174/2025-03-27-flash/001174_files/001174_10_0.png",
-          "dandisets/001174/2025-03-27-flash/001174_files/001174_6_0.png",
-          "dandisets/001174/2025-03-27-flash/001174_files/001174_8_0.png"
-        ]
-      }
-    },
-    {
       "dandiset_id": "001341",
       "subfolder": "2025-03-27-flash",
       "config": {
@@ -175,6 +118,95 @@
         "images": [
           "dandisets/001341/2025-03-27-flash/001341_files/001341_12_0.png",
           "dandisets/001341/2025-03-27-flash/001341_files/001341_9_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001363",
+      "subfolder": "2025-03-28-gemini-2.0-flash-001",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-1021-azure-x86_64-with-glibc2.39",
+          "hostname": "fv-az1945-274",
+          "processor": "x86_64",
+          "python_version": "3.11.11"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 241966,
+        "total_completion_tokens": 4740,
+        "timestamp": "2025-03-28 14:53:26",
+        "elapsed_time_seconds": 96.1891028881073
+      },
+      "paths": {
+        "notebook": "dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363.ipynb",
+        "html": "dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363.html",
+        "images": [
+          "dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363_files/001363_16_0.png",
+          "dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363_files/001363_19_0.png",
+          "dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363_files/001363_24_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001176",
+      "subfolder": "2025-03-27-flash",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 243659,
+        "total_completion_tokens": 4039,
+        "timestamp": "2025-03-27 14:54:55",
+        "elapsed_time_seconds": 168.97008061408997
+      },
+      "paths": {
+        "notebook": "dandisets/001176/2025-03-27-flash/001176.ipynb",
+        "html": "dandisets/001176/2025-03-27-flash/001176.html",
+        "images": [
+          "dandisets/001176/2025-03-27-flash/001176_files/001176_5_0.png",
+          "dandisets/001176/2025-03-27-flash/001176_files/001176_7_0.png",
+          "dandisets/001176/2025-03-27-flash/001176_files/001176_9_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001335",
+      "subfolder": "2025-03-27-flash",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 189912,
+        "total_completion_tokens": 6695,
+        "timestamp": "2025-03-27 15:03:37",
+        "elapsed_time_seconds": 106.63755702972412
+      },
+      "paths": {
+        "notebook": "dandisets/001335/2025-03-27-flash/001335.ipynb",
+        "html": "dandisets/001335/2025-03-27-flash/001335.html",
+        "images": [
+          "dandisets/001335/2025-03-27-flash/001335_files/001335_5_0.png",
+          "dandisets/001335/2025-03-27-flash/001335_files/001335_7_0.png"
         ]
       }
     },
@@ -211,63 +243,6 @@
           "dandisets/001335/2025-03-27-sonnet-3.7/001335_files/001335_29_0.png",
           "dandisets/001335/2025-03-27-sonnet-3.7/001335_files/001335_31_0.png",
           "dandisets/001335/2025-03-27-sonnet-3.7/001335_files/001335_33_0.png"
-        ]
-      }
-    },
-    {
-      "dandiset_id": "001335",
-      "subfolder": "2025-03-27-gpt-4o",
-      "config": {
-        "model": "openai/gpt-4o"
-      },
-      "metadata": {
-        "dandi_notebook_gen_version": "0.1.0",
-        "system_info": {
-          "platform": "Linux-6.8.0-1021-azure-x86_64-with-glibc2.39",
-          "hostname": "fv-az816-446",
-          "processor": "x86_64",
-          "python_version": "3.11.11"
-        },
-        "model": "openai/gpt-4o",
-        "total_prompt_tokens": 120646,
-        "total_completion_tokens": 2730,
-        "timestamp": "2025-03-28 01:46:41",
-        "elapsed_time_seconds": 63.24805188179016
-      },
-      "paths": {
-        "notebook": "dandisets/001335/2025-03-27-gpt-4o/001335.ipynb",
-        "html": "dandisets/001335/2025-03-27-gpt-4o/001335.html",
-        "images": [
-          "dandisets/001335/2025-03-27-gpt-4o/001335_files/001335_3_1.png"
-        ]
-      }
-    },
-    {
-      "dandiset_id": "001335",
-      "subfolder": "2025-03-27-flash",
-      "config": {
-        "model": "google/gemini-2.0-flash-001"
-      },
-      "metadata": {
-        "dandi_notebook_gen_version": "0.1.0",
-        "system_info": {
-          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
-          "hostname": "system76-pc",
-          "processor": "x86_64",
-          "python_version": "3.12.2"
-        },
-        "model": "google/gemini-2.0-flash-001",
-        "total_prompt_tokens": 189912,
-        "total_completion_tokens": 6695,
-        "timestamp": "2025-03-27 15:03:37",
-        "elapsed_time_seconds": 106.63755702972412
-      },
-      "paths": {
-        "notebook": "dandisets/001335/2025-03-27-flash/001335.ipynb",
-        "html": "dandisets/001335/2025-03-27-flash/001335.html",
-        "images": [
-          "dandisets/001335/2025-03-27-flash/001335_files/001335_5_0.png",
-          "dandisets/001335/2025-03-27-flash/001335_files/001335_7_0.png"
         ]
       }
     },
@@ -328,6 +303,34 @@
       }
     },
     {
+      "dandiset_id": "001335",
+      "subfolder": "2025-03-27-gpt-4o",
+      "config": {
+        "model": "openai/gpt-4o"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-1021-azure-x86_64-with-glibc2.39",
+          "hostname": "fv-az816-446",
+          "processor": "x86_64",
+          "python_version": "3.11.11"
+        },
+        "model": "openai/gpt-4o",
+        "total_prompt_tokens": 120646,
+        "total_completion_tokens": 2730,
+        "timestamp": "2025-03-28 01:46:41",
+        "elapsed_time_seconds": 63.24805188179016
+      },
+      "paths": {
+        "notebook": "dandisets/001335/2025-03-27-gpt-4o/001335.ipynb",
+        "html": "dandisets/001335/2025-03-27-gpt-4o/001335.html",
+        "images": [
+          "dandisets/001335/2025-03-27-gpt-4o/001335_files/001335_3_1.png"
+        ]
+      }
+    },
+    {
       "dandiset_id": "001275",
       "subfolder": "2025-03-27",
       "config": {
@@ -358,7 +361,7 @@
       }
     },
     {
-      "dandiset_id": "001176",
+      "dandiset_id": "000945",
       "subfolder": "2025-03-27-flash",
       "config": {
         "model": "google/gemini-2.0-flash-001"
@@ -372,18 +375,45 @@
           "python_version": "3.12.2"
         },
         "model": "google/gemini-2.0-flash-001",
-        "total_prompt_tokens": 243659,
-        "total_completion_tokens": 4039,
-        "timestamp": "2025-03-27 14:54:55",
-        "elapsed_time_seconds": 168.97008061408997
+        "total_prompt_tokens": 283360,
+        "total_completion_tokens": 4289,
+        "timestamp": "2025-03-27 14:51:00",
+        "elapsed_time_seconds": 85.52301025390625
       },
       "paths": {
-        "notebook": "dandisets/001176/2025-03-27-flash/001176.ipynb",
-        "html": "dandisets/001176/2025-03-27-flash/001176.html",
+        "notebook": "dandisets/000945/2025-03-27-flash/000945.ipynb",
+        "html": "dandisets/000945/2025-03-27-flash/000945.html",
         "images": [
-          "dandisets/001176/2025-03-27-flash/001176_files/001176_5_0.png",
-          "dandisets/001176/2025-03-27-flash/001176_files/001176_7_0.png",
-          "dandisets/001176/2025-03-27-flash/001176_files/001176_9_0.png"
+          "dandisets/000945/2025-03-27-flash/000945_files/000945_5_0.png",
+          "dandisets/000945/2025-03-27-flash/000945_files/000945_7_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001174",
+      "subfolder": "2025-03-27-flash",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "python_version": "3.12.2"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 263391,
+        "total_completion_tokens": 6311,
+        "timestamp": "2025-03-27 14:48:31",
+        "elapsed_time_seconds": 112.0747480392456
+      },
+      "paths": {
+        "notebook": "dandisets/001174/2025-03-27-flash/001174.ipynb",
+        "html": "dandisets/001174/2025-03-27-flash/001174.html",
+        "images": [
+          "dandisets/001174/2025-03-27-flash/001174_files/001174_10_0.png",
+          "dandisets/001174/2025-03-27-flash/001174_files/001174_6_0.png",
+          "dandisets/001174/2025-03-27-flash/001174_files/001174_8_0.png"
         ]
       }
     }
