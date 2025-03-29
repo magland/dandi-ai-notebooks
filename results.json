@@ -244,6 +244,42 @@
     },
     {
       "dandiset_id": "001174",
+      "subfolder": "2025-03-29-claude-3.7-sonnet-plot-reflection",
+      "config": {
+        "model": "anthropic/claude-3.7-sonnet"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "anthropic/claude-3.7-sonnet",
+        "total_prompt_tokens": 2011615,
+        "total_completion_tokens": 22528,
+        "timestamp": "2025-03-29 12:42:07",
+        "elapsed_time_seconds": 1090.0138766765594
+      },
+      "paths": {
+        "notebook": "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174.ipynb",
+        "html": "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174.html",
+        "images": [
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_13_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_15_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_17_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_19_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_21_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_23_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_25_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_27_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174_files/001174_29_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001174",
       "subfolder": "2025-03-29-claude-3.7-sonnet",
       "config": {
         "model": "anthropic/claude-3.7-sonnet"
