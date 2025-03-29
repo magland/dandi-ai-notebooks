@@ -144,7 +144,7 @@ nwb = pynwb.NWBHDF5IO(file=f, mode='r').read()
 # Access and subset LFP data
 lfp = nwb.processing["ecephys"]["LFP"]
 electrodes = lfp.electrodes["id"].data[:]
-data_sample = lfp.data[:1000, :5]  # Load a smaller segment for simplicity 
+data_sample = lfp.data[:1000, :5]  # Load a smaller segment for simplicity
 
 # Plot LFP data: 1000 time points for first 5 electrodes
 plt.figure(figsize=(15, 8))
@@ -318,7 +318,7 @@ STDOUT:
 
 STDERR:
 [NbClientApp] Executing notebook.ipynb
-[NbClientApp] Executing notebook with kernel: 
+[NbClientApp] Executing notebook with kernel:
 [NbClientApp] Save executed results to notebook.ipynb
 
 =========================================

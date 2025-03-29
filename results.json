@@ -244,6 +244,44 @@
     },
     {
       "dandiset_id": "001174",
+      "subfolder": "2025-03-29-claude-3.7-sonnet",
+      "config": {
+        "model": "anthropic/claude-3.7-sonnet"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "anthropic/claude-3.7-sonnet",
+        "total_prompt_tokens": 1047859,
+        "total_completion_tokens": 15770,
+        "timestamp": "2025-03-29 11:17:27",
+        "elapsed_time_seconds": 722.79931473732
+      },
+      "paths": {
+        "notebook": "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.ipynb",
+        "html": "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.html",
+        "images": [
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_19_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_21_1.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_22_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_23_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_25_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_27_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_30_1.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_32_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_33_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_35_0.png",
+          "dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_36_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001174",
       "subfolder": "2025-03-27-flash",
       "config": {
         "model": "google/gemini-2.0-flash-001"

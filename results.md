@@ -7,6 +7,7 @@
 | 000673 | [000673.ipynb](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 15:09:58 | 91.28 | 2 | 257.4k / 5.2k | 0.03 |
 | 000945 | [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 |
 | 001174 | [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 |
+| 001174 | [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.ipynb) | anthropic/claude-3.7-sonnet | 2025-03-29 11:17:27 | 722.80 | 11 | 1047.9k / 15.8k | 3.38 |
 | 001176 | [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 |
 | 001275 | [001275.ipynb](dandisets/001275/2025-03-27/001275.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 15:15:23 | 191.15 | 3 | 344.8k / 6.0k | 0.04 |
 | 001276 | [001276.ipynb](dandisets/001276/2025-03-28-gemini-2.0-flash-001/001276.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 11:58:57 | 193.12 | 1 | 525.9k / 5.3k | 0.05 |
@@ -75,6 +76,30 @@
 ![001174_10_0.png](dandisets/001174/2025-03-27-flash/001174_files/001174_10_0.png)  
 ![001174_6_0.png](dandisets/001174/2025-03-27-flash/001174_files/001174_6_0.png)  
 ![001174_8_0.png](dandisets/001174/2025-03-27-flash/001174_files/001174_8_0.png)  
+
+### 2025-03-29-claude-3.7-sonnet
+
+**Model:** anthropic/claude-3.7-sonnet  
+**Generated:** 2025-03-29 11:17:27  
+**Generation Time:** 722.80s  
+**Prompt Tokens:** 1047.9k  
+**Completion Tokens:** 15.8k  
+**Estimated Cost:** $3.38  
+**Notebook:** [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.ipynb)  
+
+**Generated Images:**
+
+![001174_19_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_19_0.png)  
+![001174_21_1.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_21_1.png)  
+![001174_22_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_22_0.png)  
+![001174_23_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_23_0.png)  
+![001174_25_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_25_0.png)  
+![001174_27_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_27_0.png)  
+![001174_30_1.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_30_1.png)  
+![001174_32_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_32_0.png)  
+![001174_33_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_33_0.png)  
+![001174_35_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_35_0.png)  
+![001174_36_0.png](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174_files/001174_36_0.png)  
 
 
 ## Dandiset 001176
