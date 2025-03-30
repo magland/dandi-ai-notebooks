@@ -5,6 +5,7 @@
 | Dandiset ID | Notebook | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |-------------|----------|-------|--------------|---------------------|--------| ------ | ----- |
 | 000673 | [000673.ipynb](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673.ipynb) | google/gemini-2.0-flash-001 | 2025-03-28 15:09:58 | 91.28 | 2 | 257.4k / 5.2k | 0.03 |
+| 000673 | [000673.ipynb](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673.ipynb) | anthropic/claude-3.7-sonnet | 2025-03-29 21:44:22 | 628.38 | 10 | 886.7k / 27.0k | 3.06 |
 | 000945 | [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 |
 | 001174 | [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | google/gemini-2.0-flash-001 | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 |
 | 001174 | [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.ipynb) | anthropic/claude-3.7-sonnet | 2025-03-29 11:17:27 | 722.80 | 11 | 1047.9k / 15.8k | 3.38 |
@@ -42,6 +43,29 @@
 
 ![000673_5_0.png](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673_files/000673_5_0.png)  
 ![000673_7_0.png](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673_files/000673_7_0.png)  
+
+### 2025-03-29-claude-3.7-sonnet
+
+**Model:** anthropic/claude-3.7-sonnet  
+**Generated:** 2025-03-29 21:44:22  
+**Generation Time:** 628.38s  
+**Prompt Tokens:** 886.7k  
+**Completion Tokens:** 27.0k  
+**Estimated Cost:** $3.06  
+**Notebook:** [000673.ipynb](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673.ipynb)  
+
+**Generated Images:**
+
+![000673_12_0.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_12_0.png)  
+![000673_14_1.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_14_1.png)  
+![000673_14_2.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_14_2.png)  
+![000673_18_1.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_18_1.png)  
+![000673_21_0.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_21_0.png)  
+![000673_23_1.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_23_1.png)  
+![000673_27_1.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_27_1.png)  
+![000673_29_0.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_29_0.png)  
+![000673_31_1.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_31_1.png)  
+![000673_31_2.png](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_31_2.png)  
 
 
 ## Dandiset 000945
