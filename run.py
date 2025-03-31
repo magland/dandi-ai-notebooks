@@ -159,8 +159,8 @@ def process_dandiset_subdirectory(*, dandiset_id: str, subdir: str, notebook_dir
 
 def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
     """Generate a markdown report from the notebook data."""
-    # Sort notebooks by dandiset ID and then by timestamp
-    sorted_notebooks = sorted(notebooks_data, key=lambda x: (x['dandiset_id'], x['metadata'].get('timestamp', '')))
+    # Sort notebooks by timestamp (most recent first)
+    sorted_notebooks = sorted(notebooks_data, key=lambda x: x['metadata'].get('timestamp', ''), reverse=True)
 
     # Create summary table
     md = "# DANDI Notebook Generation Results\n\n"
