@@ -165,8 +165,8 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
     # Create summary table
     md = "# DANDI Notebook Generation Results\n\n"
     md += "## Summary\n\n"
-    md += "| Dandiset ID | Notebook | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |\n"
-    md += "|-------------|----------|-------|--------------|---------------------|--------| ------ | ----- |\n"
+    md += "| Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |\n"
+    md += "|----------|---------|-------|--------------|---------------------|--------| ------ | ----- |\n"
 
     for nb in sorted_notebooks:
         runtime = nb['metadata'].get('elapsed_time_seconds', 0)
@@ -186,7 +186,7 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         else:
             est_cost = "unknown"
 
-        md += f"| {nb['dandiset_id']} | [{nb['dandiset_id']}.ipynb]({notebook_link}) | {model} | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k / {total_completion_tokens_k:.1f}k | {est_cost:.2f} |\n"
+        md += f"| [{nb['dandiset_id']}.ipynb]({notebook_link}) | {nb['subfolder']} | {model} | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k / {total_completion_tokens_k:.1f}k | {est_cost:.2f} |\n"
 
     # Detailed sections grouped by dandiset
     current_dandiset = None
