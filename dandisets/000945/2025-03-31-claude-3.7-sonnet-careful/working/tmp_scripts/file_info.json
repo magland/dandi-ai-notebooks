@@ -1,0 +1,527 @@
+[
+  {
+    "path": "sub-BH497/sub-BH497_ses-20240310T143729_ecephys.nwb",
+    "subject": "BH497",
+    "size": 9797128,
+    "asset_id": "a4e04662-e4cb-49f3-9076-41e04e833a11",
+    "url": "https://api.dandiarchive.org/api/assets/a4e04662-e4cb-49f3-9076-41e04e833a11/download/"
+  },
+  {
+    "path": "sub-BH497/sub-BH497_ses-20240310T145053_ecephys.nwb",
+    "subject": "BH497",
+    "size": 9352600,
+    "asset_id": "526c681d-0c50-44e1-92be-9c0134c71fd8",
+    "url": "https://api.dandiarchive.org/api/assets/526c681d-0c50-44e1-92be-9c0134c71fd8/download/"
+  },
+  {
+    "path": "sub-BH497/sub-BH497_ses-20240310T145814_ecephys.nwb",
+    "subject": "BH497",
+    "size": 11900768,
+    "asset_id": "f88a9bec-23d6-4444-8b97-8083e45057c9",
+    "url": "https://api.dandiarchive.org/api/assets/f88a9bec-23d6-4444-8b97-8083e45057c9/download/"
+  },
+  {
+    "path": "sub-BH497/sub-BH497_ses-20240310T150748_ecephys.nwb",
+    "subject": "BH497",
+    "size": 12848752,
+    "asset_id": "a7549e3f-9b14-432a-be65-adb5f6811343",
+    "url": "https://api.dandiarchive.org/api/assets/a7549e3f-9b14-432a-be65-adb5f6811343/download/"
+  },
+  {
+    "path": "sub-BH497/sub-BH497_ses-20240310T152652_ecephys.nwb",
+    "subject": "BH497",
+    "size": 11445120,
+    "asset_id": "02151b40-5064-4ba1-a5b7-d0473ff09262",
+    "url": "https://api.dandiarchive.org/api/assets/02151b40-5064-4ba1-a5b7-d0473ff09262/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20230906T180913_ecephys.nwb",
+    "subject": "BH498",
+    "size": 6736848,
+    "asset_id": "76429bc6-027e-4350-8cf3-e8568db28e58",
+    "url": "https://api.dandiarchive.org/api/assets/76429bc6-027e-4350-8cf3-e8568db28e58/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240305T191833_ecephys.nwb",
+    "subject": "BH498",
+    "size": 5586808,
+    "asset_id": "845dc047-915e-461b-85de-f029b4c8b16f",
+    "url": "https://api.dandiarchive.org/api/assets/845dc047-915e-461b-85de-f029b4c8b16f/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240305T200606_ecephys.nwb",
+    "subject": "BH498",
+    "size": 2555728,
+    "asset_id": "d1fa906a-2dc2-4b71-a9e6-26eceafdc21a",
+    "url": "https://api.dandiarchive.org/api/assets/d1fa906a-2dc2-4b71-a9e6-26eceafdc21a/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240305T204552_ecephys.nwb",
+    "subject": "BH498",
+    "size": 4293592,
+    "asset_id": "74cb8afa-730d-425b-bf6b-859c04217cac",
+    "url": "https://api.dandiarchive.org/api/assets/74cb8afa-730d-425b-bf6b-859c04217cac/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240306T124227_ecephys.nwb",
+    "subject": "BH498",
+    "size": 1674720,
+    "asset_id": "bbd6a696-a68a-4790-820e-02794bd7829d",
+    "url": "https://api.dandiarchive.org/api/assets/bbd6a696-a68a-4790-820e-02794bd7829d/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240306T175805_ecephys.nwb",
+    "subject": "BH498",
+    "size": 465000,
+    "asset_id": "a560cda8-54de-42f6-9c7f-f1b5e6dfb53f",
+    "url": "https://api.dandiarchive.org/api/assets/a560cda8-54de-42f6-9c7f-f1b5e6dfb53f/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240306T184536_ecephys.nwb",
+    "subject": "BH498",
+    "size": 3340696,
+    "asset_id": "f68ae65b-05e1-4ad2-8897-c3374ea65054",
+    "url": "https://api.dandiarchive.org/api/assets/f68ae65b-05e1-4ad2-8897-c3374ea65054/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240306T231317_ecephys.nwb",
+    "subject": "BH498",
+    "size": 3538224,
+    "asset_id": "aff9a3be-9745-4787-b62e-f7028a630daa",
+    "url": "https://api.dandiarchive.org/api/assets/aff9a3be-9745-4787-b62e-f7028a630daa/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240310T143729_ecephys.nwb",
+    "subject": "BH498",
+    "size": 9796912,
+    "asset_id": "42b45ddf-050f-4ae7-a34e-d5b9d8d991fe",
+    "url": "https://api.dandiarchive.org/api/assets/42b45ddf-050f-4ae7-a34e-d5b9d8d991fe/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240310T145053_ecephys.nwb",
+    "subject": "BH498",
+    "size": 9352384,
+    "asset_id": "0bce1d5d-8635-470e-b497-f0b350cbf058",
+    "url": "https://api.dandiarchive.org/api/assets/0bce1d5d-8635-470e-b497-f0b350cbf058/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240310T145814_ecephys.nwb",
+    "subject": "BH498",
+    "size": 11900552,
+    "asset_id": "e35653b4-0a0b-41bf-bf71-0c37e0d96509",
+    "url": "https://api.dandiarchive.org/api/assets/e35653b4-0a0b-41bf-bf71-0c37e0d96509/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240310T150748_ecephys.nwb",
+    "subject": "BH498",
+    "size": 12848536,
+    "asset_id": "6c7c91a9-d339-4c73-b0a0-5df2d050f324",
+    "url": "https://api.dandiarchive.org/api/assets/6c7c91a9-d339-4c73-b0a0-5df2d050f324/download/"
+  },
+  {
+    "path": "sub-BH498/sub-BH498_ses-20240310T152652_ecephys.nwb",
+    "subject": "BH498",
+    "size": 11444904,
+    "asset_id": "f880f498-f5c7-4c99-9d64-5cb4a4973833",
+    "url": "https://api.dandiarchive.org/api/assets/f880f498-f5c7-4c99-9d64-5cb4a4973833/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20231018T181609_ecephys.nwb",
+    "subject": "BH506",
+    "size": 3854672,
+    "asset_id": "655fe6cf-a152-412b-9d20-71c6db670629",
+    "url": "https://api.dandiarchive.org/api/assets/655fe6cf-a152-412b-9d20-71c6db670629/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20231026T155106_ecephys.nwb",
+    "subject": "BH506",
+    "size": 6579480,
+    "asset_id": "b353fb55-5a3d-4961-81a2-c121f31c5344",
+    "url": "https://api.dandiarchive.org/api/assets/b353fb55-5a3d-4961-81a2-c121f31c5344/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20231026T172706_ecephys.nwb",
+    "subject": "BH506",
+    "size": 3276200,
+    "asset_id": "1b696783-c3f6-4dc6-9f4f-1f654a3eb9af",
+    "url": "https://api.dandiarchive.org/api/assets/1b696783-c3f6-4dc6-9f4f-1f654a3eb9af/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20231026T222022_ecephys.nwb",
+    "subject": "BH506",
+    "size": 4878960,
+    "asset_id": "c0896324-3a06-448c-9bcd-723c8d41a7d5",
+    "url": "https://api.dandiarchive.org/api/assets/c0896324-3a06-448c-9bcd-723c8d41a7d5/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20231026T231103_ecephys.nwb",
+    "subject": "BH506",
+    "size": 7896968,
+    "asset_id": "b6005efb-30f7-41e8-b388-7de5f55de190",
+    "url": "https://api.dandiarchive.org/api/assets/b6005efb-30f7-41e8-b388-7de5f55de190/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20240308T150612_ecephys.nwb",
+    "subject": "BH506",
+    "size": 1924608,
+    "asset_id": "9cba84c1-1e99-41d1-a0f9-611373c65169",
+    "url": "https://api.dandiarchive.org/api/assets/9cba84c1-1e99-41d1-a0f9-611373c65169/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20240308T203635_ecephys.nwb",
+    "subject": "BH506",
+    "size": 2921912,
+    "asset_id": "7d7e1597-42be-4f66-bbb1-667e0a499fec",
+    "url": "https://api.dandiarchive.org/api/assets/7d7e1597-42be-4f66-bbb1-667e0a499fec/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20240309T154317_ecephys.nwb",
+    "subject": "BH506",
+    "size": 5609816,
+    "asset_id": "c1819b29-63e5-4cd3-bb98-c7dd0f2d1e3f",
+    "url": "https://api.dandiarchive.org/api/assets/c1819b29-63e5-4cd3-bb98-c7dd0f2d1e3f/download/"
+  },
+  {
+    "path": "sub-BH506/sub-BH506_ses-20240309T162519_ecephys.nwb",
+    "subject": "BH506",
+    "size": 4886648,
+    "asset_id": "669bf379-bcd5-4117-9980-67cf01b0e366",
+    "url": "https://api.dandiarchive.org/api/assets/669bf379-bcd5-4117-9980-67cf01b0e366/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20230818T232609_ecephys.nwb",
+    "subject": "BH508",
+    "size": 15341112,
+    "asset_id": "50dd5d7b-c5e1-45fe-bf0b-2e4c906a4d90",
+    "url": "https://api.dandiarchive.org/api/assets/50dd5d7b-c5e1-45fe-bf0b-2e4c906a4d90/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20230827T140843_ecephys.nwb",
+    "subject": "BH508",
+    "size": 18278272,
+    "asset_id": "c40f3ac4-91f7-4ce1-af9e-bc9419215a45",
+    "url": "https://api.dandiarchive.org/api/assets/c40f3ac4-91f7-4ce1-af9e-bc9419215a45/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20230827T172257_ecephys.nwb",
+    "subject": "BH508",
+    "size": 13350256,
+    "asset_id": "eb9440af-65c8-4221-916c-aaa1cd7bb73d",
+    "url": "https://api.dandiarchive.org/api/assets/eb9440af-65c8-4221-916c-aaa1cd7bb73d/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20230827T235425_ecephys.nwb",
+    "subject": "BH508",
+    "size": 17420952,
+    "asset_id": "692749a1-95ee-485e-b129-7f34aa767c41",
+    "url": "https://api.dandiarchive.org/api/assets/692749a1-95ee-485e-b129-7f34aa767c41/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20231012T200751_ecephys.nwb",
+    "subject": "BH508",
+    "size": 10842112,
+    "asset_id": "e1b4c3f6-ce3a-41c6-85dd-2325afdcac9e",
+    "url": "https://api.dandiarchive.org/api/assets/e1b4c3f6-ce3a-41c6-85dd-2325afdcac9e/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20231022T185210_ecephys.nwb",
+    "subject": "BH508",
+    "size": 766112,
+    "asset_id": "e886fc26-211b-428f-81dc-6a55eca620fd",
+    "url": "https://api.dandiarchive.org/api/assets/e886fc26-211b-428f-81dc-6a55eca620fd/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20240307T002354_ecephys.nwb",
+    "subject": "BH508",
+    "size": 438432,
+    "asset_id": "522ddc28-bd4a-472e-b895-3a3e493fff9c",
+    "url": "https://api.dandiarchive.org/api/assets/522ddc28-bd4a-472e-b895-3a3e493fff9c/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20240307T131948_ecephys.nwb",
+    "subject": "BH508",
+    "size": 1072840,
+    "asset_id": "06abe1e7-6a2e-40ba-8996-1633134e43fc",
+    "url": "https://api.dandiarchive.org/api/assets/06abe1e7-6a2e-40ba-8996-1633134e43fc/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20240307T151910_ecephys.nwb",
+    "subject": "BH508",
+    "size": 3039992,
+    "asset_id": "70da70e5-0578-428b-a843-8ecacf8cf8b6",
+    "url": "https://api.dandiarchive.org/api/assets/70da70e5-0578-428b-a843-8ecacf8cf8b6/download/"
+  },
+  {
+    "path": "sub-BH508/sub-BH508_ses-20240307T161026_ecephys.nwb",
+    "subject": "BH508",
+    "size": 570136,
+    "asset_id": "4c884941-d559-4e13-ac3f-d9df38104c1f",
+    "url": "https://api.dandiarchive.org/api/assets/4c884941-d559-4e13-ac3f-d9df38104c1f/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20231013T125904_ecephys.nwb",
+    "subject": "BH512",
+    "size": 6092624,
+    "asset_id": "8af86ff6-3f20-4bc1-b7be-e1bafd1fb6be",
+    "url": "https://api.dandiarchive.org/api/assets/8af86ff6-3f20-4bc1-b7be-e1bafd1fb6be/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20231013T144925_ecephys.nwb",
+    "subject": "BH512",
+    "size": 7320600,
+    "asset_id": "4b063072-3f50-43f1-9ffe-686a44caeee1",
+    "url": "https://api.dandiarchive.org/api/assets/4b063072-3f50-43f1-9ffe-686a44caeee1/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20231017T111224_ecephys.nwb",
+    "subject": "BH512",
+    "size": 5362120,
+    "asset_id": "999f6fb0-66ad-4f8a-9cc5-ead2e907b72d",
+    "url": "https://api.dandiarchive.org/api/assets/999f6fb0-66ad-4f8a-9cc5-ead2e907b72d/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20231017T133912_ecephys.nwb",
+    "subject": "BH512",
+    "size": 4814376,
+    "asset_id": "d235efa3-7c13-4c29-9778-01d083039b38",
+    "url": "https://api.dandiarchive.org/api/assets/d235efa3-7c13-4c29-9778-01d083039b38/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20231017T150024_ecephys.nwb",
+    "subject": "BH512",
+    "size": 5178448,
+    "asset_id": "5a533226-d60d-499f-b6be-64c3fc20b6f2",
+    "url": "https://api.dandiarchive.org/api/assets/5a533226-d60d-499f-b6be-64c3fc20b6f2/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240309T173451_ecephys.nwb",
+    "subject": "BH512",
+    "size": 8254600,
+    "asset_id": "02646aea-7335-48f0-b8e2-e99fb50ecb9d",
+    "url": "https://api.dandiarchive.org/api/assets/02646aea-7335-48f0-b8e2-e99fb50ecb9d/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240309T174222_ecephys.nwb",
+    "subject": "BH512",
+    "size": 7641824,
+    "asset_id": "0a505445-f3bb-4636-a41e-f884e13fedb2",
+    "url": "https://api.dandiarchive.org/api/assets/0a505445-f3bb-4636-a41e-f884e13fedb2/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240309T183140_ecephys.nwb",
+    "subject": "BH512",
+    "size": 7604432,
+    "asset_id": "58aaf1ad-3db5-4741-bf4f-6781fb02349c",
+    "url": "https://api.dandiarchive.org/api/assets/58aaf1ad-3db5-4741-bf4f-6781fb02349c/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240309T183856_ecephys.nwb",
+    "subject": "BH512",
+    "size": 9157784,
+    "asset_id": "7f496bcf-f8a1-446f-9779-d13345440a0c",
+    "url": "https://api.dandiarchive.org/api/assets/7f496bcf-f8a1-446f-9779-d13345440a0c/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240309T184852_ecephys.nwb",
+    "subject": "BH512",
+    "size": 8195568,
+    "asset_id": "6fadfa7e-3d2d-4bb2-bb34-58559e2e1638",
+    "url": "https://api.dandiarchive.org/api/assets/6fadfa7e-3d2d-4bb2-bb34-58559e2e1638/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240309T185729_ecephys.nwb",
+    "subject": "BH512",
+    "size": 7425560,
+    "asset_id": "35c47d37-8339-4a46-a0f0-0f455a8ff927",
+    "url": "https://api.dandiarchive.org/api/assets/35c47d37-8339-4a46-a0f0-0f455a8ff927/download/"
+  },
+  {
+    "path": "sub-BH512/sub-BH512_ses-20240503T224059_ecephys.nwb",
+    "subject": "BH512",
+    "size": 7433800,
+    "asset_id": "895b59ba-536e-44d4-ad06-d777f3aec504",
+    "url": "https://api.dandiarchive.org/api/assets/895b59ba-536e-44d4-ad06-d777f3aec504/download/"
+  },
+  {
+    "path": "sub-BH514/sub-BH514_ses-20240309T183140_ecephys.nwb",
+    "subject": "BH514",
+    "size": 7604648,
+    "asset_id": "2a6decf0-3c95-4f8a-b0de-86da8f871d02",
+    "url": "https://api.dandiarchive.org/api/assets/2a6decf0-3c95-4f8a-b0de-86da8f871d02/download/"
+  },
+  {
+    "path": "sub-BH514/sub-BH514_ses-20240309T183856_ecephys.nwb",
+    "subject": "BH514",
+    "size": 9158000,
+    "asset_id": "1c3d6a9a-56f2-4bbd-94c9-e58ca6af3c0e",
+    "url": "https://api.dandiarchive.org/api/assets/1c3d6a9a-56f2-4bbd-94c9-e58ca6af3c0e/download/"
+  },
+  {
+    "path": "sub-BH514/sub-BH514_ses-20240309T184852_ecephys.nwb",
+    "subject": "BH514",
+    "size": 8195784,
+    "asset_id": "471fa021-9ce9-4102-9340-f7c0bf980f21",
+    "url": "https://api.dandiarchive.org/api/assets/471fa021-9ce9-4102-9340-f7c0bf980f21/download/"
+  },
+  {
+    "path": "sub-BH514/sub-BH514_ses-20240309T185729_ecephys.nwb",
+    "subject": "BH514",
+    "size": 7425776,
+    "asset_id": "4d6ebf1a-b643-4bc6-9bde-c66a4fd690a3",
+    "url": "https://api.dandiarchive.org/api/assets/4d6ebf1a-b643-4bc6-9bde-c66a4fd690a3/download/"
+  },
+  {
+    "path": "sub-BH519/sub-BH519_ses-20231013T121604_ecephys.nwb",
+    "subject": "BH519",
+    "size": 4317232,
+    "asset_id": "945fce83-b801-45d4-8525-e08403964e1e",
+    "url": "https://api.dandiarchive.org/api/assets/945fce83-b801-45d4-8525-e08403964e1e/download/"
+  },
+  {
+    "path": "sub-BH519/sub-BH519_ses-20231018T184827_ecephys.nwb",
+    "subject": "BH519",
+    "size": 6033232,
+    "asset_id": "bd6006f4-97b1-4e16-b4bd-fe7de9481d36",
+    "url": "https://api.dandiarchive.org/api/assets/bd6006f4-97b1-4e16-b4bd-fe7de9481d36/download/"
+  },
+  {
+    "path": "sub-BH519/sub-BH519_ses-20231022T163921_ecephys.nwb",
+    "subject": "BH519",
+    "size": 3451192,
+    "asset_id": "2c6227e3-cabd-40b4-983e-be196c910999",
+    "url": "https://api.dandiarchive.org/api/assets/2c6227e3-cabd-40b4-983e-be196c910999/download/"
+  },
+  {
+    "path": "sub-BH519/sub-BH519_ses-20231026T144609_ecephys.nwb",
+    "subject": "BH519",
+    "size": 5424440,
+    "asset_id": "e2e99305-ae09-40be-9602-fd498de6245f",
+    "url": "https://api.dandiarchive.org/api/assets/e2e99305-ae09-40be-9602-fd498de6245f/download/"
+  },
+  {
+    "path": "sub-BH519/sub-BH519_ses-20231026T152635_ecephys.nwb",
+    "subject": "BH519",
+    "size": 4026776,
+    "asset_id": "bb9171b9-764c-45cc-b0a9-4805becdad74",
+    "url": "https://api.dandiarchive.org/api/assets/bb9171b9-764c-45cc-b0a9-4805becdad74/download/"
+  },
+  {
+    "path": "sub-BH521/sub-BH521_ses-20240206T145744_ecephys.nwb",
+    "subject": "BH521",
+    "size": 5058616,
+    "asset_id": "f77781a6-c17c-4be9-942d-2cab9bc33fef",
+    "url": "https://api.dandiarchive.org/api/assets/f77781a6-c17c-4be9-942d-2cab9bc33fef/download/"
+  },
+  {
+    "path": "sub-BH521/sub-BH521_ses-20240206T162653_ecephys.nwb",
+    "subject": "BH521",
+    "size": 6467824,
+    "asset_id": "324ef57b-2035-4e84-8bbb-c46fa28c7358",
+    "url": "https://api.dandiarchive.org/api/assets/324ef57b-2035-4e84-8bbb-c46fa28c7358/download/"
+  },
+  {
+    "path": "sub-BH521/sub-BH521_ses-20240206T222855_ecephys.nwb",
+    "subject": "BH521",
+    "size": 6508144,
+    "asset_id": "334de51f-22fe-49ae-af5d-c9941f8dafbc",
+    "url": "https://api.dandiarchive.org/api/assets/334de51f-22fe-49ae-af5d-c9941f8dafbc/download/"
+  },
+  {
+    "path": "sub-BH521/sub-BH521_ses-20240309T142951_ecephys.nwb",
+    "subject": "BH521",
+    "size": 5550592,
+    "asset_id": "ecb33d4b-e607-4b18-9841-a2fe6974bd5b",
+    "url": "https://api.dandiarchive.org/api/assets/ecb33d4b-e607-4b18-9841-a2fe6974bd5b/download/"
+  },
+  {
+    "path": "sub-BH521/sub-BH521_ses-20240309T145624_ecephys.nwb",
+    "subject": "BH521",
+    "size": 5798800,
+    "asset_id": "0d31f839-8416-48ea-9227-95283a8ff06f",
+    "url": "https://api.dandiarchive.org/api/assets/0d31f839-8416-48ea-9227-95283a8ff06f/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20231029T172456_ecephys.nwb",
+    "subject": "BH526",
+    "size": 5956176,
+    "asset_id": "b88188c8-4e4c-494c-8dab-806b1efd55eb",
+    "url": "https://api.dandiarchive.org/api/assets/b88188c8-4e4c-494c-8dab-806b1efd55eb/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20231029T182226_ecephys.nwb",
+    "subject": "BH526",
+    "size": 41549160,
+    "asset_id": "ce7bcbee-3dfa-4672-b8a2-b60aff02e32e",
+    "url": "https://api.dandiarchive.org/api/assets/ce7bcbee-3dfa-4672-b8a2-b60aff02e32e/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20231029T184425_ecephys.nwb",
+    "subject": "BH526",
+    "size": 1822048,
+    "asset_id": "76cc5fdf-5d03-4d17-b30d-4dbb479bfe27",
+    "url": "https://api.dandiarchive.org/api/assets/76cc5fdf-5d03-4d17-b30d-4dbb479bfe27/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20231029T191050_ecephys.nwb",
+    "subject": "BH526",
+    "size": 5739784,
+    "asset_id": "e6b5ab74-63e7-4205-87cb-24e545e4931d",
+    "url": "https://api.dandiarchive.org/api/assets/e6b5ab74-63e7-4205-87cb-24e545e4931d/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20231029T192529_ecephys.nwb",
+    "subject": "BH526",
+    "size": 5976288,
+    "asset_id": "b37e37a6-d698-428f-94a5-e9a64f89867b",
+    "url": "https://api.dandiarchive.org/api/assets/b37e37a6-d698-428f-94a5-e9a64f89867b/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20240130T184318_ecephys.nwb",
+    "subject": "BH526",
+    "size": 1318944,
+    "asset_id": "1297ab34-21c1-4784-9162-558a47bebdb4",
+    "url": "https://api.dandiarchive.org/api/assets/1297ab34-21c1-4784-9162-558a47bebdb4/download/"
+  },
+  {
+    "path": "sub-BH526/sub-BH526_ses-20240130T195206_ecephys.nwb",
+    "subject": "BH526",
+    "size": 907864,
+    "asset_id": "b3b118cf-b08f-40f0-b366-2a95bcadf247",
+    "url": "https://api.dandiarchive.org/api/assets/b3b118cf-b08f-40f0-b366-2a95bcadf247/download/"
+  },
+  {
+    "path": "sub-BH527/sub-BH527_ses-20231029T233334_ecephys.nwb",
+    "subject": "BH527",
+    "size": 4979040,
+    "asset_id": "5d67d62a-39a5-4ff0-ac67-aef6e0465df1",
+    "url": "https://api.dandiarchive.org/api/assets/5d67d62a-39a5-4ff0-ac67-aef6e0465df1/download/"
+  },
+  {
+    "path": "sub-BH527/sub-BH527_ses-20231030T000325_ecephys.nwb",
+    "subject": "BH527",
+    "size": 6538936,
+    "asset_id": "99582d6c-2e37-4c41-955d-1789ce36c263",
+    "url": "https://api.dandiarchive.org/api/assets/99582d6c-2e37-4c41-955d-1789ce36c263/download/"
+  },
+  {
+    "path": "sub-BH527/sub-BH527_ses-20231201T162833_ecephys.nwb",
+    "subject": "BH527",
+    "size": 15181248,
+    "asset_id": "8ea0f71c-6d68-4aea-ae58-38cc3de1d68f",
+    "url": "https://api.dandiarchive.org/api/assets/8ea0f71c-6d68-4aea-ae58-38cc3de1d68f/download/"
+  },
+  {
+    "path": "sub-BH527/sub-BH527_ses-20240304T222814_ecephys.nwb",
+    "subject": "BH527",
+    "size": 1256416,
+    "asset_id": "fee80cec-280a-4260-98a1-0bc64277fd38",
+    "url": "https://api.dandiarchive.org/api/assets/fee80cec-280a-4260-98a1-0bc64277fd38/download/"
+  },
+  {
+    "path": "sub-BH527/sub-BH527_ses-20240305T165812_ecephys.nwb",
+    "subject": "BH527",
+    "size": 1529288,
+    "asset_id": "c0a4b926-bb13-467d-8231-1d640794f9e0",
+    "url": "https://api.dandiarchive.org/api/assets/c0a4b926-bb13-467d-8231-1d640794f9e0/download/"
+  }
+]

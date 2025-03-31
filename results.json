@@ -128,6 +128,40 @@
       }
     },
     {
+      "dandiset_id": "000945",
+      "subfolder": "2025-03-31-claude-3.7-sonnet-careful",
+      "config": {
+        "model": "anthropic/claude-3.7-sonnet"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "anthropic/claude-3.7-sonnet",
+        "total_prompt_tokens": 730545,
+        "total_completion_tokens": 20796,
+        "timestamp": "2025-03-31 11:18:27",
+        "elapsed_time_seconds": 735.3532147407532
+      },
+      "paths": {
+        "notebook": "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945.ipynb",
+        "html": "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945.html",
+        "images": [
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_13_1.png",
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_17_1.png",
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_19_1.png",
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_23_0.png",
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_25_0.png",
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_27_1.png",
+          "dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945_files/000945_31_1.png"
+        ]
+      }
+    },
+    {
       "dandiset_id": "001276",
       "subfolder": "2025-03-28-claude-3.7-sonnet",
       "config": {
