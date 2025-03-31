@@ -320,6 +320,32 @@
     },
     {
       "dandiset_id": "001363",
+      "subfolder": "2025-03-31-claude-3.7-sonnet",
+      "config": {
+        "model": "anthropic/claude-3.7-sonnet"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "anthropic/claude-3.7-sonnet",
+        "total_prompt_tokens": 1090609,
+        "total_completion_tokens": 26824,
+        "timestamp": "2025-03-31 16:20:25",
+        "elapsed_time_seconds": 1539.568911075592
+      },
+      "paths": {
+        "notebook": "dandisets/001363/2025-03-31-claude-3.7-sonnet/001363.ipynb",
+        "html": "dandisets/001363/2025-03-31-claude-3.7-sonnet/001363.html",
+        "images": []
+      }
+    },
+    {
+      "dandiset_id": "001363",
       "subfolder": "2025-03-28-gemini-2.0-flash-001",
       "config": {
         "model": "google/gemini-2.0-flash-001"
