@@ -4,32 +4,72 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
-| [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k / 4.0k | 0.05 |
-| [001363.ipynb](dandisets/001363/2025-03-31-claude-3.7-sonnet/001363.ipynb) | 2025-03-31-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-31 16:20:25 | 1539.57 | 0 | 1090.6k / 26.8k | 3.67 |
-| [000945.ipynb](dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945.ipynb) | 2025-03-31-claude-3.7-sonnet-careful | anthropic/claude-3.7-sonnet | 2025-03-31 11:18:27 | 735.35 | 7 | 730.5k / 20.8k | 2.50 |
-| [000945.ipynb](dandisets/000945/2025-03-31-claude-3.7-sonnet/000945.ipynb) | 2025-03-31-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-31 09:32:41 | 1070.26 | 8 | 868.0k / 26.6k | 3.00 |
-| [000673.ipynb](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673.ipynb) | 2025-03-29-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-29 21:44:22 | 628.38 | 10 | 886.7k / 27.0k | 3.06 |
-| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet-image-vision/001174.ipynb) | 2025-03-29-claude-3.7-sonnet-image-vision | anthropic/claude-3.7-sonnet | 2025-03-29 16:14:44 | 1427.09 | 9 | 900.0k / 16.7k | 2.95 |
-| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.5-sonnet-image-vision/001174.ipynb) | 2025-03-29-claude-3.5-sonnet-image-vision | anthropic/claude-3.5-sonnet | 2025-03-29 15:48:55 | 292.87 | 3 | 484.1k / 8.5k | 1.58 |
-| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174.ipynb) | 2025-03-29-claude-3.7-sonnet-plot-reflection | anthropic/claude-3.7-sonnet | 2025-03-29 12:42:07 | 1090.01 | 9 | 2011.6k / 22.5k | 6.37 |
-| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.ipynb) | 2025-03-29-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-29 11:17:27 | 722.80 | 11 | 1047.9k / 15.8k | 3.38 |
-| [001276.ipynb](dandisets/001276/2025-03-28-claude-3.7-sonnet/001276.ipynb) | 2025-03-28-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-28 15:22:37 | 755.89 | 7 | 874.2k / 28.7k | 3.05 |
-| [000673.ipynb](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 | 2025-03-28 15:09:58 | 91.28 | 2 | 257.4k / 5.2k | 0.03 |
-| [001363.ipynb](dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 | 2025-03-28 14:53:26 | 96.19 | 3 | 242.0k / 4.7k | 0.03 |
-| [001276.ipynb](dandisets/001276/2025-03-28-gemini-2.0-flash-001/001276.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 | 2025-03-28 11:58:57 | 193.12 | 1 | 525.9k / 5.3k | 0.05 |
-| [001366.ipynb](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 | 2025-03-28 10:47:32 | 341.66 | 2 | 203.0k / 4.9k | 0.02 |
-| [001333.ipynb](dandisets/001333/2025-03-28-claude-3.7-sonnet/001333.ipynb) | 2025-03-28-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-28 10:41:29 | 516.22 | 8 | 1095.0k / 14.2k | 3.50 |
-| [001335.ipynb](dandisets/001335/2025-03-27-deepseek-r1/001335.ipynb) | 2025-03-27-deepseek-r1 | deepseek/deepseek-r1 | 2025-03-28 02:24:23 | 2055.52 | 0 | 483.1k / 35.8k | 0.34 |
-| [001335.ipynb](dandisets/001335/2025-03-27-gpt-4o/001335.ipynb) | 2025-03-27-gpt-4o | openai/gpt-4o | 2025-03-28 01:46:41 | 63.25 | 1 | 120.6k / 2.7k | 0.33 |
-| [001335.ipynb](dandisets/001335/2025-03-27-sonnet-3.7-thinking/001335.ipynb) | 2025-03-27-sonnet-3.7-thinking | anthropic/claude-3.7-sonnet:thinking | 2025-03-28 01:35:15 | 652.05 | 3 | 767.8k / 28.0k | 2.72 |
-| [001335.ipynb](dandisets/001335/2025-03-27-sonnet-3.7/001335.ipynb) | 2025-03-27-sonnet-3.7 | anthropic/claude-3.7-sonnet | 2025-03-28 00:47:46 | 886.27 | 9 | 586.2k / 19.9k | 2.06 |
-| [001341.ipynb](dandisets/001341/2025-03-27-flash/001341.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 19:38:44 | 62.75 | 2 | 187.9k / 3.9k | 0.02 |
-| [001275.ipynb](dandisets/001275/2025-03-27/001275.ipynb) | 2025-03-27 | google/gemini-2.0-flash-001 | 2025-03-27 15:15:23 | 191.15 | 3 | 344.8k / 6.0k | 0.04 |
-| [001335.ipynb](dandisets/001335/2025-03-27-flash/001335.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 15:03:37 | 106.64 | 2 | 189.9k / 6.7k | 0.02 |
-| [001333.ipynb](dandisets/001333/2025-03-27-flash/001333.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 15:00:01 | 241.53 | 1 | 778.8k / 12.0k | 0.08 |
-| [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 |
-| [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 |
-| [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 |
+| [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k / 2.9k | 0.03 + 0.00 |
+| [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:03:57 | 1090.70 | 4 | 485.2k / 11.4k | 0.14 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k / 4.0k | 0.05 + 0.00 |
+| [001363.ipynb](dandisets/001363/2025-03-31-claude-3.7-sonnet/001363.ipynb) | 2025-03-31-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-03-31 16:20:25 | 1539.57 | 0 | 1090.6k / 26.8k | 3.67 + 0.00 |
+| [000945.ipynb](dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945.ipynb) | 2025-03-31-claude-3.7-sonnet-careful | anthropic/claude-3.7-sonnet () | 2025-03-31 11:18:27 | 735.35 | 7 | 730.5k / 20.8k | 2.50 + 0.00 |
+| [000945.ipynb](dandisets/000945/2025-03-31-claude-3.7-sonnet/000945.ipynb) | 2025-03-31-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-03-31 09:32:41 | 1070.26 | 8 | 868.0k / 26.6k | 3.00 + 0.00 |
+| [000673.ipynb](dandisets/000673/2025-03-29-claude-3.7-sonnet/000673.ipynb) | 2025-03-29-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-03-29 21:44:22 | 628.38 | 10 | 886.7k / 27.0k | 3.06 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet-image-vision/001174.ipynb) | 2025-03-29-claude-3.7-sonnet-image-vision | anthropic/claude-3.7-sonnet () | 2025-03-29 16:14:44 | 1427.09 | 9 | 900.0k / 16.7k | 2.95 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.5-sonnet-image-vision/001174.ipynb) | 2025-03-29-claude-3.5-sonnet-image-vision | anthropic/claude-3.5-sonnet () | 2025-03-29 15:48:55 | 292.87 | 3 | 484.1k / 8.5k | 1.58 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet-plot-reflection/001174.ipynb) | 2025-03-29-claude-3.7-sonnet-plot-reflection | anthropic/claude-3.7-sonnet () | 2025-03-29 12:42:07 | 1090.01 | 9 | 2011.6k / 22.5k | 6.37 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-03-29-claude-3.7-sonnet/001174.ipynb) | 2025-03-29-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-03-29 11:17:27 | 722.80 | 11 | 1047.9k / 15.8k | 3.38 + 0.00 |
+| [001276.ipynb](dandisets/001276/2025-03-28-claude-3.7-sonnet/001276.ipynb) | 2025-03-28-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-03-28 15:22:37 | 755.89 | 7 | 874.2k / 28.7k | 3.05 + 0.00 |
+| [000673.ipynb](dandisets/000673/2025-03-28-gemini-2.0-flash-001/000673.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-03-28 15:09:58 | 91.28 | 2 | 257.4k / 5.2k | 0.03 + 0.00 |
+| [001363.ipynb](dandisets/001363/2025-03-28-gemini-2.0-flash-001/001363.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-03-28 14:53:26 | 96.19 | 3 | 242.0k / 4.7k | 0.03 + 0.00 |
+| [001276.ipynb](dandisets/001276/2025-03-28-gemini-2.0-flash-001/001276.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-03-28 11:58:57 | 193.12 | 1 | 525.9k / 5.3k | 0.05 + 0.00 |
+| [001366.ipynb](dandisets/001366/2025-03-28-gemini-2.0-flash-001/001366.ipynb) | 2025-03-28-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-03-28 10:47:32 | 341.66 | 2 | 203.0k / 4.9k | 0.02 + 0.00 |
+| [001333.ipynb](dandisets/001333/2025-03-28-claude-3.7-sonnet/001333.ipynb) | 2025-03-28-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-03-28 10:41:29 | 516.22 | 8 | 1095.0k / 14.2k | 3.50 + 0.00 |
+| [001335.ipynb](dandisets/001335/2025-03-27-deepseek-r1/001335.ipynb) | 2025-03-27-deepseek-r1 | deepseek/deepseek-r1 () | 2025-03-28 02:24:23 | 2055.52 | 0 | 483.1k / 35.8k | 0.34 + 0.00 |
+| [001335.ipynb](dandisets/001335/2025-03-27-gpt-4o/001335.ipynb) | 2025-03-27-gpt-4o | openai/gpt-4o () | 2025-03-28 01:46:41 | 63.25 | 1 | 120.6k / 2.7k | 0.33 + 0.00 |
+| [001335.ipynb](dandisets/001335/2025-03-27-sonnet-3.7-thinking/001335.ipynb) | 2025-03-27-sonnet-3.7-thinking | anthropic/claude-3.7-sonnet:thinking () | 2025-03-28 01:35:15 | 652.05 | 3 | 767.8k / 28.0k | 2.72 + 0.00 |
+| [001335.ipynb](dandisets/001335/2025-03-27-sonnet-3.7/001335.ipynb) | 2025-03-27-sonnet-3.7 | anthropic/claude-3.7-sonnet () | 2025-03-28 00:47:46 | 886.27 | 9 | 586.2k / 19.9k | 2.06 + 0.00 |
+| [001341.ipynb](dandisets/001341/2025-03-27-flash/001341.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 19:38:44 | 62.75 | 2 | 187.9k / 3.9k | 0.02 + 0.00 |
+| [001275.ipynb](dandisets/001275/2025-03-27/001275.ipynb) | 2025-03-27 | google/gemini-2.0-flash-001 () | 2025-03-27 15:15:23 | 191.15 | 3 | 344.8k / 6.0k | 0.04 + 0.00 |
+| [001335.ipynb](dandisets/001335/2025-03-27-flash/001335.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 15:03:37 | 106.64 | 2 | 189.9k / 6.7k | 0.02 + 0.00 |
+| [001333.ipynb](dandisets/001333/2025-03-27-flash/001333.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 15:00:01 | 241.53 | 1 | 778.8k / 12.0k | 0.08 + 0.00 |
+| [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 + 0.00 |
+| [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 + 0.00 |
+
+## Dandiset 001363
+
+### 2025-04-01-deepseek-chat-v3-0324
+
+**Model:** deepseek/deepseek-chat-v3-0324  
+**Generated:** 2025-04-01 09:07:58  
+**Generation Time:** 230.45s  
+**Prompt Tokens:** 116.7k  
+**Completion Tokens:** 2.9k  
+**Estimated Cost:** $0.03  
+**Notebook:** [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb)  
+
+**Generated Images:**
+
+![001363_6_1.png](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363_files/001363_6_1.png)  
+![001363_8_1.png](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363_files/001363_8_1.png)  
+
+
+## Dandiset 000945
+
+### 2025-04-01-deepseek-chat-v3-0324
+
+**Model:** deepseek/deepseek-chat-v3-0324  
+**Generated:** 2025-04-01 09:03:57  
+**Generation Time:** 1090.70s  
+**Prompt Tokens:** 485.2k  
+**Completion Tokens:** 11.4k  
+**Estimated Cost:** $0.14  
+**Notebook:** [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb)  
+
+**Generated Images:**
+
+![000945_10_0.png](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_10_0.png)  
+![000945_12_0.png](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_12_0.png)  
+![000945_6_0.png](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_6_0.png)  
+![000945_8_1.png](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_8_1.png)  
+
 
 ## Dandiset 001174
 

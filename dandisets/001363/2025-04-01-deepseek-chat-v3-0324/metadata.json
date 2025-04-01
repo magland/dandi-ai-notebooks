@@ -1,0 +1,17 @@
+{
+  "dandi_notebook_gen_version": "0.1.0",
+  "system_info": {
+    "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+    "hostname": "system76-pc",
+    "processor": "x86_64",
+    "python_version": "3.12.2"
+  },
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "vision_model": "deepseek/deepseek-chat-v3-0324",
+  "total_prompt_tokens": 116712,
+  "total_completion_tokens": 2910,
+  "total_vision_prompt_tokens": 0,
+  "total_vision_completion_tokens": 0,
+  "timestamp": "2025-04-01 09:07:58",
+  "elapsed_time_seconds": 230.45416522026062
+}

@@ -174,21 +174,31 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         runtime = nb['metadata'].get('elapsed_time_seconds', 0)
         timestamp = nb['metadata'].get('timestamp', 'N/A')
         model = nb['config'].get('model', 'N/A')
+        vision_model = nb['config'].get('vision_model', model)
         image_count = len(nb['paths'].get('images', []))
         notebook_link = nb['paths']['notebook']
 
         total_prompt_tokens = nb['metadata'].get('total_prompt_tokens', 0)
         total_completion_tokens = nb['metadata'].get('total_completion_tokens', 0)
+        total_vision_prompt_tokens = nb['metadata'].get('total_vision_prompt_tokens', 0)
+        total_vision_completion_tokens = nb['metadata'].get('total_vision_completion_tokens', 0)
         total_prompt_tokens_k = total_prompt_tokens / 1000
         total_completion_tokens_k = total_completion_tokens / 1000
+        total_vision_prompt_tokens_k = total_vision_prompt_tokens / 1000
+        total_vision_completion_tokens_k = total_vision_completion_tokens / 1000
 
         prompt_cost, completion_cost = _get_cost_for_model(model)
         if prompt_cost is not None and completion_cost is not None:
             est_cost = total_prompt_tokens / 1e6 * prompt_cost + total_completion_tokens / 1e6 * completion_cost
         else:
             est_cost = "unknown"
+        vision_prompt_cost, vision_completion_cost = _get_cost_for_model(vision_model)
+        if vision_prompt_cost is not None and vision_completion_cost is not None:
+            vision_est_cost = total_vision_prompt_tokens / 1e6 * vision_prompt_cost + total_vision_completion_tokens / 1e6 * vision_completion_cost
+        else:
+            vision_est_cost = "unknown"
 
-        md += f"| [{nb['dandiset_id']}.ipynb]({notebook_link}) | {nb['subfolder']} | {model} | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k / {total_completion_tokens_k:.1f}k | {est_cost:.2f} |\n"
+        md += f"| [{nb['dandiset_id']}.ipynb]({notebook_link}) | {nb['subfolder']} | {model} ({vision_model if vision_model != model else ''}) | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k / {total_completion_tokens_k:.1f}k | {est_cost:.2f} + {vision_est_cost:.2f} |\n"
 
     # Detailed sections grouped by dandiset
     current_dandiset = None

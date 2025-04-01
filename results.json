@@ -65,6 +65,37 @@
     },
     {
       "dandiset_id": "000945",
+      "subfolder": "2025-04-01-deepseek-chat-v3-0324",
+      "config": {
+        "model": "deepseek/deepseek-chat-v3-0324"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "deepseek/deepseek-chat-v3-0324",
+        "total_prompt_tokens": 485207,
+        "total_completion_tokens": 11406,
+        "timestamp": "2025-04-01 09:03:57",
+        "elapsed_time_seconds": 1090.6974401474
+      },
+      "paths": {
+        "notebook": "dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb",
+        "html": "dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.html",
+        "images": [
+          "dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_10_0.png",
+          "dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_12_0.png",
+          "dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_6_0.png",
+          "dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945_files/000945_8_1.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "000945",
       "subfolder": "2025-03-31-claude-3.7-sonnet",
       "config": {
         "model": "anthropic/claude-3.7-sonnet"
@@ -315,6 +346,38 @@
           "dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_29_0.png",
           "dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_31_1.png",
           "dandisets/000673/2025-03-29-claude-3.7-sonnet/000673_files/000673_31_2.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001363",
+      "subfolder": "2025-04-01-deepseek-chat-v3-0324",
+      "config": {
+        "model": "deepseek/deepseek-chat-v3-0324"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+          "hostname": "system76-pc",
+          "processor": "x86_64",
+          "python_version": "3.12.2"
+        },
+        "model": "deepseek/deepseek-chat-v3-0324",
+        "vision_model": "deepseek/deepseek-chat-v3-0324",
+        "total_prompt_tokens": 116712,
+        "total_completion_tokens": 2910,
+        "total_vision_prompt_tokens": 0,
+        "total_vision_completion_tokens": 0,
+        "timestamp": "2025-04-01 09:07:58",
+        "elapsed_time_seconds": 230.45416522026062
+      },
+      "paths": {
+        "notebook": "dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb",
+        "html": "dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.html",
+        "images": [
+          "dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363_files/001363_6_1.png",
+          "dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363_files/001363_8_1.png"
         ]
       }
     },

@@ -1,0 +1,10 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "vision_model": "deepseek/deepseek-chat-v3-0324",
+  "total_prompt_tokens": 116712,
+  "total_completion_tokens": 2910,
+  "total_vision_prompt_tokens": 0,
+  "total_vision_completion_tokens": 0,
+  "timestamp": "2025-04-01 09:07:58",
+  "elapsed_time_seconds": 230.45416522026062
+}
