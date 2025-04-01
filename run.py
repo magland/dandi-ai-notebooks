@@ -30,6 +30,8 @@ def _get_cost_for_model(model):
         return 3, 15
     elif model == 'deepseek/deepseek-r1':
         return 0.55, 2.19
+    elif model == 'deepseek/deepseek-chat-v3-0324':
+        return 0.27, 1.1
     else:
         return None, None
 
