@@ -4,6 +4,7 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
+| [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k / 4.0k | 0.05 |
 | [001363.ipynb](dandisets/001363/2025-03-31-claude-3.7-sonnet/001363.ipynb) | 2025-03-31-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-31 16:20:25 | 1539.57 | 0 | 1090.6k / 26.8k | 3.67 |
 | [000945.ipynb](dandisets/000945/2025-03-31-claude-3.7-sonnet-careful/000945.ipynb) | 2025-03-31-claude-3.7-sonnet-careful | anthropic/claude-3.7-sonnet | 2025-03-31 11:18:27 | 735.35 | 7 | 730.5k / 20.8k | 2.50 |
 | [000945.ipynb](dandisets/000945/2025-03-31-claude-3.7-sonnet/000945.ipynb) | 2025-03-31-claude-3.7-sonnet | anthropic/claude-3.7-sonnet | 2025-03-31 09:32:41 | 1070.26 | 8 | 868.0k / 26.6k | 3.00 |
@@ -29,6 +30,25 @@
 | [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 |
 | [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 |
 | [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 |
+
+## Dandiset 001174
+
+### 2025-04-01-deepseek-chat-v3-0324
+
+**Model:** deepseek/deepseek-chat-v3-0324  
+**Generated:** 2025-04-01 07:50:06  
+**Generation Time:** 465.49s  
+**Prompt Tokens:** 182.9k  
+**Completion Tokens:** 4.0k  
+**Estimated Cost:** $0.05  
+**Notebook:** [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb)  
+
+**Generated Images:**
+
+![001174_10_0.png](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174_files/001174_10_0.png)  
+![001174_7_0.png](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174_files/001174_7_0.png)  
+![001174_8_0.png](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174_files/001174_8_0.png)  
+
 
 ## Dandiset 001363
 
