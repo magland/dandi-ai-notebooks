@@ -442,6 +442,47 @@
     },
     {
       "dandiset_id": "000945",
+      "subfolder": "2025-04-02-claude-3.7-sonnet",
+      "config": {
+        "model": "anthropic/claude-3.7-sonnet"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-5.10.234-225.910.amzn2.x86_64-x86_64-with-glibc2.39",
+          "hostname": "jupyter-magland",
+          "processor": "x86_64",
+          "python_version": "3.11.10"
+        },
+        "model": "anthropic/claude-3.7-sonnet",
+        "vision_model": "anthropic/claude-3.7-sonnet",
+        "total_prompt_tokens": 738730,
+        "total_completion_tokens": 23144,
+        "total_vision_prompt_tokens": 9765,
+        "total_vision_completion_tokens": 2224,
+        "timestamp": "2025-04-02 17:00:27",
+        "elapsed_time_seconds": 740.4258232116699
+      },
+      "paths": {
+        "notebook": "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945.ipynb",
+        "html": "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945.html",
+        "images": [
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_14_1.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_16_1.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_16_2.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_19_1.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_21_0.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_21_1.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_27_0.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_27_1.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_29_0.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_31_0.png",
+          "dandisets/000945/2025-04-02-claude-3.7-sonnet/000945_files/000945_8_0.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "000945",
       "subfolder": "2025-03-31-claude-3.7-sonnet-careful",
       "config": {
         "model": "anthropic/claude-3.7-sonnet"
