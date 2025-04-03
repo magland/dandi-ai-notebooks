@@ -4,6 +4,7 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
+| [001335.ipynb](dandisets/001335/2025-04-03-gemini-2.0-flash-001/001335.ipynb) | 2025-04-03-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-03 17:29:06 | 134.58 | 2 | 389.2k / 7.2k | 0.04 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-03-claude-3.7-sonnet/001174.ipynb) | 2025-04-03-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-03 14:29:14 | 475.38 | 9 | 783.5k / 16.8k | 2.60 + 0.07 |
 | [001335.ipynb](dandisets/001335/2025-04-02-claude-3.7-sonnet/001335.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 21:13:15 | 1119.79 | 17 | 1231.4k / 34.4k | 4.21 + 0.10 |
 | [001333.ipynb](dandisets/001333/2025-04-02-claude-3.7-sonnet/001333.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 20:43:44 | 646.79 | 7 | 1043.4k / 17.6k | 3.39 + 0.05 |
@@ -40,6 +41,24 @@
 | [001176.ipynb](dandisets/001176/2025-03-27-flash/001176.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 14:54:55 | 168.97 | 3 | 243.7k / 4.0k | 0.03 + 0.00 |
 | [000945.ipynb](dandisets/000945/2025-03-27-flash/000945.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 14:51:00 | 85.52 | 2 | 283.4k / 4.3k | 0.03 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-03-27-flash/001174.ipynb) | 2025-03-27-flash | google/gemini-2.0-flash-001 () | 2025-03-27 14:48:31 | 112.07 | 3 | 263.4k / 6.3k | 0.03 + 0.00 |
+
+## Dandiset 001335
+
+### 2025-04-03-gemini-2.0-flash-001
+
+**Model:** google/gemini-2.0-flash-001  
+**Generated:** 2025-04-03 17:29:06  
+**Generation Time:** 134.58s  
+**Prompt Tokens:** 389.2k  
+**Completion Tokens:** 7.2k  
+**Estimated Cost:** $0.04  
+**Notebook:** [001335.ipynb](dandisets/001335/2025-04-03-gemini-2.0-flash-001/001335.ipynb)  
+
+**Generated Images:**
+
+![001335_11_0.png](dandisets/001335/2025-04-03-gemini-2.0-flash-001/001335_files/001335_11_0.png)  
+![001335_14_0.png](dandisets/001335/2025-04-03-gemini-2.0-flash-001/001335_files/001335_14_0.png)  
+
 
 ## Dandiset 001174
 
