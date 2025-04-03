@@ -2,112 +2,113 @@
   "notebook_path": "001174.ipynb",
   "total_cells": 13,
   "total_images": 3,
-  "total_prompt_tokens": 26566,
-  "total_completion_tokens": 1116,
+  "total_value": 18.0,
+  "total_prompt_tokens": 29309,
+  "total_completion_tokens": 1136,
   "total_vision_prompt_tokens": 0,
   "total_vision_completion_tokens": 0,
   "cells": [
     {
       "cell_index": 0,
-      "rating": {
-        "quality": "5",
-        "rational": "This cell provides a good introduction to the notebook, clearly stating the purpose and dataset being used. It also includes a disclaimer about the AI-generated nature of the notebook, which is important for transparency and encourages cautious interpretation of the results."
+      "cell_value": {
+        "rationale": "This cell provides an introduction to the notebook, specifies the DANDI dataset being used, and gives a brief description of the data. It also warns the user about the AI-generated nature of the notebook, which is valuable information. Overall, this cell sets the stage for the analysis and provides essential context to the user.",
+        "value_added": "2"
       },
       "problems": []
     },
     {
       "cell_index": 1,
-      "rating": {
-        "quality": "4",
-        "rational": "The cell provides a concise overview of the dataset, including key details like the description, species, license, and relevant keywords. This information is helpful for understanding the context and scope of the data being analyzed."
+      "cell_value": {
+        "rationale": "This cell provides a concise overview of the dataset including a brief desription, the species, the license and a set of keywords. This is useful background information for readers of the notebook.",
+        "value_added": "1"
       },
       "problems": []
     },
     {
       "cell_index": 2,
-      "rating": {
-        "quality": "5",
-        "rational": "The cell successfully imports necessary libraries, initializes a DandiAPIClient, retrieves a specific Dandiset, and lists its assets. It also prints the number of assets found, which is consistent with the description in the notebook."
+      "cell_value": {
+        "rationale": "This cell imports necessary libraries and connects to the DANDI API to retrieve the list of assets in the specified Dandiset. The code confirms successful retrieval by printing the number of found assets. This setup and initial data retrieval represent a standard and valuable step for the analysis that follows.",
+        "value_added": "2"
       },
       "problems": []
     },
     {
       "cell_index": 3,
-      "rating": {
-        "quality": "5",
-        "rational": "The cell introduces the next step in the analysis: exploring a specific NWB file, which is a logical progression. It clearly states the subject and session being examined, setting the context for subsequent analysis."
+      "cell_value": {
+        "rationale": "This cell introduces the exploration of a specific NWB file, setting the stage for subsequent analysis. It adds value by narrowing the focus to a representative sample within the dataset.",
+        "value_added": "1"
       },
       "problems": []
     },
     {
       "cell_index": 4,
-      "rating": {
-        "quality": "5",
-        "rational": "The code successfully loads the specified NWB file and extracts relevant metadata, which is then printed to the console. The metadata includes session description, subject ID, and session start time, providing useful information about the dataset. No issues identified."
+      "cell_value": {
+        "rationale": "The current cell loads an NWB file from a URL and then prints out some top-level attributes of the file, providing valuable insights, such as session description, subject ID, and session start time. This is a helpful starting point for understanding the contents of the NWB file.",
+        "value_added": "2"
       },
       "problems": []
     },
     {
       "cell_index": 5,
-      "rating": {
-        "quality": "3",
-        "rational": "The markdown cell provides a high-level overview of the calcium imaging data structure in the NWB file. It correctly identifies the key data elements present in the file (OnePhotonSeries, Fluorescence, and ImageSegmentation). However, it lacks specifics, such as the data types and how these elements are interconnected and does not contribute much beyond the names of the elements. The link between ROIs and spatial footprints and fluorescence could be described as ROIs are obtained from segmentation and then fluoresecence traces are extracted from the regions."
+      "cell_value": {
+        "rationale": "This cell provides a high-level overview of the calcium imaging data structure within the NWB file, enhancing user understanding.",
+        "value_added": "1"
       },
       "problems": []
     },
     {
       "cell_index": 6,
-      "rating": {
-        "quality": "5",
-        "rational": "The cell successfully retrieves and displays key information about the OnePhotonSeries object within the NWB file, including the shape of the video data and the frame rate. The information is clearly presented and relevant to understanding the structure of the calcium imaging data. There are no issues."
+      "cell_value": {
+        "rationale": "The current cell examines the shape and rate of the OnePhotonSeries data, which is core information about the imaging data. The shape informs how many frames were collected and the spatial dimensions of each frame, while the frame rate is a fundamental parameter of the experiment. This is valuable information for further data processing and analysis.",
+        "value_added": "1"
       },
       "problems": []
     },
     {
       "cell_index": 7,
-      "rating": {
-        "quality": "4",
-        "rational": "The code successfully plots sample frames from the OnePhotonSeries, providing a visual representation of the calcium imaging data. The frames are displayed with proper titles and axes are turned off for clarity. The use of `vmax=np.percentile(frame, 99)` enhances the contrast by scaling the colormap to the 99th percentile of the frame's intensity values. The tight layout improves the spacing of elements in the image."
+      "cell_value": {
+        "rationale": "The cell adds value by visualizing sample frames from the OnePhotonSeries acquisition, allowing the user to get a sense of the data quality and structure. The plot includes three frames, sampled at the beginning, middle, and end of the recording. The frames are displayed with a gray colormap, and a 99th percentile vmax is used to prevent saturation. Each subplot has a title indicating the frame number, and the axes are turned off for cleaner presentation. A supertitle provides context. This give a good sense of the raw data from the microscope which is helpful context for further analysis.",
+        "value_added": "2"
       },
       "problems": []
     },
     {
       "cell_index": 8,
-      "rating": {
-        "quality": "4",
-        "rational": "The cell generates a plot of fluorescence traces for the first three cells over the first 200 frames. The plot is well-labeled and informative. The code is correct and the plot is well-formatted, making it easy to understand the fluorescence time series data. The choice to plot the first 200 frames is somewhat arbitrary, but provides a reasonable visualization of the data. The x axis is correctly computed from the framerate, and the legend and labels are correctly specified."
+      "cell_value": {
+        "rationale": "This cell plots the fluorescence traces for the first three cells over the first 200 frames. This visualization is helpful for understanding the dynamics of the calcium signals and adds significant value by allowing users to inspect the fluorescence data directly. The plot is well-labeled and easy to interpret.",
+        "value_added": "2"
       },
       "problems": []
     },
     {
       "cell_index": 9,
-      "rating": {
-        "quality": "3",
-        "rational": "This cell introduces the next step in the exploratory analysis. It doesn't contain any code or output, so it's difficult to evaluate its inherent quality. However, it serves as a proper transition to the following cells, indicating the next direction of analysis. As a standalone cell, there's not too much to grade."
+      "cell_value": {
+        "rationale": "This cell is a section header that introduces the next section of the notebook, but does not add any substantial, new information or analysis beyond what has already been presented.",
+        "value_added": "0"
       },
       "problems": []
     },
     {
       "cell_index": 10,
-      "rating": {
-        "quality": "5",
-        "rational": "The code in this cell successfully plots the spatial footprints of the cells, providing valuable insight into their location and intensity. The plot is well-labeled and visually appealing, and the code is straightforward and easy to understand."
+      "cell_value": {
+        "rationale": "The cell successfully plots the spatial footprints of the identified cells using a maximum projection, providing a visual representation of their locations and intensities within the imaged area. This plot adds significant value by allowing for the visualization of cell locations. The plot is clearly labeled and interpretable.",
+        "value_added": "2"
       },
       "problems": []
     },
     {
       "cell_index": 11,
-      "rating": {
-        "quality": "5",
-        "rational": "This is a good concluding cell that summarizes the notebook and suggests future analysis directions. It provides a clear and concise overview of potential next steps for users interested in further exploring the dataset. There are no issues in this cell."
+      "cell_value": {
+        "rationale": "This cell summarizes the notebook and suggests potential further analysis steps. It serves as a conclusion and provides direction for future investigations using the dataset explored in the notebook. This description of potential next steps is valuable.",
+        "value_added": "1"
       },
       "problems": []
     },
     {
       "cell_index": 12,
-      "rating": {
-        "quality": "5",
-        "rational": "The current cell provides useful advice for future exploration of the dataset, including efficient ways to handle data loading, memory management, and remote/local access strategies when working with large datasets. Thus providing helpful context to the notebook."
+      "cell_value": {
+        "rationale": "This cell provides practical advice for handling large datasets, which is valuable for users who intend to perform more in-depth analyses after exploring the notebook. It provides guidance on memory management and remote data access to improve workflow efficiency.",
+        "value_added": "1"
       },
       "problems": []
     }
