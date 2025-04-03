@@ -61,6 +61,26 @@ python add_config.py <dandiset_id> <model>
 
 This creates a new dated directory with a config.yaml file. For models with paths (e.g., 'deepseek/deepseek-r1'), only the final part is used in the directory name.
 
+## Grading notebooks
+
+To grade a notebook using the notebook-grader package, first install the latest version of the package:
+
+```bash
+# Clone https://github.com/magland/notebook-grader
+cd notebook-grader
+git pull
+pip install -e .
+```
+
+Then run the grading script:
+
+```bash
+cd dandisets/<DANDISET_ID>/<SUBDIR>
+notebook-grader grade-notebook <DANDISET_ID>.ipynb --auto --output-notebook <DANDISET_ID>_graded.ipynb --model google/gemini-2.0-flash-001
+```
+
+The output notebook will contain new markdown cells that identify potential problems, if any are found.
+
 ## Requirements
 
 - Python packages:
