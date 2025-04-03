@@ -76,7 +76,7 @@ Then run the grading script:
 
 ```bash
 cd dandisets/<DANDISET_ID>/<SUBDIR>
-notebook-grader grade-notebook <DANDISET_ID>.ipynb --auto --output-notebook <DANDISET_ID>_graded.ipynb --model google/gemini-2.0-flash-001
+notebook-grader grade-notebook <DANDISET_ID>.ipynb --auto --output-notebook <DANDISET_ID>_graded.ipynb --output-json <DANDISET_ID>_graded.json --model google/gemini-2.0-flash-001
 ```
 
 The output notebook will contain new markdown cells that identify potential problems, if any are found.
