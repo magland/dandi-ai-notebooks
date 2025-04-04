@@ -4,6 +4,8 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
+| [001366.ipynb](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366.ipynb) | 2025-04-04-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-04 13:09:35 | 975.82 | 13 | 1596.3k + 25.839k / 36.5k + 3.695k | 5.34 + 0.13 |
+| [001366.ipynb](dandisets/001366/2025-04-04-deepseek-chat-v3-0324/001366.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 12:53:17 | 190.71 | 1 | 112.8k + 0.104k / 2.5k + 0.169k | 0.03 + 0.00 |
 | [001176.ipynb](dandisets/001176/2025-04-04-gemini-2.0-flash-001/001176.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:45:14 | 75.16 | 3 | 267.9k + 5.593k / 4.5k + 0.203k | 0.03 + 0.00 |
 | [001275.ipynb](dandisets/001275/2025-04-04-gemini-2.0-flash-001/001275.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:43:52 | 42.87 | 1 | 151.9k + 1.863k / 3.7k + 0.074k | 0.02 + 0.00 |
 | [001363.ipynb](dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:42:55 | 67.30 | 3 | 304.7k + 6.159k / 5.2k + 0.391k | 0.03 + 0.00 |
@@ -25,6 +27,49 @@
 | [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k + 0.0k / 2.9k + 0.0k | 0.03 + 0.00 |
 | [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:03:57 | 1090.70 | 4 | 485.2k + 0.0k / 11.4k + 0.0k | 0.14 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k + 0.0k / 4.0k + 0.0k | 0.05 + 0.00 |
+
+## Dandiset 001366
+
+### 2025-04-04-claude-3.7-sonnet
+
+**Model:** anthropic/claude-3.7-sonnet  
+**Generated:** 2025-04-04 13:09:35  
+**Generation Time:** 975.82s  
+**Prompt Tokens:** 1596.3k  
+**Completion Tokens:** 36.5k  
+**Estimated Cost:** $5.34  
+**Notebook:** [001366.ipynb](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366.ipynb)  
+
+**Generated Images:**
+
+![001366_14_0.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_14_0.png)  
+![001366_17_1.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_17_1.png)  
+![001366_19_0.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_19_0.png)  
+![001366_22_1.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_22_1.png)  
+![001366_22_2.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_22_2.png)  
+![001366_22_3.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_22_3.png)  
+![001366_26_1.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_26_1.png)  
+![001366_31_1.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_31_1.png)  
+![001366_31_3.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_31_3.png)  
+![001366_31_4.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_31_4.png)  
+![001366_31_5.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_31_5.png)  
+![001366_33_0.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_33_0.png)  
+![001366_36_2.png](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366_files/001366_36_2.png)  
+
+### 2025-04-04-deepseek-chat-v3-0324
+
+**Model:** deepseek/deepseek-chat-v3-0324  
+**Generated:** 2025-04-04 12:53:17  
+**Generation Time:** 190.71s  
+**Prompt Tokens:** 112.8k  
+**Completion Tokens:** 2.5k  
+**Estimated Cost:** $0.03  
+**Notebook:** [001366.ipynb](dandisets/001366/2025-04-04-deepseek-chat-v3-0324/001366.ipynb)  
+
+**Generated Images:**
+
+![001366_7_1.png](dandisets/001366/2025-04-04-deepseek-chat-v3-0324/001366_files/001366_7_1.png)  
+
 
 ## Dandiset 001176
 
