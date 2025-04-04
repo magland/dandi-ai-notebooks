@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes a clear introductory section that describes the Dandiset ID, title, purpose, and the type of data the Dandiset contains (Neuropixels recordings from the hippocampus of head-fixed mice during odor presentation). The intro also details some of the data content like LFP, spike times and odor presentation timings.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its ID, title, purpose (Neuropixels recordings from the hippocampus during odor presentation), and data contents (LFP, spike times, odor presentation timings, experimental blocks). The introduction of the notebook clearly outlines the purpose and content along with the experimental conditions.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset including its ID, title, purpose (Neuropixels recordings from hippocampus during odor presentation), and data contents (LFP, spike times, odor presentation timings, etc.).",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the DANDI API, accesses and prints the Dandiset ID, name, description, and number of assets, demonstrating key metadata fields. The code runs without errors.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset metadata including ID, name, description and a list of its assets. These are key metadata fields that describe the dataset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DandiAPIClient to get the dandiset and its assets. It then successfully retrieves and prints the dandiset ID, name, description, and number of assets. Furthermore, it displays path, size and asset ID information for each asset. The loading and display of assets, metadata, and associated files are complete and without error.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook demonstrates both loading and working with assets from the Dandiset, including spike times, unit data, and odor presentation information. It accesses the NWB file, extracts relevant data, merges data from multiple linked arrays, plots single unit data, and performs population analysis, effectively demonstrating the use of assets.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook utilizes the DANDI API to load assets from the Dandiset, specifically in section 1, where it initializes the API client, retrieves the Dandiset, lists its assets, and accesses metadata. Section 2 builds upon this by loading the NWB file using the asset ID obtained from the first asset. The notebook also prints the file size and asset ID for verification. Therefore, it successfully loads assets and demonstrates working with asset metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset and lists available assets, along with metadata. Further, the notebook accesses a specific asset by its identifier and loads the NWB file for downstream analysis. This goes beyond simply listing assets and incorporates the asset into a workflow.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi for remote access. It then proceeds to access and print basic information about the session, subject, experimental blocks, and odor presentations, demonstrating successful loading and access to key data structures within the NWB file. Thus it gets a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the NWB file using lindi and pynwb, and then it proceeds to print basic session and subject information retrieved from the loaded NWB file, demonstrating access to key data structures within the file. Relevant code includes loading the file in section 2 and extracting information such as session description, identifier, subject ID, species, etc.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file using lindi and pynwb and demonstrates accessing key data structures such as session information, subject information, blocks, odor presentations, electrode information, LFP data, and spike data. Therefore, the notebook demonstrates accessing key data structures including units/spikes and LFP",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from an NWB file in the Dandiset. It also demonstrates basic data access by iterating different epochs and blocks while printing their number of trials and blocks. However, there are no demonstrations of advanced data access such as slicing a specific time series or extracting information from behavioral events.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the NWB file using lindi and pynwb, demonstrates access to various data types including session information, subject information, experimental blocks, odor presentations, electrode information, LFP data, spike data, and waveforms. It further performs time-frequency analyses and examines neural responses to odors. This constitutes advanced data access for multiple data types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from the NWB file using pynwb and lindi. It showcases access to session information, subject information, experimental block data, odor presentation times. It also demonstrates how to access LFP data, electrode information and spike data. It goes beyond basic access by doing time frequency analysis on LFP, spike waveform analysis and neural response to order analysis.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook comprehensively visualizes data from an NWB file, including experimental design, electrode positions, LFP traces, time-frequency analysis, spike data/waveforms, and neural responses to odors using raster plots and PSTHs. Clear explanations and examples are provided, leading to a high score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types from the NWB file. It includes visualizations of electrode positions, LFP traces, LFP spectrograms, spike counts, spike waveforms, raster plots, and peri-stimulus time histograms (PSTHs), all with clear explanations and examples. The notebook also visualizes the odor presentation patterns for each block of the experiment. Therefore, it deserves a high score.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types including spikes, behavior, and processing modules from within a Dandiset. The notebook provides clear explanations with examples making it great for learning and instruction.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The plots are generally well-formatted and effectively communicate the data. They are clear and easy to interpret.\n\nSome minor issues exist. For example, In the electrode depth plot, the meaning of the x-axis is not obvious. Also, the electrode depths might be slightly off given the known anatomy of the hippocampus (should be more like 1-2mm).\n\nOverall the plots are effective given the AI generated nature of this notebook.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The plots are generally well-formatted and clear. They are effective in communicating the data. There are no major issues.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains several plots that are generally well-formatted and clear, effectively communicating the data. The plots show electrode depths, LFP traces and spectrograms, spike distributions and waveforms, and neural responses to odor stimuli using raster plots and PSTHs. The plots have axis labels, titles, legends, and gridlines. Some normalization and stacking is performed to improve interpretation.\n\nThe PSTH plots have clear indications of odor onset and offset.\nTherefore, the plots fulfil the requirements described in the rubric well. Some minor improvements could be added (e.g. normalization of some axes), but overall the quality is high.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains plots showing odor presentation timelines, electrode depths, LFP traces, LFP spectrogram, spike counts distribution, average spike waveforms, single neuron responses to odors (raster plots and PSTHs), and population response to odors. All of these plots provide some insight into the data, showcasing different data types and analysis methods. Therefore, the notebook contains more than four effective plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes plots such as odor presentation timelines, electrode depth plots, LFP traces, spectrograms, spike raster plots, PSTHs, spike waveform plots, and population firing rate plots. Many of these plots are well-executed and contribute significantly to the analysis and understanding of the data. There are definitely more than 4 effective plots demonstrating a variety of data types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "There are several effective plots demonstrating a variety of data types: odor timelines, electrode depths, LFP traces, spectrograms, distributions of spike counts, spike waveforms, raster plots, and PSTHs. Each plot type provides valuable information about the data.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including the title, ID (001176), purpose (investigating cortical acetylcholine dynamics and behavioral state), and the data contents (ACh sensor activity, axon activity, pupil size, and locomotion). It also provides context about what the data aims to reveal and how it can be utilized for further research.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a comprehensive description of the Dandiset, including its title, ID, purpose, and a detailed overview of the data contents, such as acetylcholine sensor activity, axon activity, pupil size, and locomotion. It also specifies the brain regions (V1 and M1) and the number of assets. This fulfills all the criteria for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description, including the Dandiset ID, the purpose of the data, and the different data contents (acetylcholine, axon activity, pupil size and locomotion), so it recieves the highest score",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset information, including name, description, license, contributors, and number of assets. It prints these key metadata fields in a readable format. Thus, it does more than simply loading but presents the key fields, warranting a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DANDI API to successfully load and display various Dandiset metadata fields, including name, description, license, contributors, and number of assets. It demonstrates loading and displaying key metadata fields effectively.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset metadata, including name, description, license, contributors, and the number of assets, and prints them. Therefore the notebook successfully loads and demonstrates key Dandiset metadata fields, according to the rubric.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads assets from the Dandiset. It iterates through them to perform analysis like counting sessions per subject, accessing their paths and asset IDs, and loading NWB files for specific assets. The notebook also prints information about the Dandiset. The notebook shows successful loading and manipulation of asset metadata.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads assets of the Dandiset and demonstrates working with asset metadata, including displaying ROI masks.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook demonstrates the steps for loading assets of a Dandi dataset. It also shows how to load/read asset metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files using lindi and pynwb. It also demonstrates accessing key data structures within the NWB file, such as the acquisition data, processing modules, and subject information. The notebook also explores image data structures and correlates these with behavioral data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses lindi to load an NWB file, prints basic metadata, and demonstrates accessing key data structures such as time series data for pupil tracking, treadmill velocity, and fluorescence. Additionally, it explores image data like average images and ROI masks, showcasing comprehensive access to different data modalities within the NWB file. Therefore, it loads, accesses and explores the file very well. The file loading is successful as indicated by the printed metadata. Key data structures are also accessed and visualized.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files using lindi and demonstrates accessing key data structures like acquisition data, processing modules, and basic metadata. The notebook reads, displays and plots data from the NWB file, including pupil size, treadmill velocity, and fluorescence, showing access to diverse data components within the NWB file structure.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from NWB files using pynwb and lindi. It demonstrates access to multiple data types, including time series data (pupil radius, treadmill velocity, fluorescence), imaging data, and ROI masks. It goes beyond basic loading and demonstrates advanced data access and manipulation. It also iterates through assets to find the desired files.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from NWB files using lindi and pynwb. It demonstrates loading of several data modalities (pupil tracking, treadmill velocity, fluorescence). It accesses basic metadata as well.\nIt also displays how to access data from multiple files.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files using lindi and demonstrates accessing various data types within the files such as pupil tracking, treadmill velocity, and fluorescence data. It also accesses metadata and processes imaging data. This demonstrates advanced data access for multiple data types.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types from the NWB file, including pupil tracking, treadmill velocity, acetylcholine sensor fluorescence, average images, and ROI masks. It provides clear explanations to help understand the data being visualized. The notebook aligns and plots pupil size, locomotion, and fluorescence and compares imaging across brain regions.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes different data types (pupil radius, treadmill velocity, acetylcholine sensor fluorescence). The visualization of imaging data (average images and ROI masks) is also present. The notebook provides clear explanations for each visualization and uses appropriate plot types. The code executes without errors. Therefore, it demonstrates a good understanding of visualizing NWB data.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes different data types from the NWB file, including pupil radius, treadmill velocity, fluorescence traces, average images, and ROI masks. The code is functional, and the associated markdown provides explanations of what is being visualized and how to interpret the results. The notebook also demonstrates how data can be compared across different brain regions. While the notebook acknowledges it is AI-generated and potentially unverified, the visualizations are successful and appropriate for the data. Thus, it shows how to visualize different types of data in NWB file located in the Dandiset. The notebook attempts many different types of visualization.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains several plots that visualize the data effectively. The plots are generally well-formatted, with clear labels and titles. The combined plots (pupil size, locomotion, and ACh fluorescence) align the data but could have reduced the sampling rate to make them more interpretable. The ROI mask plots clearly show the regions of interest but lack scale or detail beyond the masks. Both the barplots and scatterplots are clear. Overall, the plots are effective in communicating the data, although the combined time series plots could be improved with better sampling or interactive features.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides several plots that are generally well-formatted and clear. The time series plots show pupil radius, treadmill velocity, and fluorescence over time. The average and correlation images provide a good visualization of the brain tissue. The ROI masks also help to visualize the regions of interest. The scatter plots and bar charts are used to analyze relationships between variables. However, some plots can be improved. For example, the correlation value for Pupil Size vs. ACh Activity is NaN. In the barplot of Ach Activity by locomotion state, the error bars are missing although the errors are calculated. Overall, the plots are of high quality and effectively communicate the data. Some plots are also subsampled to avoid having to load too much data, demonstrating a good understanding of the need to balance information and computational resources. However, the few errors prevent a perfect score.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains multiple plots that visualize the data effectively. The plots are generally formatted well with clear axes labels, titles, and colorbars when needed. Subsampling is used appropriately to prevent overcrowding. There are a couple of issues: the first plot showing pupil radius, treadmill velocity and fluorescence appears to have some artefacts, and the \"pupil vs ACH\" correlation plot has a \"nan\" r value. Overall the plots are well made and the issues present are minor.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "Several plots are included. There are time series of pupil radius, treadmill velocity and fluorescence; average and correlation images; ROI masks; ACh Activity by Locomotion State; pupil size vs ACh activity; locomotion vs ACh activity; average images from V1 and M1; ROI masks from V1 and M1. This set of plots clearly demonstrates a variety of data types effectively.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes several plots:\n1. Pupil radius, treadmill velocity, and acetylcholine sensor fluorescence over time.\n2. Average and correlation images of the brain tissue.\n3. ROI mask.\n4. Aligned time series of pupil radius, treadmill velocity and fluorescence.\n5. Bar chart of ACh activity by locomotion state.\n6. Scatter plots of pupil size vs ACh activity and locomotion vs ACh activity.\n7. Average images from V1 and M1 regions.\n8. ROI masks from V1 and M1 regions.\n\nAll these plots are effective and demonstrate different data types. There are more than 4 effective plots in the notebook.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "There are multiple plots included in the notebook including:\n1. Pupil Radius, Treadmill Velocity, and Acetylcholine sensor fluorescence as a timeseries\n2. Average and correlation images of the brain tissue\n3. ROI masks showing regions of acetylcholine sensor fluorescence\n4. Pupil Radius, Treadmill Velocity, and Acetylcholine sensor fluorescence timeseries aligned\n5. Bar graph comparing mean Acetylcholine fluorescence during moving vs stationary periods.\n6. Correlation between pupil size and Ach fluorescence and locomotion vs Ach fluorescence\n7. Average Images for V1 and M1 brain regions\n8. ROI Masks for V1 and M1 Brain regions.\n\nTherefore there are more than 4 effective plots included in the notebook.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
