@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description including title, ID, purpose, and data contents of the Dandiset. The notebook provides ample descriptive text detailing what the dandiset is. From the notebook introduction: \"This notebook provides an introduction to the Dandiset 000945, which contains neural spiking data in the awake rat somatosensory cortex responding to trials of transcranial focused ultrasound stimulation. The dataset includes recordings from 10 male rats implanted with chronic electrodes in the somatosensory cortex. Ultrasound stimulation was delivered at different pulse repetition frequencies (PRFs), and electrophysiological recordings were acquired using 32-channel NeuroNexus electrodes.\"",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description including the Dandiset title, ID (000945), purpose (neural spiking data in the awake rat somatosensory cortex responding to trials of transcranial focused ultrasound stimulation), and data contents (recordings from 10 male rats implanted with chronic electrodes in the somatosensory cortex, ultrasound stimulation at different PRFs, electrophysiological recordings acquired using 32-channel NeuroNexus electrodes). This constitutes the highest score according to the rubric, answering all the key elements.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset by including the title, ID, purpose (neural spiking data in awake rat somatosensory cortex responding to trials of transcranial focused ultrasound stimulation), and a summary of the data contents (recordings from 10 male rats, ultrasound stimulation at different PRFs, electrophysiological recordings using 32-channel NeuroNexus electrodes).",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the dandiset using the DandiAPIClient and retrieves a list of assets. It also demonstrates loading NWB files and exploring their contents such as session description, identifier, and start time. Electrode and unit information, including column names and lengths, are also successfully accessed, which can be considered key metadata. Thus, it loads and demonstrates key Dandiset metadata fields, earning a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the dandiset and retrieves the assets. The introduction also explicitly states how to load and explore the dataset's structure. The notebook then proceeds to explore key dandiset metadata fields such as session description, identifier, and session start time.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook loads the dandiset using the dandiapi.DandiAPIClient and retrieves the assets. The notebook then loads a specific NWB file, which is part of the dandiset. It then proceeds to show relevant metadata fields such as the session description, identifier, and session start time. Information on the electrodes and units are also shown. The code for loading the Dandiset is complete and functional. It then demonstrates some of the key metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads and lists the assets within the Dandiset 000945 using the Dandi API. It also demonstrates accessing asset metadata such as path, size, and identifiers in the first code block.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads and lists the assets, as demonstrated by the first code block. The code retrieves the dandiset and then lists the assets using `dandiset.get_assets()`. The output of this code is a list of RemoteBlobAsset objects, demonstrating successful loading and listing of assets. Therefore, the notebook satisfies the criteria for a score of 2.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully uses the DandiAPIClient to get the dandiset and then lists its assets. The code functions as intended and properly loads and lists the available assets in the Dandiset in the first code cell.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI API and shows a variety of metadata and dataframes found within it such as session description, identifier, start time, electrodes, units, and intervals. It also demonstrates loading and plotting data from these data structures. Thus the notebook successfully loads an NWB file and demonstrates accessing key data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI API, and shows basic information such as file identifier, session description and start date. The notebook also accesses key data structures like electrodes, units and trials and prints basic information about their contents.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from a DANDI dataset using the lindi library and pynwb. It then demonstrates accessing key data structures such as session information, electrodes, units, and trials, and also generates some basic visualizations. The notebook does a good job of demonstrating how to load and explore the Dandiset and accompanying nwb file.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using both `lindi` and `pynwb`. It then shows how to access basic data such as session description, identifier, start time, electrode IDs, unit IDs, spike times, and trial start times. The spike times and trial start times are also visualized. This demonstrates basic data access and loading, fitting the description for score 2.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains code that successfully loads data from an NWB file using the lindi library. It demonstrates basic data access by printing metadata from the NWB file that includes session details and the columns available in the electrodes and units tables. The notebook then accesses spike times for a subset of units and plots them in a raster plot. Finally, it accesses trial start times and plots a histogram of the distribution of trial start times. The plots are also saved.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using the lindi library, accesses basic data like session description, identifier, start time, electrode information, and unit information. It also shows how to access spike times and plot them in a raster plot, as well as plotting the distribution of trial start times. Thus, this represents more than basic data access.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes two key data types from the NWB file: spike times (raster plot) and distribution of trial start times (histogram). The code executes without errors and clear explanations are provided explaining the plots by describing what each axis represents and the types of insights one can gather from them. The sample selection (5 units) to plot is also dynamic to the available units, making it more robust. The notebook provides basic descriptions of the plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes spike times (as a raster plot) and trial start times (as a histogram). It provides reasonable explanations for both visualizations and includes relevant code. Therefore, it successfully visualizes multiple data types with clear explanations and examples.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from an NWB file and visualizes two data types: spike times (raster plot) and trial start times (histogram). The notebook provides titles to the plots and axis labels. There are also descriptions of the plots in markdown.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook generates two plots, a raster plot of spike times and a histogram of trial start times. The plots are generally well-formatted and easy to understand. The axes are labeled and the titles are descriptive.\nHowever the raster plot is just a filled block, because the line width is too large; as well, while the code tries to show a small number of units by subsetting, the plot tries to show all of them. Therefore, I will provide a 2.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The first plot appears to be incorrect, showing \"unit ID\" on the y axis while it seems to show the same flat line on both axes. The second plot showing \"Trial Start Time (s)\" on the x-axis and \"Count\" on the y-axis is better, and attempts to represent the data distribution with a histogram. Both plots have titles and axis labels.\n\nHowever, the second plot also presents some issues. The bars are stacked on top of each other, resulting in a cumulative count that is difficult to interpret. Also, there are a few count outliers.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The plots are generally well-formatted, with labels and titles. However, the raster plot is not very informative because there are too many spikes, resulting in a solid block. The trial start times are understandable. Overall, the plots could be improved.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes two plots: a raster plot of spike times and a histogram of trial start times. Both are effective visualizations for the data. Thus the total is 2.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook produced two effective plots - a raster plot of spike times, and a histogram of trial start times. Both of these plots are relevant to the data and contribute meaningfully to understanding the dataset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "Two effective plots are included: the raster plot of spike times and the distribution of trial start times. Considering the rubric, the notebook has one or two effective plots.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

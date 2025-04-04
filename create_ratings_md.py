@@ -93,6 +93,7 @@ def main():
     # Load ratings
     ratings_data = []
     for dandiset_id, subfolder, rating_path in rating_files:
+        print(f'Processing {dandiset_id}/{subfolder}')
         rating = load_rating(rating_path)
         ratings_data.append((dandiset_id, subfolder, rating))
 

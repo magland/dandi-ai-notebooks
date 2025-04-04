@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The initial markdown cell describes the Dandiset including its title, ID, purpose, and data contents. This matches the criteria for a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description including the title 'Control of working memory by phase\u2013amplitude coupling of human hippocampal neurons', the DANDI ID '000673', the purpose of the dataset (working memory, electrophysiological recordings and behavior from the Sternberg task), and data contents (electrophysiological recordings and behavior from patients with intractable epilepsy implanted with depth electrodes and Behnke-Fried microwires in the human medial temporal lobe and medial frontal cortex). Therefore the notebook is given a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The initial markdown cell gives a description of the dandiset including the ID, title, purpose and data contents.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook imports the DandiAPIClient and retrieves the dandiset using its ID \"000673\". It then accesses and lists the assets in the dandiset, printing their paths. This demonstrates not just loading but also accessing metadata. The notebook also uses lindi to load assets. The notebook successfully loads and demonstrates key Dandiset metadata fields such as session description, identifier, session start time, experiment description, institution, and lab. Therefore, the notebook earns a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook starts by loading dandiset information and printing the number of assets, as well as their paths. It then accesses subject specific NWB files using lindi and prints metadata fields within the NWB, such as session description, identifier, etc.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset information using the dandiapi library and prints a number of key metadata fields such as session description, identifier, session start time, experiment description, institution and lab.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads assets and lists the available assets using the Dandi API client. It then accesses the data inside one nwb file.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads assets of the Dandiset and lists the paths for each asset. Therefore, the notebook gets a score of 2. The notebook does not extract any metadata beyond the paths, so it cannot receive a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads the dandiset assets, lists them and shows their paths using the Dandi API. Therefore, the score is 2.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook loads an NWB file, reads basic information such as session description, identifier, start time, experiment description, institution, and lab. It also demonstrates accessing and plotting LFP data, trial start and stop times, and trial loads, so it successfully loads an NWB file and demonstrates accessing key data structures. The lindi.LindiH5pyFile.from_lindi_file function call is also a way for loading NWB files from dandi (via lindi). And pynwb.NWBHDF5IO is also used to read from the lindi file after it as been loaded.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI archive using `lindi` and `pynwb`. It then accesses and prints basic information such as session description, identifier, session start time, experiment description, institution, and lab. Furthermore, it proceeds to extract and visualize key data structures like LFP data, trial structure, and trial loads. Therefore, it fulfills the criteria for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi and pynwb. It prints basic information about the file such as session description, identifier, session start time, experiment description, institution, and lab. The notebook also demonstrates loading and plotting LFP data, as well as trial start/stop times, and trial loads. Therefore, it goes beyond simply loading the NWB file and displaying basic contents, thus the notebook should be scored a 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from the specified NWB file and demonstrates how to access basic information such as session details, LFP data, trial start/stop times and trial loads. It correctly uses pynwb and lindi libraries. LFP data and trial structures (start, stop, loads) are visualized. Therefore, it successfully demonstrates basic data access.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the NWB file using lindi and pynwb. It then demonstrates accessing different data types, including LFP data, trial start and stop times, and trial loads. The notebook shows how to extract and visualize these data types, providing a good example of data access within the NWB file. The notebook gives examples for multiple data types. So it is graded as 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from the NWB file using `pynwb` and `lindi`. It shows how to access different data types like LFP data, trial start/stop times, and trial loads. The notebook also provides visualizations for these data types, demonstrating a good understanding of how to access and work with data stored in the NWB file. Therefore, the notebook successfully demonstrates advanced data access. Some of the packages threw warnings, but they did not affect the complete loading of the data and visualization.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types from the NWB file including LFP data, trial structures, and trial loads. The explanations are clear and the examples are easy to follow. It loads the NWB file, extracts specified data, and uses matplotlib and seaborn to create plots. The plots are saved and displayed. The notebook demonstrates how to access different types of data and visualize them, providing good examples for exploring the Dandiset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types including LFP data, trial start/stop times and trial loads, with clear explanations and examples. It also includes comments in the code. Therefore, the notebook shows how to visualize data from an NWB file well.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes LFP data, the trial structure (start and stop times) and the trial \"loads\" from the NWB files. The explanations are clear and concise. The examples given make it easy for other scientists to successfully perform similar visualizations on the datasets.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains three plots: LFP Data for Selected Channels, Trial Start and Stop Times, Trial Loads vs Start Time. The plots are generally well-formatted, employing labels, titles, and legends to aid interpretation. The LFP plot visualizes the time-series data for different channels. The Trial Start and Stop Times plot displays the temporal distribution of trials. The Trial Loads plot shows the relationship between trial start times and corresponding loads. All these plots effectively communicate the data.\n    I am increasing the score because, despite the warning about the AI-generated nature of the notebook, the visualizations in this notebook are both informative and visually appealing, effectively communicating the dataset's key aspects.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains three plots. They are all clear, well-formatted, and labeled. The LFP plot has an offset for each channel for readability, which is great. The trial start/stop plot reveals the structure and timing of the experiment. The trial loads are clearly displayed. The plot quality is satisfactory. There is room to improve on the plots, but as they are, they are satisfactory. No apparent issues were detected.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes 3 plots, each demonstrating different aspects of the data (LFP, trial structure, and trial loads). The plots are generally well-formatted and easy to understand. Axes are labeled and titles are appropriate. Some adjustments are made to the LFP plot to improve readability (offsetting the channels).\nHowever, one potential improvement for the trial start and stop plot is to ensure that the y axes are within interval [0,1].\n\nOverall, the plots are effective in visualizing and communicating the underlying data. Hence, the notebook earns a score of 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook generates three plots: LFP data, trial start/stop times, and trial loads. All appear effective in visualizing the respective data.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes three plots: LFP data, trial start/stop times, and trial loads. All the plots are clearly visualized and show the underlying data effectively.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains three distinct plots: LFP Data for Selected Channels, Trial Start and Stop Times, and Trial Loads vs Start Time. Each plot visualizes different aspects of the data, including LFP signals, trial timing, and load conditions. Therefore, the notebook provides three effective plots.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

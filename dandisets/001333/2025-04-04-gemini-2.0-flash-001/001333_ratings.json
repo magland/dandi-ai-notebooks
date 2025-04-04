@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides the title and ID of the Dandiset. It also describes the purpose of the dataset (electrophysiological signals from healthy and parkinsonian subjects) and the types of data contained (Beta ARV and LFP signals). Overall it describes the Dandiset clearly.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title (Parkinson's Electrophysiological Signal Dataset (PESD)), ID (001333), purpose (electrophysiological signals from healthy and parkinsonian subjects), and data contents (Beta ARV and LFP signals from the Subthalamic Nucleus (STN)).",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the title (\"Parkinson's Electrophysiological Signal Dataset (PESD)\"), the ID (001333), purpose (electrophysiological signals from healthy and Parkinsonian subjects), and data contents (Beta ARV and LFP signals from STN). The dataset description clearly explains the type of data, including the beta band voltage and LFP signals, and the difference between healthy and parkinsonian subjects. The notebook also mentions key metadata such as contributor, date created and variables measured.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset information using the DandiAPIClient and retrieves a list of assets. It also prints out the first 5 asset paths, demonstrating that the notebook successfully loads and displays basic Dandiset metadata. Note the code cells use `dandi.dandiapi` to accomplish this, and the markdown includes descriptions of what these code cells accomplish as well. The key metadata is printed in the markdown, which shows its fields. Thus it loads and demonstrates key Dandiset metadata fields.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset and lists assets. The description mentions that the notebook shows how to access the Dandiset and list assets, which is true. The notebook also shows other information, but at least the basics are covered.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset information using the dandi API and prints the paths of the first 5 assets. This demonstrates loading and accessing key metadata fields. Therefore, a score of 3 is appropriate.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the assets of the Dandiset and prints paths of the first 5 assets. This shows that the notebook not only loads the assets but also knows how to access information about them.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the assets of the Dandiset and lists the paths of the first 5 assets. The code is complete and runs without errors. It also uses the 'asset' variable in a follow-up code cell.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset and lists the available assets using the DANDI API. It also shows how to retrieve and download a specific asset. The code for loading the assets works without errors.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file, and demonstrates how to access the data and timestamps. The notebook also plots the data. Hence, it demonstrates how to load data and access key data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file, extracts data (Beta Band Voltage and timestamps), and plots a subset of the data. It also cleans up the temporary file after use. Thus, the notebook demonstrates accessing a key data structure.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset, extracts specific data (Beta Band Voltage and timestamps), and plots a subset of that data. This demonstrates how to access key data structures within the NWB file. Therefore, it goes beyond just loading the file and showing basic contents.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully shows how to load data from an NWB file in the Dandiset and how to extract and visualize a specific data subset (Beta Band Voltage). It does this successfully with proper error handling and file cleanup. It only demonstrates the loading of one type of data and is therefore not demonstrating advanced data access for multiple data types.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and extracts beta band voltage data and timestamps. The visualization code demonstrates basic data access by plotting a time series of the voltage. The code is functional and achieves the objective of loading and displaying data but is limited to one data type (Beta Band Voltage). Thus, the notebook demonstrates only basic data access rather than advaced data access for multiple data types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and extracts data, including timestamps and Beta Band Voltage, and plots a subset of the data. This demonstrates basic data access. It doesn't demonstrate more advanced data access or iterate over multiple data types.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook downloads an NWB file from the DANDI archive, extracts \"Beta_Band_Voltage\" data and plots a subset of it. Includes axis labels and title. Therefore successfully visualizing one type of data from the NWB file in the Dandiset. Given the question, that asks about visualizing data, the notebook does an acceptable job without errors in the code. There are no complex visualizations or explanations. Only a single data type is visualized.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully downloads an NWB file, extracts data and timestamps, and generates a plot of the Beta Band Voltage over time. The notebook also provides clear explanations of the steps involved. Only one data type is visualized so a perfect score cannot be given.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully visualizes the Beta Band Voltage data from an NWB file. The code downloads the NWB file, extracts the data and timestamps, and generates a plot showing the voltage over time. The plot includes labels and a title, making it easy to understand. It shows one data type.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The single plot in the notebook is well-formatted and clear, with appropriate labels, title, and a grid. The axes are appropriately labeled including the units of measurement. The plot effectively communicates the data. There are no major issues to detract from the quality of the plot. The plot is saved to a file and is displayed in the output.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook has only one plot that is clearly labeled and includes title and axis labels. The plot is also has grid lines for easier analysis of peaks. Overall it is well formatted and useful.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains one plot. The plot is clear, well-formatted (with appropriate labels and title, use of grid) and effectively communicates the data (Beta Band Voltage vs Time). Therefore, the plot's quality is high. There are no issues with the plot.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook contains only one effective plot, showing the beta band voltage data. This plot effectively visualizes the data extracted from the NWB file.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook contains one effective plot that displays the Beta Band Voltage data over time. There is only one plot in this notebook.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides one effective plot visualizing the Beta Band Voltage data over time. There are no other plots provided.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

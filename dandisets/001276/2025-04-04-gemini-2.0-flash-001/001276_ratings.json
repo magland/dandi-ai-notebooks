@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the title, ID (001276), purpose (NG-CANCAN Remote Targeting Electroporation), and data contents (cell monolayer integrity assessed using Hoechst staining, membrane permeability was evaluated using YoPro-1 among other information). Therefore it satisfies all the conditions for a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the title (\"NG-CANCAN Remote Targeting Electroporation: Impact of Burst Number Variation on Permeabilization Distribution in Confluent Cell Monolayers\"), the Dandiset ID (001276), the purpose of the study (optimizing the CANCAN protocol and investigating the effect of varying burst numbers on permeabilization distribution), and the data contents (cell monolayer integrity assessed using Hoechst staining and membrane permeability evaluated using YoPro-1). Further information specifies the experimental setup, including the electrode array and pulse characteristics. It also gives the number of assets.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description including the title, ID, purpose (NG-CANCAN Remote Targeting Electroporation), and data contents (Cell monolayer integrity assessed using Hoechst staining, while membrane permeability was evaluated using YoPro-1). It also mentions some experimental details such as electrode distance and pulse duration.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads several assets from a dandiset id. It also retrieves and prints the number of assets in the dandiset. Therefore, it successfully loads dandiset metadata.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads information about the dandiset, including the number of assets. It uses the dandiapi library to achieve this. It retrieves the dandiset and its associated assets, demonstrating key Dandiset metadata. Also, the NWB file from the dandiset is successfully loaded and image data is extracted and visualised.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully uses the dandiapi client to load the dandiset and then retrieves its assets, printing the number of assets. This constitutes loading and demonstrating Dandiset metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook first shows how to access the Dandiset using the DANDI API and lists the total number of available assets. It loads one of the NWB files and processes the image data within by plotting it to show the DAPI staining. Therefore, the notebook successfully loads assets from the Dandiset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook first loads the dandiset and lists the assets. Then, it loads a specific asset, namely an NWB file, and displays its information and an image. Thus, the notebook shows how to load assets of the Dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads and lists the assets in the Dandiset using the DANDI API client. It then proceeds to load and display an image from a specific asset using the lindi library. Therefore, the notebook successfully loads and works with Dandiset assets.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file, accesses image data, and prints some basic information about the image (shape, dtype, max, min). It also plots the image. Therefore, it demonstrates accessing key data structures within the NWB file.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file, accesses the SingleTimePointImaging data, prints basic information about the image (shape, dtype, max, min), and plots the image. This indicates that the notebook demonstrates loading and accessing key data structures within the NWB file as well as loading an NWB file in the first place.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file using the `lindi` library, retrieves an image dataset, prints its shape, dtype, max, and min values, and displays/saves the image. This demonstrates accessing key data structures within the NWB file. Notably, the notebook handles the specific shape of the image data (1, 19190, 19190) by reshaping it to (19190, 19190) for display if that's the case, which indicates a good understanding of the data within the file. Also, the code has a general exception catch.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from an NWB file, specifically SingleTimePointImaging data, and displays basic information about the image (shape, dtype, max, min). It also plots the image using matplotlib. The code includes error handling in case the file cannot be loaded or processed. Therefore it satisfies the criteria for score 2. It does not however showcase loading of other data types.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using the lindi library and pynwb. It then proceeds to access and display image data, demonstrating basic data loading and access from an NWB file. The code is functional, but it only deals with one type of data (image from SingleTimePointImaging), hence it does not achieve \"advanced\" data access for multiple data types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using the lindi library and pynwb. It retrieves and displays the shape, data type, maximum, and minimum values of image data from the \"SingleTimePointImaging\" acquisition. It then plots and saves the image. This constitutes loading and demonstrating basic data access. So, the score is 2.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file and visualizes a DAPI image. It accesses the image data, prints some of its properties (shape, dtype, min/max values) and plots it. This constitutes visualizing a basic data type from the NWB file with code that runs without errors. The notebook also gives a brief explanation of the image. Therefore, the notebook successfully visualizes basic data types.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file, extracts image data ('SingleTimePointImaging'), and visualizes it using matplotlib. The code includes error handling and checks for image shape, although it only handles one specific shape. The notebook provides basic descriptive information about the image data (shape, dtype, max, min). The visualization is of a single data type, and it generates a DAPI image. The visualization is successful and displayed clearly with a title and removed axes. Therefore, the notebook successfully visualizes basic data types from an NWB file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The code successfully loads an NWB file from the Dandiset, extracts image data, prints basic information (shape, dtype, min/max) about the image, and displays the image using matplotlib. The visualization is clear, it uses the correct colormap, and it also removes the axes from the image, displaying it nicely. The plot also has a title. Also, it saves the image to a file called `dapi_image.png`. The notebook clearly displays how to visualize one type of data (image) contained in NWB files, so the score is 2.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes one plot, which is a DAPI image. The plot is reasonably well-formatted, with a title and removed axes. The plot effectively communicates the image data, although there are stitching artifacts. The description provided states that the image edges look occluded and does state there are stitching artifacts visible. So given all this I believe a score of 2 is appropriate. It is clear and well formatted but the artifacts are an issue that holds the plot back.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes one plot: a DAPI stained image of cells. The plot is displayed using matplotlib, has a title, removes the axes, and is saved as a file. The plot can be interpreted, however it has some stitching artifacts. The cells are clearly visible. Still, there are some artifacts, which could influence a higher score.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook displays a single image using matplotlib. The plot is displayed without axes and with a title. The image display seems to be correct given the data. However, there are visible, the image edges are occluded and there are some stitching artifacts. The notebook provides a description of these artifacts, so overall the plot is reasonably well to convey the information, despite its limitations. Adding a colorbar or scalebar might improve it a bit, but are not mandatory given the context.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "There is only one plot generated in the notebook, showing a DAPI stained image. The plot is effective for visualizing the data. There are no other plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook extracts and plots one image from the NWB file, which is a DAPI-stained cell monolayer. This is the only effective plot included. Therefore, the notebook contains one effective plot.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook only includes one effective plot, which is the DAPI image. Therefore, the score is 1.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
