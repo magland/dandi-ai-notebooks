@@ -4,6 +4,7 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
+| [001276.ipynb](dandisets/001276/2025-04-04-deepseek-chat-v3-0324/001276.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:14:18 | 435.83 | 1 | 336.4k + 0.098k / 4.9k + 0.303k | 0.10 + 0.00 |
 | [000673.ipynb](dandisets/000673/2025-04-04-deepseek-chat-v3-0324/000673.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 13:20:49 | 669.76 | 3 | 243.1k + 0.187k / 5.1k + 0.33k | 0.07 + 0.00 |
 | [001366.ipynb](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366.ipynb) | 2025-04-04-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-04 13:09:35 | 975.82 | 13 | 1596.3k + 25.839k / 36.5k + 3.695k | 5.34 + 0.13 |
 | [001366.ipynb](dandisets/001366/2025-04-04-deepseek-chat-v3-0324/001366.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 12:53:17 | 190.71 | 1 | 112.8k + 0.104k / 2.5k + 0.169k | 0.03 + 0.00 |
@@ -28,6 +29,23 @@
 | [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k + 0.0k / 2.9k + 0.0k | 0.03 + 0.00 |
 | [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:03:57 | 1090.70 | 4 | 485.2k + 0.0k / 11.4k + 0.0k | 0.14 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k + 0.0k / 4.0k + 0.0k | 0.05 + 0.00 |
+
+## Dandiset 001276
+
+### 2025-04-04-deepseek-chat-v3-0324
+
+**Model:** deepseek/deepseek-chat-v3-0324  
+**Generated:** 2025-04-04 14:14:18  
+**Generation Time:** 435.83s  
+**Prompt Tokens:** 336.4k  
+**Completion Tokens:** 4.9k  
+**Estimated Cost:** $0.10  
+**Notebook:** [001276.ipynb](dandisets/001276/2025-04-04-deepseek-chat-v3-0324/001276.ipynb)  
+
+**Generated Images:**
+
+![001276_9_0.png](dandisets/001276/2025-04-04-deepseek-chat-v3-0324/001276_files/001276_9_0.png)  
+
 
 ## Dandiset 000673
 
