@@ -548,6 +548,39 @@
       }
     },
     {
+      "dandiset_id": "001363",
+      "subfolder": "2025-04-04-gemini-2.0-flash-001",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-5.10.234-225.910.amzn2.x86_64-x86_64-with-glibc2.39",
+          "hostname": "jupyter-magland",
+          "processor": "x86_64",
+          "python_version": "3.11.10"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "vision_model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 304728,
+        "total_completion_tokens": 5176,
+        "total_vision_prompt_tokens": 6159,
+        "total_vision_completion_tokens": 391,
+        "timestamp": "2025-04-04 12:42:55",
+        "elapsed_time_seconds": 67.30480480194092
+      },
+      "paths": {
+        "notebook": "dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363.ipynb",
+        "html": "dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363.html",
+        "images": [
+          "dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363_files/001363_11_0.png",
+          "dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363_files/001363_6_0.png",
+          "dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363_files/001363_8_0.png"
+        ]
+      }
+    },
+    {
       "dandiset_id": "001275",
       "subfolder": "2025-04-02-claude-3.7-sonnet",
       "config": {
