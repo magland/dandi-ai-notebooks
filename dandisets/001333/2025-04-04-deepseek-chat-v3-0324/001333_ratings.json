@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID (\"001333\"), purpose (exploring electrophysiological signals from healthy and parkinsonian subjects), and the data contents (Beta ARV and LFP signals). It also refers to the original article.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title (\"Parkinson's Electrophysiological Signal Dataset (PESD)\"), ID (\"001333\"), purpose (exploring and analyzing electrophysiological signals), and data contents (electrophysiological signals from healthy and parkinsonian subjects, Beta ARV signals and LFP signals). It also references the original article. So, it satisfies the requirements for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title (\"Parkinson's Electrophysiological Signal Dataset (PESD)\"), ID (\"001333\"), purpose (exploring electrophysiological signals from healthy and parkinsonian subjects), and data contents (Beta Average Rectified Voltage (ARV) signals and Local Field Potential (LFP) signals). It also provides a link to the original article that describes the dataset in more detail. Therefore, the notebook receives the highest score.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook shows code to load dandiset assets and prints the length of the assets and sample assets including their path and size. This constitutes loading basic dandiset metadata.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook lists assets of the Dandiset. It does this successfully. So it loads basic Dandiset metadata.\n    It does not demonstrate key metadata fields, but it does load metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes code to load the Dandiset using the DandiAPIClient and retrieves the assets. It then prints the total number of assets and lists the first 5, including their paths and sizes. This shows successful loading of basic Dandiset metadata. The notebook does not explore specific metadata fields beyond name/path/size, so it does not fully meet the level 3 criteria.}",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 1.3333333333333333,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook lists the assets in the DANDIset, therefore successfully showing how to load and list assets. However, the code to actually load the NWB files is just a placeholder with errors.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook lists the assets in the Dandiset. However, the notebook does not successfully load and display the data because the URL for the files is not accessible. Therefore, the notebook attempts to load the assets but does not fully succeed.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook lists available assets using the DandiAPIClient. However, the code for loading the NWB files is incomplete and contains placeholders. Therefore, it attempts to load assets but with errors or incomplete code.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook attempts to load NWB files using a placeholder URL. The code has an error since the URL is not valid. The function prints the keys but it won't be executed since the loading step has an exception.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides the `load_nwb_file` function, but it is not fully functional due to the need for an accessible URL placeholder and the lack of actual access to the NWB file. The function prints the contents of the loaded file in a basic manner. Therefore, it can be considered as an attempt to load NWB files, although it is incomplete. The notebook mentions that in practice, one would use the lindi URL from dandi-notebook-gen-tools, hinting at a more robust approach. This suggests that the notebook is aware of proper loading procedures, but they were not actually implemented fully. The example usage is commented out, which is another indication that the implementation is not complete. Overall, this aligns with rubric item 1 and not 2, 3, or 0.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides a function `load_nwb_file` which attempts to load an NWB file, but the provided code has not been fully implemented and uses a placeholder URL. The function prints the keys in the HDF5 file, suggesting it partially works, but does not properly load the NWB file using pynwb. Thus, while it attempts to load NWB files, it does so with errors and incomplete code. Hence a score of 1 is suitable.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook attempts to load data from an NWB file but the code provided in `load_nwb_file` function uses a placeholder URL that is not accessible. It prints the keys of the file, but actual loading is not functional because the file URL doesnt exist. Therefore, the notebook attempts to load data but has non-functional loading code.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides a placeholder function `load_nwb_file` that attempts to load an NWB file but acknowledges that it needs to be updated with a proper file loading mechanism using a real accessible URL.\n    The provided code includes `h5py.File` which could potentially load the file, but it does not work due to the the link not actually working. It doesn't demonstrate any advanced data access either therefore is is not a 2.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes a function `load_nwb_file` which attempts to load an NWB file. However, it uses a placeholder URL and reads the file as a generic h5py file instead of using pynwb. The example usage is commented out; thus, no actual loading or proper NWB data access is demonstrated. Therefore, this is an attempt with errors/incomplete code.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes a placeholder plot that uses random data, but it doesn't load or visualize any actual data from the NWB files due to missing access and loading code. Therefore, it does not properly show how to visualize data from NWB files.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides a placeholder for data exploration and uses random data to generate an example plot, but it does not include code that actually visualizes data extracted from an NWB file in the Dandiset. Instructions are given to ensure proper access to NWB files to visualize the data. However, the notebook does not include code that actually visualizes data extracted from the dandiset based on NWB files. Therefore, the notebook attempts to visualize data but with errors or incomplete code, since no actual data is visualized. Hence a score of 1 is returned.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes a placeholder plot with random data instead of actual data from the NWB files because the files are not properly accessed. The notebook contains incomplete code, so the score is 1.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains a placeholder plot generated with random data. While the plot is formatted with a title, axis labels, and visually appealing style (using seaborn), it doesn't represent actual meaningful data from the specified dataset. Therefore, while the plot itself is clear and well-formatted as a visual element, its content is a significant issue due to being a placeholder and not reflecting the dataset's information. Considering the placeholder nature of the plot, it is better to give it a score of 2 since it is better than just poorly formatted, but its content makes it not reach a 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes one plot. The plot is appropriately labeled and formatted. However, it uses random data as a placeholder since the notebook isn't fully functional and requires access to the dataset. Despite the placeholder nature, the plot's formatting itself is clear and well-formatted. So, a score of 3 is most appropriate.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains one plot. The plot is well-formatted, has clear axis labels and a title. However, the plot contains placeholder data and is not based on the actual dataset. Therefore, it only partially communicates the real data.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "There is a placeholder plot in the notebook that serves as an example. So, one plot is effectively in the notebook.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides a single placeholder plot. The code generates a plot but the data is random noise with a descriptive title and labels. Therefore, only one plot is present.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes only 1 example plot, which serves as a placeholder due to the absence of actual data loading and analysis scripts. Therefore, the assessment yields a score of 1.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

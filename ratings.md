@@ -2,6 +2,7 @@
 
 | Notebook | Subfolder | Overall | describe-dandiset | load-dandiset | load-dandiset-assets | load-nwb | load-nwb-data | visualize-nwb-data | plot-quality | plot-quantity |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [001333.ipynb](dandisets/001333/2025-04-04-deepseek-chat-v3-0324/001333.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | 1.58 | 3.0 | 2.0 | 1.3 | 1.0 | 1.0 | 1.0 | 2.3 | 1.0 |
 | [001333.ipynb](dandisets/001333/2025-04-04-gemini-2.0-flash-001/001333.ipynb) | 2025-04-04-gemini-2.0-flash-001 | 2.50 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | 3.0 | 1.0 |
 | [001333.ipynb](dandisets/001333/2025-04-02-claude-3.7-sonnet/001333.ipynb) | 2025-04-02-claude-3.7-sonnet | 2.83 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.3 | 2.3 | 3.0 |
 | [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | 2.88 | 3.0 | 3.0 | 3.0 | 3.0 | 2.3 | 3.0 | 3.0 | 2.7 |
