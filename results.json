@@ -484,6 +484,38 @@
       }
     },
     {
+      "dandiset_id": "001174",
+      "subfolder": "2025-04-04-gemini-2.0-flash-001",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-5.10.234-225.910.amzn2.x86_64-x86_64-with-glibc2.39",
+          "hostname": "jupyter-magland",
+          "processor": "x86_64",
+          "python_version": "3.11.10"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "vision_model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 202921,
+        "total_completion_tokens": 4018,
+        "total_vision_prompt_tokens": 3219,
+        "total_vision_completion_tokens": 183,
+        "timestamp": "2025-04-04 12:41:41",
+        "elapsed_time_seconds": 54.461934328079224
+      },
+      "paths": {
+        "notebook": "dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174.ipynb",
+        "html": "dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174.html",
+        "images": [
+          "dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174_files/001174_15_0.png",
+          "dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174_files/001174_17_0.png"
+        ]
+      }
+    },
+    {
       "dandiset_id": "001363",
       "subfolder": "2025-04-01-deepseek-chat-v3-0324",
       "config": {
