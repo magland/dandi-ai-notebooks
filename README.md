@@ -6,6 +6,8 @@ This packages were created as part of the [Pre-COSYNE Brainhack](https://pre-cos
 
 [View results](./results.md) (updates regularly)
 
+[View ratings](./ratings.md) (updates regularly)
+
 ## Repository Structure
 
 ```
