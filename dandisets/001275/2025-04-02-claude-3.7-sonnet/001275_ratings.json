@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the title, ID (\"001275\"), the purpose of the dataset (mental navigation task), and a summary of the data contents (behavioral and neural data from macaque monkeys). It also links to the associated paper and a companion dataset. The notebook also includes disclaimers about the AI-generated content and the need for caution when interpreting the results. The notebook also describes the contents of the NWB files i.e., that they contain data on eye position, units and their firing rates.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description including the title (\"Analysis of Mental Navigation Data in Primate Posterior Parietal Cortex\"), the Dandiset ID (\"001275\"), the purpose of the data (mental navigation task in macaque monkeys), and the contents of the data (neurophysiology data from the posterior parietal cortex (PPC) and behavioral data). It also includes key details such as the task conditions, subjects, and associated study. The notebook also explicitly references the dataset and associated publications in the references section.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook clearly describes the Dandiset by including the title, ID, purpose (mental navigation task with macaque monkeys), and data contents (behavioral data like joystick movements, neural recordings from PPC, and eye-tracking data). It also references the associated paper and companion dataset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the dandiset, accesses available assets, and extracts and prints the dandiset metadata (session description, start time, institution, lab, subject information). This demonstrates the loading and exploration of key Dandiset metadata fields.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the dandiset information using the DandiAPIClient. It then prints the total number of assets and the path, size and other information from the first few assets, fulfilling the requirements for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset information using the DandiAPIClient. It retrieves and prints several key metadata fields, including the total number of assets, the paths and sizes of the first few assets, the session description, session start time, institution, lab, and subject information (ID, species, age, sex). It then extracts trial information, and hand positions, displaying it as well. Therefore, the notebook effectively demonstrates how to load and access key Dandiset metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset assets and lists them. The metadata such as path, size, and identifier are also demonstrated. It also shows where to download a specific asset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook shows the correct general approach to getting the Dandiset and listing available assets, but it doesn't successfully load it, therefore, it cannot access the metadata. The errors should be addressed to improve the notebook.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook begins by successfully loading the Dandiset and listing its assets using the Dandi API client. The code is functional and retrieves the metadata associated with each asset (path and size). It proceeds to download and load an NWB file from the Dandiset. This shows that the notebook goes beyond simply listing the assets and proceeds to work with the metadata of a specific asset, e.g., asset.identifier, to download the NWB file.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file using lindi and pynwb, and accesses key data structures like the trials table, units, hand position data, and eye position data. It also prints basic dataset and subject information, so the score is 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the specified Dandiset, accesses basic information such as session description, start time, institution, lab, subject information, and explores key data structures like the trials table, units data, hand position, and eye position. It demonstrates the ability to download the file, load it using lindi and pynwb, and extract relevant data, providing a clear example of accessing key data structures within the NWB file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file using lindi and pynwb, then proceeds to print basic dataset and subject information. It also demonstrates accessing the trials table and other key data structures like hand position and neural data. The notebook clearly shows how to load and access fundamental data within the NWB file.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi and pynwb. It showcases basic data access by printing dataset and subject information, exploring the trials table, examining behavioral data (hand position), exploring neural data (unit quality, firing rates, depths), and touching on eye-tracking data. The notebook demonstrates how to access and explore different modalities available in the NWB file. Some of the analyses are computationally intensive, and the notebook handles this by using subsetting/sampling. The data access demonstrated covers multiple data types.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the NWB file from the DANDI archive. It demonstrates accessing a variety of data types, including trial information, behavioral data (hand position), neural data (unit firing rates, spike times), and eye tracking data. The notebook effectively uses `pynwb` and `lindi` to load and explore the data. This covers advanced data access for multiple data types. Therefore, the notebook comprehensively shows how to load data from an NWB file in the Dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files from the DANDI archive using both lindi and pynwb. It demonstrates several examples of reading data from the NWB file, including behavioral data like trial structure and hand position, as well as neural data like unit firing rates and spike times, and eye tracking data. The notebook effectively showcases how to access different data types within the NWB file in the Dandiset, thus earning a 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains code to visualize data from an NWB file. It specifically demonstrates how to plot the horizontal and vertical eye positions, demonstrating how to access and work with the Behavior module in an NWB file. The generated plot is clearly labeled, making it a good example of data visualization. One minor point is that the notebook does not thoroughly explore all possible data for visualization in an NWB for, so it earns a strong rather than perfect score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes different data types from the NWB file, including trial structure, behavioral data (hand position, movement durations, eye position), and neural data (firing rates, spike raster plots). The visualizations are generally clear and accompanied by explanations. The notebook provides a good starting point for visualizing data from this Dandiset. Therefore, rating 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes several data types from the NWB file, including trial data (success rates, start/target landmarks, movement durations), neural data (firing rates, raster plots), and eye tracking data. The explanations are clear and provide context for the visualizations. The figures are generally well-labeled. Thus, the notebook shows good visualization abilities. Some of the code is not the most efficient, for example, calculating the mean firing rate, but this does not affect the data visualization process.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes several plots that are generally well-formatted and easy to interpret. They have clear labels and titles. Some plots, could have improved aesthetics (e.g., raster plot), but overall, the plots effectively communicate the data, but there is always room for improvement.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook has one plot that shows the distribution of eye positions. The plot is a scatter plot with labeled axes, however, the readability could be improved. The axes' labels are cut off. Other than that, the plot is clear and could be helpful. No other visualizations are included.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides several plots and visualizations that are generally clear and aid in understanding the data. The plots are well-formatted. All the plots are relevant to the data analysis performed. There are no major issues, the plots effectively communicate findings. The plots could benefit with title improvements (clarity and descriptiveness). Some axis labels are also basic, and could benefit from additional precision.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains several plots, including bar plots for success rate by trial type and distance, a heatmap for start-target landmark combinations, a histogram for movement durations, boxplots comparing trial types, line plots for movement duration vs distance, histograms for firing rates and a scatter plot relating firing rate and depth, a raster plot, a plot of firing rates comparing success and failure, and a plot of eye movement data. All of these plots are effective at visualizing the data.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook contains the following plots:\n1. A scatter plot visualizing \"Horizontal Eye Position\" vs \"Vertical Eye Position\".\n2. A plot showing \"a scatter plot visualizing \"Horizontal Eye Position\" vs \"Vertical Eye Position\".\n\nThese plots provide one type of visualization. Since there are only one type of plots and two visualizations, this gives a score of 1.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains several plots displaying different aspects of the data, including success rates, landmark distributions, movement durations, firing rates, and eye positions. These visualizations are effective in conveying information about the task, behavior, and neural activity, so the notebook has more than 4 effective plots with a variety of data types.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

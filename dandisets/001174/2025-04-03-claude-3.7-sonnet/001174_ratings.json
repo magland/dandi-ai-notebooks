@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear and detailed description of the Dandiset. This includes the title, ID, purpose and data contents of the Dandiset. It also provides metadata such as contributors, measurement technique and keywords.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a good introduction and overview of the Dandiset. It includes the title, description, identifier, contributors, measurement technique, keywords and the content of the data.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a detailed description of the Dandiset, including its title, ID, purpose, and the types of data it contains (calcium imaging data from SMA and M1 of macaques, details about the task, and the focus of the researchers). It also lists the contributors, measurement techniques, and keywords, giving a good overview of the Dandiset's contents and purpose.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset and shows the title, description, identifier, contributors, measurement technique and keywords.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the dandiset information showing the description, contributors, and keywords. The code is complete and error-free. The notebook demonstrates accessing key metadata fields such as title, description, identifier, contributors, measurement technique, and keywords.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook loads the Dandiset and displays its basic information (title, description, identifier, contributors, measurement technique, keywords) as well as subject information. Therefore, it succesfully loads key information about the dandiset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads assets using the Dandi API, lists them, and prints information about the assets. Specifically, it loads the dandiset, gets the assets, and then prints the path and size of the first 10 assets demonstrating how to work with asset metadata. Hence, it is worthy of a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DandiAPIClient to get the dandiset, and list all the assets with their paths and sizes. This constitutes loading and listing available assets. The code also shows how to load a specific asset using a URL. Finally the code shows how to access the sessions_description, identifier information, subject ID, species, sex, and age which represents working with asset metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses DandiAPIClient to access the dandiset and list its assets (NWB files). It then proceeds to load one specific file and use it for the downstream analysis. The code runs without errors and shows how to work with asset metadata by printing the asset paths and sizes.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi and pynwb. It then proceeds to show basic information about the file, like session description, identifier, start time, subject info, and the file's data structure, including OnePhotonSeries, fluorescence data, event amplitude data, and ROI masks. This covers accessing key data structures within the NWB file.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi and pynwb. It then proceeds to print basic information about the file, such as session description, identifier, start time, subject information, and it also accesses key data structures like OnePhotonSeries, Fluorescence, EventAmplitude, and PlaneSegmentation, demonstrating how to inspect their shapes and sampling rates. Therefore the notebook loads an NWB file successfully and demonstrates accessing key data structures.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains code that loads NWB files from the DANDI archive and then parses basic information about the data. It displays information like ROIs, time series, event amplitudes, and cross-correlation between ROIs. The notebook also generates some plots to visualize these data, which satisfies the \"demonstrates accessing key data structures\" criterion. Therefore, the notebook is appropriately rated as a 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from an NWB file in the Dandiset and demonstrates basic data access. It reads epochs, trials, and some signal data. The notebook also shows how to query a specific trial and extract the start time, stop time, and tags. However, it could have been improved by showing how to access more data types.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from a Dandiset using `lindi` and `pynwb`. It then proceeds to demonstrate access to various data types within the file, including `OnePhotonSeries`, `Fluorescence`, `EventAmplitude`, and `ImageSegmentation`. The notebook thus provides a good example of how to load and access different data components within a standard NWB file retrieved from a DANDI archive. It also explores the attributes of each of these items. The notebook does have some warnings that appear to be due to the data itself. Thus, it successfully loads and demonstrates advanced data access for multiple data types. There is a disclaimer that the notebook was AI-generated and not fully verified which prevents me from giving the notebook the highest score, but the code itself runs successfully which is the key criterion. I am assuming that the warnings are a quirk of the dataset and not of the notebook itself.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook starts by showing how to download an NWB file from a Dandiset. It then uses several libraries such as `matnwb` and `pynwb` to successfully load data from the file, enabling basic data access. However, it mainly focuses on the electrode data and lacks advanced data access for multiple data types.\n\n        Compared to the ideal score of 3:\n        - It doesn't comprehensively load and allow access to various data types within the NWB file, such as behavioral and stimulus data, which would be expected for a score of 3.\n        - The data loading showcases mainly basic features, without going into too many advanced aspects that would warrant the higher score.\n\n        Compared to a score of 1:\n        - The code is successfully executed and demonstrates some data access, unlike a score of 1 where there might be errors or incomplete code.\n\n        Therefore, a score of 2 seems most appropriate.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook effectively demonstrates how to visualize various data types from an NWB file within the specified Dandiset. It provides clear explanations and examples for visualizing ROIs, raw calcium imaging data, fluorescence traces, event amplitudes, raster plots of neural activity, and cross-correlation between ROI pairs. The notebook successfully visualizes multiple key data types, offering a comprehensive guide for exploring calcium imaging data in NWB format.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a good demonstration of visualizing data from NWB files, specifically the raw neuronal activity. It imports the necessary libraries, accesses data using the NWB API, and provides clear examples through the raster plot of neural activity. The code is executable and generates understandable visualizations. It also attempts to correlate neural activity between different regions. Overall, the notebook is a valuable resource for understanding how to visualize data from NWB files.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types (timeseries, events, raster data) from an NWB file using different plotting libraries like matplotlib. It provides explanations and examples for each visualization, making it a good resource for learning data visualization in the Dandi ecosystem.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains several plots visualizing different aspects of the calcium imaging data. The plots are generally well-formatted and clear. ROI visualizations, raw data frames, fluorescence traces, and raster plots are effectively used. The only minor issue is the cross-correlation plot which could be improved by adding more details, but overall, the plots are pretty good at communicating the data.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The plots are generally well implemented. They display the data in a clear manner, with labels, titles, and legends. Formatting is appropriate and the data is effectively communicated for each plot. However, the cross-correlation plot is a bit confusing due to the normalization issue triggering a warning and making the cross-correlations visually close to zero. Besides this plot, nearly all other plots are excellent and very helpful for understanding the data. Thus, a score of 3 is given.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes a good variety of plots that are generally well-formatted and easy to understand. However, the legend in the ROI color-coded plot is not readable and the raster plot has a sparse colorbar. Also, the cross-correlation plot produced a warning and looks like it might have some issues so I am marking the notebook down for that.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook produces several plots: ROIs (color-coded), ROI density (heatmap), example ROI, raw calcium imaging frames, frame with ROI centers, fluorescence traces, comparison of fluorescence and event amplitudes, raster plot and cross-correlations. All of these plots are effective ways of visualizing the data and provides a good variety of data types to inspect. There are more than 4 effective plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains multiple plots that effectively visualize the data. The color-coded ROIs, ROI density heatmap, raw calcium imaging frames, fluorescence traces, raster plot, and cross-correlation plots provide different perspectives on the data, which aids in understanding the calcium imaging experiments. There are more than four effective plots, demonstrating a variety of data types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains multiple plots, including visualizations of ROI masks, raw imaging data, fluorescence traces, event amplitudes, raster plots, and cross-correlation analyses. All of the main data types are represented by a plot. Therefore, there are more than 4 effective plots.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

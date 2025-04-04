@@ -198,7 +198,7 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         else:
             vision_est_cost = "unknown"
 
-        md += f"| [{nb['dandiset_id']}.ipynb]({notebook_link}) | {nb['subfolder']} | {model} ({vision_model if vision_model != model else ''}) | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k / {total_completion_tokens_k:.1f}k | {est_cost:.2f} + {vision_est_cost:.2f} |\n"
+        md += f"| [{nb['dandiset_id']}.ipynb]({notebook_link}) | {nb['subfolder']} | {model} ({vision_model if vision_model != model else ''}) | {timestamp} | {runtime:.2f} | {image_count} | {total_prompt_tokens_k:.1f}k + {total_vision_prompt_tokens_k}k / {total_completion_tokens_k:.1f}k + {total_vision_completion_tokens_k}k | {est_cost:.2f} + {vision_est_cost:.2f} |\n"
 
     # Detailed sections grouped by dandiset
     current_dandiset = None

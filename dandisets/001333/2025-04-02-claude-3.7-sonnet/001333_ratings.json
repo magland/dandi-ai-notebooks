@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including the title, purpose, and the type of data it contains (beta ARV and LFP signals from healthy and Parkinson's subjects). It also describes the data generation method (simulation), which contributes a good overall description.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID, purpose (exploring electrophysiological signals related to Parkinson's disease), and data contents (Beta ARV and LFP signals from healthy and Parkinsonian subjects). Therefore, the score should be 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID (implicitly through DandiAPIClient), purpose (exploring electrophysiological signals from Parkinson's patients), and data contents (Beta ARV and LFP signals). It also details the origin of the simulated data.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook first utilizes the DandiAPIClient to access the dandiset and then extracts and prints its metadata, thus successfully completing the steps.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the dandiset information, extracts the metadata, and prints it to the user. This includes the dandiset name and total number of assets. This fulfills loading, accessing, and outputting key metadata fields of the Dandiset. The dandiset is loaded using the DandiAPIClient, and the metadata is accessed and displayed.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully uses the DandiAPIClient to load the Dandiset and access its metadata, printing the name and number of assets, demonstrating key metadata fields of the Dandiset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset, lists the assets, and loads individual assets by their IDs to read the data. There is code to load assets by their identifiers, and also code demonstrating working with asset metadata.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads assets, lists available assets, and works with asset metadata. It uses the DandiAPIClient to access the Dandiset, retrieves the assets, and then uses lindi to work with the nwb files. The notebook also demonstrates how to extract information such as session description, experiment description, and subject ID.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset and lists available assets. It also demonstrates working with asset metadata by extracting session descriptions, experiment description, subject ID, and electrodes information. It also shows how to access the beta band voltage data from the assets, as well as the LFP data. And it plots them and calculates statistics.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files using pynwb and lindi in multiple cells. It then extracts and prints basic information such as session description, experiment description, and subject ID. Further, it explores electrode information and access Beta Band Voltage and LFP data. Thus, it loads an NWB and demonstrates accessing key data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files using `pynwb` and `lindi`, and demonstrates accessing key data structures such as `session_description`, `experiment_description`, `subject.subject_id`, `keywords`, `electrodes`, `LFP` and `Beta_Band_Voltage`. The code is functional and complete. Therefore, the notebook sufficiently demonstrates loading basic information from an NWB file in the Dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files using lindi and pynwb, accesses and prints session metadata (description, experiment description, subject ID, keywords), and explores electrode information. Several data structures are examined inside of the NWB files.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook demonstrates how to load NWB files using the lindi library. It correctly retrieves asset IDs, constructs URLs, and accesses different types of data, including Beta Band Voltage and LFP signals. The notebook accesses multiple sessions and visualizes these data. Therefore, it successfully loads and demonstrates advanced data access for multiple data types. Loading data is successful, as confirmed by the plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from NWB files using the lindi library, accesses various data types (Beta ARV and LFP data), and iterates through multiple sessions to load data. It demonstrates how to retrieve asset IDs, construct URLs, and access data attributes, including sampling rates and timestamps. The code avoids loading a ton of data from the full files by choosing shorter time durations. The notebook completes many of the core tasks in the rubric. However, could do more advanced analysis to merit the highest score, such as more detailed signal processing or statistical comparisons. Therefore, the notebook merits a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads and explores data from NWB files, demonstrating access to multiple data types (beta band voltage and LFP). It iterates over multiple sessions to perform an analysis demonstrating successful data loading. It accesses the underlying numerical arrays. Demonstrates usage of lindi to load from neurosift.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types from the NWB files, including beta band voltage and LFP signals. The visualizations are clear and accompanied by explanations. The notebook progresses from basic visualizations to more complex analyses like power spectral density and multi-session comparisons. The figures are all well-presented and easy to interpret. The inclusion of histograms, box plots, and violin plots further enhances the visualization of data distributions. The notebook effectively uses libraries like matplotlib and seaborn to present the data in an understandable format.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types (Beta Band Voltage and LFP) from the NWB files within the Dandiset. It provides clear explanations, plots, and statistical summaries to compare healthy and Parkinson's subjects. The visualizations illustrate the differences in beta band activity and LFP signals between the two groups. The notebook also analyzes data across multiple sessions, providing a more comprehensive view of the dataset. Thus, a score of 3 is appropriate.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook does not show how to access data from an NWB file. It is possible to visualize data in the form of a graph, but the code to do so is not complete. There are a couple places where they write the term \"NWB file\" but the notebook does not actually use data from any NWB files.\n        - The notebook contains code for loading data using NumPy, but no code is added to visualize this data.\n        - The notebook does not have an appropriate introduction or conclusion.\n        - The notebook does not have titles for each section.\n        - The explanation in the section \"Beta Band Voltage Distribution\" is misleading. We cannot actually assume that someone has Parkinson's when they have a high beta band voltage. It's possible they just have resting tremor which causes an increase in beta band activity.\n\n        Overall, the notebook is not very useful as a demonstration of how to acess data from NWB-files.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook provides one plot that effectively compares the mean Beta Band voltage between healthy and Parkinson's conditions in a clear and well-formatted way. The plot includes proper axis labels, a title, and a legend, making it easy to understand. However, the notebook lacks a detailed explanation or analysis of the plot which would further elevate its quality. The plot only shows a comparison of data points without much context or insights.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The plots are generally clear and well-formatted. Most plots include appropriate labels, titles, and legends. The use of color to distinguish between healthy and Parkinson's subjects is consistent and helpful. However, there are some minor issues. For example, the bar plot showing \"Mean Beta Band Voltage by Session\" has overlapping elements. Also, it seems like the y axis range is not correctly setup, and the legend entry overlaps with the plot. Overall, the plots communicate the data effectively. A rating of 3 is appropriate, as the plots are generally of high quality, despite the minor issues.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook provides multiple plots and visualizations that are generally clear and well-formatted. The plots compare beta band voltage and LFP signals between healthy and Parkinson's subjects, showing the differences in amplitude and frequency components. The visualizations include time-series plots, histograms, box plots, power spectral density plots, bar plots, and violin plots. The plots are informative and help to communicate the data effectively. However, the bar plot is not correctly plotting the bars as it seems to still use the default plot and the legend displays incorrectly, instead of showing what the colors mean (healthy vs parkinson's). The y axis label is also cut off. These issues lower the score, even though most of the plots are good.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes plots illustrating data from multiple perspectives. Three plots are included: a line plot, a bar plot, and a Violin plot.\nThe bar plot and the violin plot are visually more appealing and provide clear and direct insights into the data distributions. The line plot, while standard, could benefit from better scaling or labeling for improved clarity. Overall, the notebook makes reasonable use of visualization techniques to improve interpretability.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes several effective plots:\n1. Time series comparison of beta band voltage in healthy vs Parkinsons.\n2. Histogram\n3. Boxplot\n4. Time series comparison of LFP signals\n5. Power spectral density comparison, with marked beta band\n6. Barplot of mean beta band voltage by session.\n7. Violin plot of distribution\n\nAll plots are well-labeled and contribute to the analysis. Therefore, there are definitely more than 4 effective plots.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook incorporates several effective plots. These include:\n1.  Time series data of beta band voltage.\n2.  Histograms of beta band voltage.\n3.  Box plots of beta band voltage.\n4.  Time series plots of LFP data.\n5.  Power Spectral Density plots.\n6. Bar plots showing the mean beta band voltage across sessions.\n7. Violin plots showing the overall beta band voltage distribution between the two conditions\n\nThese plots represent different data types used in the analysis.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

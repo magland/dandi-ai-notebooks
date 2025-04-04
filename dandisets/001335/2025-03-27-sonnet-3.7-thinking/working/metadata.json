@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-3.7-sonnet:thinking",
-  "total_prompt_tokens": 767753,
-  "total_completion_tokens": 27962,
-  "timestamp": "2025-03-28 01:35:15",
-  "elapsed_time_seconds": 652.0466394424438
-}

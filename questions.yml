@@ -1,0 +1,102 @@
+questions:
+  - name: describe-dandiset
+    version: 1
+    question: Does the notebook describe the Dandiset?
+    rubric:
+      - score: 0
+        description: No description of the Dandiset is provided
+      - score: 1
+        description: Minimal description of the Dandiset with just the title or ID
+      - score: 2
+        description: Basic description including title, ID and one or two key details
+      - score: 3
+        description: Clear description including title, ID, purpose, and data contents
+
+  - name: load-dandiset
+    version: 1
+    question: Does the notebook show how to load information about the dandiset?
+    rubric:
+      - score: 0
+        description: No code for loading Dandiset information
+      - score: 1
+        description: Attempts to load Dandiset but with errors or incomplete code
+      - score: 2
+        description: Successfully loads basic Dandiset metadata
+      - score: 3
+        description: Successfully loads and demonstrates key Dandiset metadata fields
+
+  - name: load-dandiset-assets
+    version: 1
+    question: Does the notebook show how to load assets of the Dandiset?
+    rubric:
+      - score: 0
+        description: No code for loading Dandiset assets
+      - score: 1
+        description: Attempts to load assets but with errors or incomplete code
+      - score: 2
+        description: Successfully loads and lists available assets
+      - score: 3
+        description: Successfully loads assets and demonstrates working with asset metadata
+
+  - name: load-nwb
+    version: 1
+    question: Does the notebook show how to load basic information from an NWB file in the Dandiset?
+    rubric:
+      - score: 0
+        description: No code for loading NWB files
+      - score: 1
+        description: Attempts to load NWB files but with errors or incomplete code
+      - score: 2
+        description: Successfully loads an NWB file and shows basic contents
+      - score: 3
+        description: Successfully loads an NWB file and demonstrates accessing key data structures
+  - name: load-nwb-data
+    version: 1
+    question: How well does the notebook show how to load data from an NWB file in the Dandiset?
+    rubric:
+      - score: 0
+        description: No code for loading data from NWB files
+      - score: 1
+        description: Attempts to load data but with errors or incomplete code
+      - score: 2
+        description: Successfully loads and demonstrates basic data access
+      - score: 3
+        description: Successfully loads and demonstrates advanced data access for multiple data types
+  - name: visualize-nwb-data
+    version: 1
+    question: How well does the notebook show how to visualize data from an NWB file in the Dandiset?
+    rubric:
+      - score: 0
+        description: No code for visualizing data from NWB files
+      - score: 1
+        description: Attempts to visualize data but with errors or incomplete code
+      - score: 2
+        description: Successfully visualizes basic data types
+      - score: 3
+        description: Successfully visualizes multiple data types with clear explanations and examples
+  - name: plot-quality
+    version: 1
+    question: What is the quality of the plots in the notebook?
+    rubric:
+      - score: 0
+        description: No plots or visualizations provided
+      - score: 1
+        description: Plots are present but poorly formatted or difficult to interpret
+      - score: 2
+        description: Plots are clear and well-formatted but have some issues
+      - score: 3
+        description: Plots are clear, well-formatted, and effectively communicate the data
+  - name: plot-quantity
+    version: 1
+    question: How many effective plots are included in the notebook?
+    rubric:
+      - score: 0
+        description: No effective plots or visualizations provided
+      - score: 1
+        description: One or two effective plots are provided
+      - score: 2
+        description: Three or four effective plots are provided
+      - score: 3
+        description: More than four effective plots are provided, demonstrating a variety of data types
+
+

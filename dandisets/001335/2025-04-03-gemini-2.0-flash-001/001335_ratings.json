@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the Dandiset ID, the types of data contained within (Neuropixels recordings), the experimental setup (head-fixed mice during odor presentation), and other key details such as the brain region recorded from (hippocampus). It also states the license, contributors, and keywords. It also describes the NWB file content, like Session, experiment, and Identifier.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including the title, ID (implicitly as it loads the Dandiset with \"001335\"), the purpose of the data (Neuropixels recordings from the hippocampus of head-fixed mice during odor presentation), and the contents of the data (LFP, spike times, epochs for odor presentation) along with the experimental protocol. The markdown cell with the title \"Introduction to Dandiset 001335\" describes the Dandiset and its contents. There are also further details presented in the output of cells when the data is explored. For example, the session description is printed from the NWB file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a title and ID, along with details about the purpose of the study including the subject and task. Also, it describes the contents of the data including neural recordings from the hippocampus during odor presentation.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset and extracts metadata such as session description, identifier, session start time, and experiment description. The code also lists the assets contained within the Dandiset. Thus, it successfully loads and demonstrates key Dandiset metadata fields.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully uses the dandiapi client to load the Dandiset and retrieves and prints the number of assets, as well as the path to each asset. Also, it shows the session description, identifier, start time, and experiment description from Dandiset\u2019s metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset information using the DandiAPIClient and retrieves Dandiset metadata fields such as session description, identifier, session start time, and experiment description. It also successfully lists the assets in the Dandiset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook uses `DandiAPIClient` to get the dandiset and list assets. It then loads the nwb file using a URL to a Lindi file. The notebook also prints basic information about the nwb file. So the notebook successfully loads and lists available assets.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads the Dandiset's assets using the DandiAPIClient, retrieves a list of available assets, and prints their paths. This demonstrates how to load and list the available assets in the Dandiset. The notebook does not show working with asset metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset assets. It uses the DandiAPIClient to get the dandiset and list assets. Therefore the score is 2 or 3. Next, the notebook actually uses the asset to load the NWB file and extracts relevant metadata from the NWB file such as session description, identifier, and start time. Hence the notebook successfully loads assets and demonstrates working with asset metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using `lindi` and `pynwb`. It then prints basic information about the file like session description, identifier, session start time and experiment description. It also explores intervals and plots LFP data and spike times.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi, and prints basic information such as session description, identifier, session start time and experiment description. It then proceeds to demonstrate accessing key data structures like epochs, LFP data, and spike times. Therefore, it satisfies the highest level in the rubric.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the NWB file using lindi and pynwb. It then proceeds to print basic information from the nwb file such as session description, identifier, session start time and experiment description using nwb attributes. Finally it demonstrates accessing key data structures such as intervals, lfp data and spike times.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using `lindi` and `pynwb`. It then demonstrates how to access and explore various data types within the file, including session information, intervals (experimental blocks and odor presentations), LFP data, and spike times for individual units. The notebook visualizes both LFP data and spike time histograms. Therefore, it successfully loads and demonstrates advanced data access for multiple data types, so, based on the rubric, it should receive a high score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using `lindi` and `pynwb`. It then accesses and presents data from different modalities/components of the NWB file, including epochs, LFP data, and spike times. It also explores these data types and plots relevant information to demonstrate data access. Therefore, the notebook not only loads the data but also demonstrates how to explore and visualize LFP and spike time data. This covers reading epochs, LFPs and spike times, which cover the major data types available in this dataset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the NWB file from the Dandiset using `lindi` and `pynwb`. It also accesses and displays basic information from the NWB file, like session description and start time. The notebook shows how to access and visualize LFP data and spike times. It accesses epochs.\n    Multiple types of data are accessed demonstrating advanced usage.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook shows how to visualize LFP data as a time series and spike times using histograms. The provided descriptions are clear and interpretable along with appropriate titles and axis labels for each plot. All the code runs without error. Therefore it successfully visualizes multiple data types with clear explanations and examples.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides code to load an NWB file from a DANDI dataset and visualizes LFP data and spike times. The figures have axis labels. The visualizations are appropriate for the data. The code executes without error.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from a Dandiset and visualizes LFP data and spike times, which are two fundamental data types in electrophysiology. The code runs without errors. The visualizations are accompanied by explanations of what they show, furthering understanding. It should be noted that it does not visualize other types of data, but successfully visualizes these two.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains two plots: one for LFP data and another for spike time histograms. Both plots are reasonably well-formatted, with clear labels and legends. The LFP plot effectively displays LFP data for selected electrodes over time, and the spike time histogram shows the distribution of spike times for different units. The axes are labeled and units communicated. Both plots are clear and readable and informative. I would say they effectively communicate the data.\n\nGiven these observations, the plots are considered clear, well-formatted, and effectively communicate the data.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes two plots: one for LFP data and another for spike time histograms. Both plots are clear and reasonably well-formatted, with labeled axes and legends.  The LFP plot effectively visualizes the data for multiple electrodes over time. The spike time histogram is also informative, showing the distribution of spike times for different units. However, the scaling of the x axis on the spike train histogram is odd, since it is plotting spike times on a scale of thousands of seconds when the experiment duration (from an earlier cell) appears to be on the order of hundreds of seconds. Also the y axis label on the LFP plot is missing units. These minor issues bring the score down.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook produces two plots, one showing LFP data for selected electrodes and the other showing spike time histograms for selected units. Both plots are clear, well-formatted with labels, titles, and legends, and effectively communicate the data. There are no formatting problems hindering interpretation. Therefore, the plots are of high quality.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook contains two plots: LFP data for selected electrodes and Spike Time Histograms for selected units. These are both effective plots, visualizing different types of data from the NWB file. Therefore, the notebook effectively includes two plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes two effective plots. One shows LFP data for selected electrodes and the other displays spike time histograms for selected units. The notebook does not have more than two effective plots. Therefore, the score should be 1.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook provides two effective plots, one for LFP data and another for spike time histograms. Both plots are relevant to the dataset and provide useful visualizations of the data. There are no other effective plots included.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

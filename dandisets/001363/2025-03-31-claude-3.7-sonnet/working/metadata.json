@@ -1,7 +1,0 @@
-{
-  "model": "anthropic/claude-3.7-sonnet",
-  "total_prompt_tokens": 1090609,
-  "total_completion_tokens": 26824,
-  "timestamp": "2025-03-31 16:20:25",
-  "elapsed_time_seconds": 1539.568911075592
-}

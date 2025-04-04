@@ -1,7 +1,0 @@
-{
-  "model": "google/gemini-2.0-flash-001",
-  "total_prompt_tokens": 257380,
-  "total_completion_tokens": 5202,
-  "timestamp": "2025-03-28 15:09:58",
-  "elapsed_time_seconds": 91.27846670150757
-}
