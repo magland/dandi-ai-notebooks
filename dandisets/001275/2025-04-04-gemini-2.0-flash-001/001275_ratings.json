@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a good description of the Dandiset, including its title, ID, the purpose of the data collection, a link to the publication, and details of its contents (mental navigation task, primate PPC, electrophysiology data). It also includes the license, contributor and measurement technique. A clear and comprehensive description is included at the start.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including the title, ID (001275), purpose, and a description of the data contents (neurophysiology data from primates during a mental navigation task, including data from the entorhinal cortex). Several key metadata are also included. Thus, most of the criteria for a 3 are met.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a reasonable introduction to the dataset. It includes the Dandiset ID, title, a short description, license, contributors, and measurement technique. It also lists the files within the Dandiset and where the data comes from.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset information using the DANDI API. It prints the number of assets and the paths of each asset, which illustrates the structure of the Dandiset and how to access its contents. The notebook also presents key metadata such as name, description, license, contributors and measurement technique.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DANDI API to access the dandiset and retrieve asset information, and displays the number of assets as well as names of assets contained within, plus some dandiset metadata. Also basic metadata as description, name, license, contributors, and measurement technique are printed.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook loads the dandiset using the DandiAPIClient and retrieves assets, prints the number of assets, and the path of each asset. It also prints the session description, identifier, and session start time. This demonstrates access to key Dandiset metadata fields. The notebook successfully loads and demonstrates key Dandiset metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads and lists the available assets from the Dandiset using the DANDI API. It also loads a specific asset (NWB file) and proceeds to explore its contents, demonstrating working with asset metadata (session description, session start time, etc). Thus, it goes beyond just loading and listing assets, and shows how to access and use info within the asset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads assets using the DANDI API and lists their paths. It then loads a specific NWB file using Lindi. It also displays the session description, identifier, and session start time from the loaded NWB file, demonstrating working with asset metadata. Thus it loads assets from the Dandiset and demonstrates working with asset metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset assets using the DANDI API, lists the assets, and iterates through them to print their paths. It also uses lindi to load one nwb file.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI archive using lindi, and demonstrates how to access key data structures, such as session description, identifier, start time, electrical series data, sampling rate, and electrode IDs. It correctly extracts and plots a subset of the data, showcasing how to visualize the neural activity. Therefore, it fulfills the requirements for a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file, accesses session information, obtains electrical series data, including the data itself, sampling rate, and electrode IDs. Thus, it demonstrates accessing key data structures such as nwb.session_description and nwb.acquisition[\"ElectricalSeriesVP0\"].",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and accesses basic information such as session description, identifier, session start time, and electrical series data. It also displays electrode IDs and plots a subset of the data. Therefore, it demonstrates accessing key data structures within the NWB file. Thus, the notebook receives a score of 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from an NWB file in the Dandiset, accesses specific data like session description, identifier, start time, ElectricalSeries data, sampling rate, and electrode IDs. It then plots a subset of the loaded data. This demonstrates loading data and basic data access. Thus, a score of 2 is appropriate here.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the dandiset using lindi, then accesses and prints metadata, and finally loads, selects, and plots a subset of the ElectricalSeries data. While it does not cover every possible data type, it adequately demonstrates how to load and visualize extracellular electrophysiology data stored in an NWB file within the dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads the NWB file, accesses specific data fields like session description, identifier, and start time. It also retrieves ElectricalSeries data, including the data array, sampling rate, and electrode IDs, and correctly plots a subset of this data. Basic, therefore a 2.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads and visualizes extracellular electrophysiology data from an NWB file. It plots a time series of voltage for multiple channels, including appropriate labels and a title. The notebook also provides explanations of the code and the resulting plot. However, the plot is of a very short time duration and shows essentially flat lines, preventing a truly good assessment of visualization capabilities. The notebook focuses on a single data type. Therefore, a score of 3 is most appropriate. The notebook successfully visualizes a basic data type with clear explanations and examples.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes the ElectricalSeries data from the NWB file. The notebook loads an NWB file, extract electrical series data, and plots a subset of the data to visualize neural activity. The code includes clear labels and explanations. The time axis is also calculated. Thus the notebook does show how to visualize data. There are multiple data types visualized including session description, session start time, data shape, sampling rate, electrode IDs, and the voltage traces. So the notebook scores a 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the dandiset, accesses electrical series data, and plots a subset of the data. The code is functional and includes clear labels and a title for the plot. It presents a clear example of visualizing a basic data type (electrophysiological data) from an NWB file. It does, however, only visualize one data type.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes one plot. The plot is well-formatted with labels, title, and legend, making it generally clear and easy to interpret. The plot shows the voltage for four electrode channels over time. There is a RuntimeWarning about overflow, but the plot is generated correctly. I am giving it a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes one plot of extracellular electrophysiology data. The plot is reasonably well-formatted with clear labels, a title, and a legend. However, the data shown in the plot appear to be relatively flat near zero. The data extraction and plotting code contains try-except blocks which would catch errors; this is good practice. The values on the y axis are in scientific notation, which is acceptable, but the plot is not particularly informative, as there is little visible activity within the chosen time window. A better plot might involve picking a different time window, or using more channels.\n    The x axis is appropriate given the sampling rate.\n    Because there is numerical overflow error, the plot would benefit from some refinement.\n    Overall the plot is acceptable.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "One plot is generated. However, the y axis is displayed with an exponent, and the signal is close to zero, making it difficult to interpret the values. The rest of the plot is well-formatted.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 1.0,
+            "reps": [
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook generates one plot, which displays extracellular electrophysiology data for four channels over a short time window. Although the plot shows data, the flat lines for each channel make it not very informative. Thus, there is one plot, but it is not very effective.",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook generated one plot of neural activity. The plot shows extracellular electrophysiology data for 4 channels over time. No other plots are generated in the notebook.",
+                    "repnum": 1
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook includes one plot of extracellular electrophysiology data. The plot's x-axis is time in seconds, and the y-axis represents voltage in uV. Four channels are displayed on the plot. Given this, only one effective plot is included. Note that the warnings during the \"Error plotting data\" step does not indicate a total failure of plot generation. It appears the plot was created correctly and it's a warning related to x-axis transformation.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

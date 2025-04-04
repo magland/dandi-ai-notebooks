@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID, purpose (investigating neuronal response to tFUS), and the type of data it contains (neural spiking data from rat somatosensory cortex). It also gives the method of stimulation and recording along with the animal used in the experiment.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID (\"001363\"), purpose (investigating neuronal response to tFUS), and data contents (neural spiking data in rat somatosensory cortex, NWB files). The introductory section sets the context by mentioning the experimental setup and the type of data acquired. Therefore, it meets all criteria for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset at the beginning, including the title, ID, purpose of the study (tFUS stimulation), and data contents (neuronal response and NWB files). It also instructs the user to load a specific NWB file from the Dandiset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DANDI API to load the dandiset and access its assets. It then prints basic information about the NWB file, which can be considered Dandiset metadata. It successfully loads and demonstrates key Dandiset metadata fields such as session description, identifier, and session start time.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the DANDI API and retrieves the number of assets, demonstrating the retrieval of fundamental Dandiset information. The code executes without errors and provides a clear indication of successfully accessing Dandiset metadata. Further, the notebook loads particular NWB files within the dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DandiAPIClient to load the Dandiset and retrieve asset information. It then prints the number of assets found. The notebook also loads the NWB file and prints basic metadata like session description, identifier, and session start time. The notebook demonstrates how to load and access key Dandiset metadata fields, like session description and identifier, this aligns with a score of 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads the assets of the specified Dandiset using the DANDI API and lists the number of assets found. The notebook also proceeds to load a specific asset. Therefore, it satisfies the condition of successfully loading and listing available assets.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DANDI API to retrieve the Dandiset and lists the available assets. The code is complete and functional. Furthermore, it accesses the metadata for the files available in the dandiset, providing all the necessary components to work with the dandiset. Therefore, the notebook successfully loads assets and demonstrates working with asset metadata",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads and lists the available assets in the Dandiset using the DANDI API.\nThe first cell accomplishes this task, as shown in the provided \"OUTPUT-TEXT\".\nHowever, it does not work with the metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from DANDI using pynwb and lindi. It then accesses and prints basic information such as the session description, identifier, and start time. Furthermore, it demonstrates accessing data from the ElectricalSeries and plotting raw data, power spectral density, and trial start/stop times. This indicates successful loading and access to key data structures within the NWB file. Since it sucessfully loads an NWB file and demonstrates accessing key data structures, the score should be 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and demonstrates accessing key data structures such as session description, identifier, session start time, electrical series data, electrode locations, and trial start/stop times. The notebook also visualizes these data. Therefore, it meets the criteria for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file using the lindi library, prints basic information such as session description, identifier, and session start time. The notebook also visualizes raw data, power spectral density and trial start and stop times. This covers several key data structures in the NWB file. Therefore the notebook succesfully loads an NWB file and demonstrates accessing key data structures.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file and demonstrates basic data access, including session description, identifier, start time, raw data, power spectral density, and trial start/stop times. It accesses data from \"ElectricalSeries\" and \"trials\" which are standard NWB data types. However it does not show loading information from multiple data types. Therefore it is a 2.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from a remote NWB file using lindi and pynwb. It demonstrates basic data access by printing session information, plotting raw data from an electrode, plotting the power spectral density, and plotting trial start and stop times. It doesn't show advanced data access techniques or multiple data types in great detail, but it does showcase accessing and visualizing multiple components of a single NWB file. The code runs without errors and provides useful insights into the data structure. Note that loading only the first NWB file might not represent the whole Dandiset which may contain heterogeneous data.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file and accesses its contents, including session information, electrical series data, and trial start/stop times. It demonstrates basic data access by plotting raw data, power spectral density, and trial timings. Therefore, the score is 2.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides example code to successfully visualize raw data, power spectral density, and trial start and stop times. The code includes clear labels and titles on the plots. The notebook provided explanations for each visualization making it easy to understand the visualizations.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes raw data, power spectral density, and trial start/stop times from an NWB file. The plots are labeled and there are descriptions. Therefore, the notebook successfully visualizes multiple data types with clear explanations and examples.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook loads an NWB file from the Dandiset, access the electrical series and trial information, and generates visualizations of the raw data, power spectral density, and trial start/stop times. The visualizations are accompanied by brief descriptions which aid in understanding. Therefore it successfully visualizes multiple data types with clear explanations and examples.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook generates three plots: raw data from an electrode, power spectral density, and trial start/stop times. The plots are generally clear and well-formatted, with labels, titles, and legends (where appropriate). However, there is a minor issue in the raw data plot. Although it's labeled, the y-axis scaling could be improved to prevent overlapping values and better show the data.\n\nOverall, the plots are effective in communicating the data.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The plots are generally clear and well-formatted. They include labels, titles, and legends, and the axes are properly labeled. The plots do effectively communicate the data. No obvious issues were identified. The plots are saved to the tmp folder, which is good for reproducibility.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook generates three plots: raw data from an electrode, power spectral density, and trial start/stop times. All plots have axes labels, titles, and legends where appropriate. They are generally well-formatted and easy to understand. The plots effectively help in communicating the data. The plots are saved to a directory. The only minor issue is that the y axis label in the PSD plot is hard to read because the exponent is not formatted to be a superscript.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes three plots: Raw data from an electrode, power spectral density, and trial start/stop times. All three plots are relevant and informative, thus demonstrating effective visualization.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook provides three effective plots: raw data from an electrode, power spectral density of the same electrode, and trial start/stop times. Therefore, the score is 2.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes three plots: Raw data from an electrode, power spectral density, and trial start/stop times. All three plots are effective visualizations of the data they are presenting. Thus the notebook includes three effective plots.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
