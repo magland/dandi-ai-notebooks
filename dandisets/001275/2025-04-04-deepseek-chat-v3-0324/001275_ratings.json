@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, including its ID, purpose (mental navigation task in primates), and the types of data it contains (behavioral, eye tracking, electrophysiology). It also mentions the subjects and some details on the experimental conditions. This meets all the criteria for a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the title (\"Dandiset 001275 Analysis Notebook\"), the ID (001275), the purpose (exploring neurophysiology data from primates performing a mental navigation task), and the contents of the data (behavioral data, eye/hand position tracking, electrophysiology recordings). The overview provided in the beginning gives enough information to fulfill the criteria for a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset, starting with the title and ID. It goes on to explain the purpose of the study (mental navigation in primates) and provides details about the data contents, including behavioral data, eye/hand position tracking, and extracellular electrophysiology recordings. It also mentions the data format (NWB) and the subjects (macaques). This includes title, ID, purpose, and data contents.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset metadata including the Dandiset ID and then iterates through the assets to display their paths and sizes. This constitutes loading and demonstrating key Dandiset metadata fields.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads dandiset information using the dandiapi client and retrieves metadata. It shows the number of assets and provides the names and sizes of a few of them. Later, it loads data from a specific asset. Overall, the notebook accesses and showcases key Dandiset metadata fields like asset paths and sizes in addition to downloading the nwb file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook connects to the DANDI API, retrieves the Dandiset, and lists the assets. It prints the number of assets and provides metadata (path and size) for the first three assets, demonstrating successful loading and demonstration of key Dandiset metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully connects to the DANDI API, retrieves the Dandiset \"001275\", lists the available assets, and prints the file paths and sizes of the first few assets. This indicates that it not only loads the assets (or at least their metadata) but also demonstrates working with asset metadata. Thus, the notebook meets the criteria for a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully connects to the DANDI API, retrieves the dandiset, and lists the assets along with their file paths and sizes. This fulfills the criteria for loading and listing available assets, as well as demonstrating working with asset metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads and lists the assets of the Dandiset using the DandiAPIClient. It also shows how to access the metadata of individual assets (path, size). Therefore, the code successfully loads the assets and demonstrates working with asset metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the dandiset using lindi.LindiH5pyFile and pynwb.NWBHDF5IO and then prints the session description, subject ID, and start time. It also accesses the trials data (trial type, success, and rt) and unit's data (spike times) demonstrating how to load and access the core data structures, but could delve deeper into exploring the data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file using `pynwb` and `lindi`. It accesses key data structures like `session_description`, `subject`, and `trials`. It also explores unit spike times, demonstrating how to use the NWB file structure to access data. Therefore, it demonstrates loading the NWB file and accessing key data structures effectively.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI API and demonstrates accessing key data structures such as session description, subject ID, trial data, and neural activity. The notebook also provides code to explore and visualize the loaded data, indicating a good understanding of the NWB file structure. Specifically, it shows how to access and utilise behavioral data (joystick movements, trial outcomes), eye and hand position tracking and extracellular electrophysiology recordings from parietal cortex.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi and pynwb. It then accesses and prints session information, subject ID, and start time. It also demonstrates accessing trial data, neural activity (spike times), and behavioral performance (response times). Therefore, it successfully loads and demonstrates basic data access.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using a provided URL and demonstrates basic data access by printing the session description, subject ID, and start time. It also accesses and visualizes behavioral and neural data, indicating successful loading and access of multiple data types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and demonstrates how to access basic data such as session description, subject ID, start time, trial data, and neural activity. It covers multiple data types including behavioral and electrophysiological data. Therefore, it gets a score of 3.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes multiple data types including trial success rates, spike times, and response time distributions. The notebook also provides explanations of the plots and data being visualized, along with example code. Therefore, the notebook successfully visualizes multiple data types with clear explanations and examples.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes several data types from the NWB file: trial types and success rates (behavioral), spike times (neural activity), and response times (behavioral). The notebook provides clear explanations for the visualizations, axes labels, and titles. Example code is included. Thus the notebook successfully visualizes multiple data types with clear explanations and examples.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes several data types from the NWB file, including trial success rates, neural spike times, and response time distributions. The visualizations are accompanied by explanations, and the code executes without errors.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains three plots. All the plots are appropriately labeled and formatted, effectively conveying the data. The spike time plot could be improved by rasterizing the y-axis, however, the plot is overall useful.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains 3 plots. They are all clear, well formatted and effectively communicate the data. The plots have titles and labeled axis. The response time plot might need to have a closer look to response times closer to zero, which is where the distribution is, but this is more of a suggestion for improvement. But as it stands all requirements for a score of 3 is met.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains 3 plots. The plots are generally clear and well-formatted, including axis labels, titles, and legends where appropriate. The first plot could be improved if the bar plot did not have floats for categorical variables on the x-axis (fixed in edit), but otherwise are high quality. However, the spike time plot is not displaying properly where the different unit counts should be on the respective y-axis value. Additionally, the first plot is missing one trial type.\n\n    EDIT: Based on the image, the x labels have been edited, resulting in higher quality.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains three plots: success rates by trial condition, spike times from parietal cortex, and the distribution of response times. All three plots are effective at visualizing the data they are presenting. Thus, there are three effective plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains three distinct plots: success rates by trial condition, spike times from parietal cortex, and a distribution of response times. Each plot provides a visual summary that is easy to interpret for the data it represents, fitting the definition of being effective.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes three plots: a bar plot of success rates by trial condition, a scatter plot of example spike times, and a histogram of response times. All plots are effective in visualizing the corresponding data. Therefore, the score is 2.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
