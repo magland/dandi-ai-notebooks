@@ -4,6 +4,7 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
+| [000945.ipynb](dandisets/000945/2025-04-04-gemini-2.0-flash-001/000945.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:33:24 | 64.18 | 2 | 279.9k + 4.297k / 5.3k + 0.137k | 0.03 + 0.00 |
 | [001276.ipynb](dandisets/001276/2025-04-04-gemini-2.0-flash-001/001276.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:31:32 | 138.77 | 1 | 229.4k + 1.359k / 3.8k + 0.063k | 0.02 + 0.00 |
 | [000673.ipynb](dandisets/000673/2025-04-04-gemini-2.0-flash-001/000673.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:26:01 | 57.59 | 3 | 208.3k + 6.712k / 4.5k + 0.299k | 0.02 + 0.00 |
 | [001366.ipynb](dandisets/001366/2025-04-04-gemini-2.0-flash-001/001366.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:22:58 | 57.61 | 1 | 214.4k + 4.176k / 3.9k + 0.288k | 0.02 + 0.00 |
@@ -19,6 +20,24 @@
 | [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k + 0.0k / 2.9k + 0.0k | 0.03 + 0.00 |
 | [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:03:57 | 1090.70 | 4 | 485.2k + 0.0k / 11.4k + 0.0k | 0.14 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k + 0.0k / 4.0k + 0.0k | 0.05 + 0.00 |
+
+## Dandiset 000945
+
+### 2025-04-04-gemini-2.0-flash-001
+
+**Model:** google/gemini-2.0-flash-001  
+**Generated:** 2025-04-04 12:33:24  
+**Generation Time:** 64.18s  
+**Prompt Tokens:** 279.9k  
+**Completion Tokens:** 5.3k  
+**Estimated Cost:** $0.03  
+**Notebook:** [000945.ipynb](dandisets/000945/2025-04-04-gemini-2.0-flash-001/000945.ipynb)  
+
+**Generated Images:**
+
+![000945_15_0.png](dandisets/000945/2025-04-04-gemini-2.0-flash-001/000945_files/000945_15_0.png)  
+![000945_18_0.png](dandisets/000945/2025-04-04-gemini-2.0-flash-001/000945_files/000945_18_0.png)  
+
 
 ## Dandiset 001276
 
