@@ -4,6 +4,8 @@
 
 | Notebook | Folder | Model | Generated At | Generation Time (s) | Images | Tokens | Est $ |
 |----------|---------|-------|--------------|---------------------|--------| ------ | ----- |
+| [001275.ipynb](dandisets/001275/2025-04-04-deepseek-chat-v3-0324/001275.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:56:59 | 420.59 | 3 | 189.0k + 0.134k / 3.8k + 0.338k | 0.06 + 0.00 |
+| [001363.ipynb](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363.ipynb) | 2025-04-04-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-04 14:49:55 | 923.82 | 7 | 1341.8k + 13.194k / 22.7k + 2.138k | 4.37 + 0.07 |
 | [001333.ipynb](dandisets/001333/2025-04-04-deepseek-chat-v3-0324/001333.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:34:28 | 140.00 | 1 | 163.5k + 0.0k / 2.0k + 0.0k | 0.05 + 0.00 |
 | [001276.ipynb](dandisets/001276/2025-04-04-deepseek-chat-v3-0324/001276.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:14:18 | 435.83 | 1 | 336.4k + 0.098k / 4.9k + 0.303k | 0.10 + 0.00 |
 | [000673.ipynb](dandisets/000673/2025-04-04-deepseek-chat-v3-0324/000673.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 13:20:49 | 669.76 | 3 | 243.1k + 0.187k / 5.1k + 0.33k | 0.07 + 0.00 |
@@ -30,6 +32,48 @@
 | [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k + 0.0k / 2.9k + 0.0k | 0.03 + 0.00 |
 | [000945.ipynb](dandisets/000945/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:03:57 | 1090.70 | 4 | 485.2k + 0.0k / 11.4k + 0.0k | 0.14 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k + 0.0k / 4.0k + 0.0k | 0.05 + 0.00 |
+
+## Dandiset 001275
+
+### 2025-04-04-deepseek-chat-v3-0324
+
+**Model:** deepseek/deepseek-chat-v3-0324  
+**Generated:** 2025-04-04 14:56:59  
+**Generation Time:** 420.59s  
+**Prompt Tokens:** 189.0k  
+**Completion Tokens:** 3.8k  
+**Estimated Cost:** $0.06  
+**Notebook:** [001275.ipynb](dandisets/001275/2025-04-04-deepseek-chat-v3-0324/001275.ipynb)  
+
+**Generated Images:**
+
+![001275_10_0.png](dandisets/001275/2025-04-04-deepseek-chat-v3-0324/001275_files/001275_10_0.png)  
+![001275_12_0.png](dandisets/001275/2025-04-04-deepseek-chat-v3-0324/001275_files/001275_12_0.png)  
+![001275_8_1.png](dandisets/001275/2025-04-04-deepseek-chat-v3-0324/001275_files/001275_8_1.png)  
+
+
+## Dandiset 001363
+
+### 2025-04-04-claude-3.7-sonnet
+
+**Model:** anthropic/claude-3.7-sonnet  
+**Generated:** 2025-04-04 14:49:55  
+**Generation Time:** 923.82s  
+**Prompt Tokens:** 1341.8k  
+**Completion Tokens:** 22.7k  
+**Estimated Cost:** $4.37  
+**Notebook:** [001363.ipynb](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363.ipynb)  
+
+**Generated Images:**
+
+![001363_18_1.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_18_1.png)  
+![001363_22_0.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_22_0.png)  
+![001363_24_0.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_24_0.png)  
+![001363_26_2.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_26_2.png)  
+![001363_28_0.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_28_0.png)  
+![001363_30_0.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_30_0.png)  
+![001363_38_0.png](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363_files/001363_38_0.png)  
+
 
 ## Dandiset 001333
 
