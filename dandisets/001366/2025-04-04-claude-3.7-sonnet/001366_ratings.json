@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear description of the Dandiset. It includes the title, ID, purpose (comparison of approaches for vessel quantification), and a summary of the data content (imaging data of pial vessels). The notebook also mentions specific techniques used in the dataset, such as Radon transform and FWHM, fulfilling the criteria for a score of 3.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook clearly introduces and describes the Dandiset '001366' with its title, purpose (comparison of approaches for vessel diameter and pulsatility quantification), and the data contents (imaging data of pial vessels in mice). It also mentions the techniques used in the dataset (Radon transform and FWHM). The introduction and loading sections explicitly describe the Dandiset, its metadata, and the included NWB files. Therefore, the notebook provides a good description beyond just the title and ID.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides a clear and detailed description of the Dandiset, including its title, ID, purpose (comparison of approaches for vessel quantification), and data contents (imaging data of pial vessels in mice). It even shows metadata like contributors and keywords.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads dandiset info, including name, description, contributors and keywords. The code runs without errors.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the Dandiset metadata including name, description, contributors and keywords. It also displays dandiset ID and version. The loading code is complete and correct.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads Dandiset metadata using the DANDI API, listing assets, and printing Dandiset name, description, contributors, and keywords. Thus, it demonstrates all key metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads assets from the Dandiset using the DANDI API, lists them, and prints their metadata (path, size, ID). The notebook also uses `lindi` to load the nwb files.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook uses the DANDI API to retrieve the Dandiset, lists the available assets with their paths and sizes, and accesses detailed information about each asset, thus demonstrating successful loading and use of asset metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads the assets of the Dandiset, explores their metadata (size, path, identifier), and retrieves the Dandiset metadata. Therefore, all components of the rubric are satisfied.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files, accesses 'acquisition' to find the 'movies' entry and retrieve its dimensions, rate and other metadata. Thus, the notebook successfully loads an NWB file and demonstrates accessing key data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads two NWB files from Dandiset 001366, and demonstrates accessing key data structures such as session description, subject information, and movie data (dimensions, sampling rate). The notebook uses lindi and pynwb to achieve this. It also displays the first frame of the movie. Therefore, the notebook loads the file and gives basic information.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook explores the basics of loading an NWB file in the DANDISET. It uses standard NWB libraries and functions to access and display key data structures such as trials, epochs, and intervals. The code is well-structured and runs without errors. The notebook effectively teaches a user how to load basic information from an NWB file.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads data from two NWB files in the dandiset using lindi and pynwb. It then accesses the movie data and metadata, plots data, and performs analysis, so it successfully loads and demonstrates advanced data access for multiple data types. It also accesses a good variety of metadata/subject fields.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads NWB files from the Dandiset, and demonstrates access to different data types, including ImageSeries, metadata, and subjects. It accesses and visualizes the movie data, computes temporal analysis, and calculates vessel diameter using different approaches. Therefore, it shows advanced data access.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook successfully loads data from two NWB files using lindi and pynwb, demonstrating basic data access like session description, subject ID, and movie dimensions. It also accesses and visualizes the image data. The code executes without errors and the information is clearly presented.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook loads data from an NWB file and visualizes different data types (images, time series). It enhances contrast for better visualization and uses difference images, standard deviation projections for visual exploration of vessel pulsation. It visualizes regions of interest and intensity profiles. Multiple visualizations are created through the notebook with appropriate context and descriptions. Hence it successfully visualizes multiple data types.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook effectively demonstrates visualizing multiple data types within the NWB files, including image data and intensity profiles. It offers clear visualizations with contrast enhancements to showcase vessel images. It goes further by showing temporal analysis and diameter measurement techniques with supporting visualizations. The notebook successfully visualizes data with explanations and examples.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully visualizes several data types from the NWB file, including individual frames, difference images, standard deviation projections, maximum intensity projections, ROIs, intensity profiles, and Radon transforms. The code is complete and produces meaningful visualizations with clear explanations.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 2.6666666666666665,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains various plots that are generally well-formatted and help visualize the data. Contrast enhancement is used effectively to display the images. Some plots include colorbars and appropriate labels. However, the initial FWHM diameter measurement fails, and the diameter over time plot only has very few data points, resulting in a failed frequency analysis. Although the plots are present, there is room for improvement in extracting meaningful information from the plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook presents a single plot, which is displayed clearly and well-formatted. It effectively communicates the data but is a bit basic (no secondary plots, for example).",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook includes several plots that are generally well-formatted and contribute to the understanding of the data. Contrast enhancement aids visualization, and plots like the intensity profiles, Radon transform sinogram, and vessel diameter over time are effective. The plots are reasonably clear and labeled. However, some plots, such as the difference image, standard deviation projection, and maximum intensity projection could benefit from improved color scaling or more informative labels to better convey the information. Overall, the plots effectively communicate the data despite some minor issues. The images are not displayed. An image displaying ability would be useful.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 2.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "Multiple effective plots are used to present the data.\n\nI count more than 4 effective plots, including:\n- First frame visualization\n- Middle Frame visualization\n- Difference between frames visualization\n- Standard Deviation Projection visualization\n- Intensity profiles\n- Vessel diameter over time\n- Radon transform",
+                    "repnum": 0
+                },
+                {
+                    "score": 1.0,
+                    "thinking": "The notebook presents one clear visualization of extracted parameters, with a plot providing intensity across position. The plot at the end of the notebook is effective and relevant. The previous plot in the notebook is merely a thumbnail. Therefore, the total number of plots is one.",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "A large number of effective plots are provided to interpret different aspects of the data. The plots are visualizing single-frame data, time-series data and data resulting from image processing and analysis. The plots contribute to understanding the dataset and the analytical process used.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
