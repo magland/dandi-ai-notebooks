@@ -384,6 +384,37 @@
       }
     },
     {
+      "dandiset_id": "001333",
+      "subfolder": "2025-04-04-gemini-2.0-flash-001",
+      "config": {
+        "model": "google/gemini-2.0-flash-001"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-5.10.234-225.910.amzn2.x86_64-x86_64-with-glibc2.39",
+          "hostname": "jupyter-magland",
+          "processor": "x86_64",
+          "python_version": "3.11.10"
+        },
+        "model": "google/gemini-2.0-flash-001",
+        "vision_model": "google/gemini-2.0-flash-001",
+        "total_prompt_tokens": 800624,
+        "total_completion_tokens": 12686,
+        "total_vision_prompt_tokens": 2412,
+        "total_vision_completion_tokens": 66,
+        "timestamp": "2025-04-04 12:36:12",
+        "elapsed_time_seconds": 117.27609133720398
+      },
+      "paths": {
+        "notebook": "dandisets/001333/2025-04-04-gemini-2.0-flash-001/001333.ipynb",
+        "html": "dandisets/001333/2025-04-04-gemini-2.0-flash-001/001333.html",
+        "images": [
+          "dandisets/001333/2025-04-04-gemini-2.0-flash-001/001333_files/001333_10_0.png"
+        ]
+      }
+    },
+    {
       "dandiset_id": "001174",
       "subfolder": "2025-04-01-deepseek-chat-v3-0324",
       "config": {
