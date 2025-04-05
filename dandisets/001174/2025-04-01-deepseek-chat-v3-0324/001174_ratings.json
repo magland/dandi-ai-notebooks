@@ -3,21 +3,21 @@
         {
             "name": "describe-dandiset",
             "version": 1,
-            "score": 3.0,
+            "score": 7.666666666666667,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description of the Dandiset, including its purpose (calcium imaging data from macaques), key details about the data (SMA and M1 regions, reaching tasks, GCaMP6f), and contents.",
+                    "score": 5.0,
+                    "thinking": "The notebook includes the Dandiset ID and title and provides a brief description of the data including species, modality, and experimental task.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description including title, ID, purpose, and data contents. The notebook starts with an overview including key details such as the species, license, and keywords.",
+                    "score": 9.0,
+                    "thinking": "The notebook provides comprehensive information about the dandiset: title, ID, purpose of the dataset, contents (calcium imaging data from SMA and M1 of macaques), and basic metadata (species, license, keywords). The notebook introduces the dataset and illustrates its basic contents, including the imaging data and fluorescence traces. The notebook further provides information related to the structure, such as the data shape, frame rate, etc. The inclusion of next steps and important notes contributes to the score.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook clearly describes the Dandiset. It includes the title, ID, a brief purpose, and information about the data contents (calcium imaging data from SMA and M1, species, imaging methods, and basic info about the structure of the data in the NWB file). Thus the score is 3.",
+                    "score": 9.0,
+                    "thinking": "The notebook includes the Dandiset ID and title. It also provides a description of the purpose, contents, and basic metadata (species, license, keywords). The notebook also explores the structure of the NWB file within the Dandiset. Therefore, a score of 9 is appropriate.",
                     "repnum": 2
                 }
             ]
@@ -25,21 +25,21 @@
         {
             "name": "load-dandiset",
             "version": 1,
-            "score": 3.0,
+            "score": 6.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the Dandiset and retrieves/prints the number of assets. It also accesses and prints session description, subject ID, and session start time from a sample NWB file within the Dandiset. Thus, it demonstrates loading and using Dandiset metadata fields.",
+                    "score": 6.0,
+                    "thinking": "The notebook starts by listing the assets and retrieves the dandiset id. It then prints the session description, subject id, and session start time. This demonstrates a successful attempt to load and display basic metadata fields associated with the Dandiset. The notebook does not explore all metadata fields in great detail, but does load and display multiple key elements, meriting a score of 6.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads dandiset using the DandiAPIClient and retrieves the list of assets. Also, it prints the session description, subject ID, and session start time from the loaded NWB file. This displays the key metadata fields available in the dandiset. I choose a score of 3.",
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the DandiAPIClient, retrieves the Dandiset ID, and lists the assets within the Dandiset. It then prints the number of assets found. Additionally, it loads and displays basic metadata fields, such as session description, subject ID, and session start time from a sample NWB file retrieved from the Dandiset. This demonstrates loading and displaying basic metadata fields of the dandiset. Therefore, the notebook demonstrates more than minimal metadata loading, but less than thorough exploration.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the Dandiset and retrieves the number of assets in it. Some metadata fields like session description, subject ID, and session start time are also accessed and printed. Therefore, the notebook successfully loads and demonstrates key Dandiset metadata fields.",
+                    "score": 6.0,
+                    "thinking": "The notebook loads the Dandiset and displays the number of assets. It then reads a specific NWB file from the Dandiset and prints its session description, subject ID, and session start time demonstrating successful loading and displaying of basic metadata fields. Therefore the score is 6.",
                     "repnum": 2
                 }
             ]
@@ -47,21 +47,21 @@
         {
             "name": "load-dandiset-assets",
             "version": 1,
-            "score": 3.0,
+            "score": 6.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the Dandiset and lists the assets present, using the `dandiapi` client. It also demonstrates how to get information about a specific asset using its ID, and how to open it as an NWB file. This demonstrates working with asset metadata, such as the number of frames and framerate.",
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the Dandiset assets using the DandiAPIClient and lists the available assets. It then proceeds to load a specific asset, explores its metadata (session description, subject ID, session start time), and visualizes data from it. Thus, the notebook clearly demonstrates how to load and interact with dandiset assets. It then loads data from a specific NWB file and plots segments and fluorescence. There are examples of how to load the files as well as printing the number of assets. Hence, loading is shown and basic metadata is presented. However, access to lower-level metadata like experimenter and methods is missing\n\nI am giving this a score of 6 instead of a 7 because it is not showing how to access asset metadata in general, it is accessing specific asset attributes like 'session description' and 'subject ID'.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the DANDI API client, retrieves a specific Dandiset using its ID, and then lists the assets contained within that Dandiset. This demonstrates that the notebook can load assets from the Dandiset and shows how to examine them.",
+                    "score": 6.0,
+                    "thinking": "The notebook begins by loading the Dandiset and lists the available assets. Then, a specific asset, based on its URL, is used for subsequent calcium imaging data exploration. It does not specifically show how to access asset metadata in a dedicated section, but displays the loaded data.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads and lists the assets in the Dandiset using DandiAPIClient. The notebook then uses one of the assets to perform the downstream analysis. The notebook also prints the number of assets.",
+                    "score": 6.0,
+                    "thinking": "The notebook begins by loading DandiAPIClient and using it to get the dandiset, then lists the assets. Following that, it loads a specific asset and prints its metadata. The notebook thus demonstrates asset loading and metadata access, but lacks comprehensive handling or exploration of multiple asset types. The score is thus between 5 and 7.",
                     "repnum": 2
                 }
             ]
@@ -69,21 +69,21 @@
         {
             "name": "load-nwb",
             "version": 1,
-            "score": 3.0,
+            "score": 7.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file from the specified DANDI dataset and demonstrates accessing key data structures such as OnePhotonSeries, Fluorescence, and ImageSegmentation. The code extracts and prints basic metadata and plots sample frames, fluorescence traces, and spatial footprints. Therefore, the notebook effectively shows how to load and explore a basic NWB file in the Dandiset.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI archive, prints basic metadata like session description and subject ID, and then explores several key components: OnePhotonSeries (raw imaging data), Fluorescence (processed traces), and ImageSegmentation (spatial footprints). Basic attributes of these objects like shape and sampling rate are displayed as well. The notebook effectively demonstrates how to open and explore basic NWB components.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook uses lindi to access an NWB file in the dandiset, prints basic metadata such as session description and subject ID, and accesses key data structures like OnePhotonSeries and Fluorescence. It also plots sample frames and fluorescence traces.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from a DANDI dataset using `lindi` and `pynwb`. It prints basic file metadata such as session description, subject ID, and session start time, demonstrating the ability to access basic NWB components. It also explores `OnePhotonSeries`, `Fluorescence`, and `ImageSegmentation` data structures, showcasing an understanding of the NWB file structure and ability to navigate its hierarchy. The notebook demonstrates accessing and visualizing these components, indicating a solid grasp of NWB file exploration. Therefore the notebook gets a score of 7 for exploring multiple NWB data structures.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file using `lindi` and `pynwb`, and then proceeds to extract and print basic information such as session description, subject ID, and session start time. It further demonstrates accessing key data structures like `OnePhotonSeries`, `Fluorescence`, and `ImageSegmentation`, displaying their contents. Thus all conditions for a score of \"3\" are met.",
+                    "score": 7.0,
+                    "thinking": "The notebook loads an NWB file from a DANDI dataset. It then shows how to access the session description, subject ID, session start time, OnePhotonSeries data, and fluorescence traces, exploring multiple NWB data structures. It also visualizes these data structures. Therefore, it demonstrates accessing several basic NWB components, and explores multiple data structures.",
                     "repnum": 2
                 }
             ]
@@ -91,21 +91,21 @@
         {
             "name": "load-nwb-data",
             "version": 1,
-            "score": 3.0,
+            "score": 7.666666666666667,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file from the DANDI dataset using lindi and pynwb. It then proceeds to access and display different data types within the file, including OnePhotonSeries (raw imaging data), Fluorescence (processed traces), and ImageSegmentation (spatial footprints).  The notebook shows how to access metadata and the different data structures and plots them. Thus it successfully loads and demonstrates advanced data access for multiple data types.",
+                    "score": 8.0,
+                    "thinking": "The notebook effectively demonstrates how to load data from an NWB file within the Dandiset. It begins by loading the NWB file using `lindi` and `pynwb`. It then extracts and prints basic file metadata. Further, it shows how specific data types, such as OnePhotonSeries, Fluorescence, and ImageSegmentation, can be accessed. The notebook also provides examples of exploration and visualization of the loaded data. Although it doesn't cover all possible data types or advanced techniques, it provides a good foundation for accessing multiple common data elements from an NWB file, resulting in an 8.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file from the DANDI dataset using `lindi` and `pynwb`. It showcases how to access metadata (session description, subject ID, session start time), raw imaging data (`OnePhotonSeries`), fluorescence traces (`RoiResponseSeries`), and spatial footprints (`PlaneSegmentation`). The code is functional and demonstrates basic data access for multiple data types within the NWB file. Therefore, it merits a score of 3.",
+                    "score": 8.0,
+                    "thinking": "The notebook successfully loads data from an NWB file and accesses various data elements, including OnePhotonSeries, Fluorescence, and ImageSegmentation. It shows how to extract basic metadata, such as session description and frame rate. It also demonstrates plotting sample frames and fluorescence traces. The notebook also demonstrated exploration of complex data structures like PlaneSegmentation. However, the notebook could include more advanced techniques(using queries, for example), the exploration of more complicated data structures, and error handling. This notebook deserves an score of 8.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads data from an NWB file in the Dandiset. It demonstrates basic data access by printing metadata, examining the structure of OnePhotonSeries, plotting sample frames, plotting fluorescence traces, and plotting spatial footprints. It loads both imaging and timeseries data. The loading and data access is not particularly advanced, but the basics are very well covered.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI dataset and demonstrates loading various data structures, including OnePhotonSeries, Fluorescence traces, and ImageSegmentation data. It displays the shapes, frame rates, and plots sample frames and fluorescence traces. It also accesses and plots spatial footprints. It covers multiple data types and demonstrates basic access techniques. It shows how to access and display the relevant data for calcium imaging specifically. However, it doesn't use advanced data access techniques. It handles the different data types appropriately.",
                     "repnum": 2
                 }
             ]
@@ -113,21 +113,21 @@
         {
             "name": "visualize-nwb-data",
             "version": 1,
-            "score": 3.0,
+            "score": 7.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully visualizes multiple data types from the NWB file including raw imaging data (OnePhotonSeries), fluorescence traces, and spatial footprints. The notebook provides clear explanations and examples of how to access and plot the data.",
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates multiple visualization types including raw video frames, fluorescence traces and spatial footprints. The plots are clearly labelled and formatted with titles, axes labels and legends. It could be improved by correlating the fluorescence traces with the spatial footprints or showing more sophisticated visualization techniques like heatmaps of cell correlations but overall it presents multiple clear visualizations with proper labelling.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully visualizes multiple data types from the NWB file, including OnePhotonSeries (raw imaging data), Fluorescence (processed traces), and ImageSegmentation (spatial footprints). Each visualization is accompanied by a title and labels. Clear explanations are also included, earning a score of 3.",
+                    "score": 7.0,
+                    "thinking": "The notebook provides several visualizations of data from the NWB file. It shows how to visualize the OnePhotonSeries data with sample frames, fluorescence traces for example cells, and spatial footprints of cells. The plots are labeled, though not with extreme polish. It covers multiple data types but not comprehensively.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully visualizes multiple key data types present within the NWB file, including the raw imaging data (OnePhotonSeries), fluorescence traces (RoiResponseSeries), and spatial footprints (ImageSegmentation). The visualizations are accompanied by clear explanations and relevant examples, making the notebook very useful for exploring the dataset.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully visualizes several key data types within the NWB file of the Dandiset. It shows sample frames from the OnePhotonSeries, fluorescence traces of selected cells over time, and a composite image of spatial footprints. Each visualization provides insight into the data structure and characteristics. The plots have titles and axis labels, but could benefit from more refined formatting for publication purposes. Still, it effectively showcases how to visualize different aspects of calcium imaging data stored in the NWB file. It could include more visualization of spiking activity or event rates for a higher score, but overall it meets the criteria well.",
                     "repnum": 2
                 }
             ]
@@ -135,21 +135,21 @@
         {
             "name": "plot-quality",
             "version": 1,
-            "score": 3.0,
+            "score": 7.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook contains three sets of plots: sample frames from the OnePhotonSeries, fluorescence time series, and spatial footprints. The sample frames are displayed with appropriate titles and color maps. The fluorescence time series is also well-labeled and formatted. The spatial footprints use a colorbar for clarity. All figures have titles and axis labels where appropriate. Overall, the plots are clear, well-formatted, and effectively communicate the data, although there are a few minor issues, such as the x-axis label overlapping with ticks on the second plot. Despite that, these are minor issues.",
+                    "score": 7.0,
+                    "thinking": "The plots in the notebook are generally well-formatted and readable. They have titles, axis labels, and legends where appropriate improving clarity. The composite spatial footprints plot additionally includes a colorbar. The colormaps are well chosen.\n\nThere are a couple of minor improvements that could be made:\n\n-The frame rate for the video seems a little low and the plots are not very detailed, however they are sufficient to explain their intended point.\n\nOverall the plots are of good quality and are suitable for exploring the example dataset provided.\n\nGiven the above, a score of 7 is appropriate.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The plots are generally well-formatted and easy to understand. The first plot shows sample calcium imaging frames, the second shows fluorescence traces over time for a few cells, and the third shows the spatial footprints of cells. The plots are labeled appropriately, and color scales are used effectively where necessary. Overall, the plots effectively communicate the data, so the notebook earns a score of 3.",
+                    "score": 7.0,
+                    "thinking": "The plots are clear and readable, with appropriate labels for axes and titles. The fluorescence plot includes a legend. The spatial footprint plot includes a colorbar for intensity. The frames plot have titles for each image. The formatting is decent, although not exceptionally detailed. The plots are well-suited for exploratory analysis and general understanding of the data.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook contains three plots. The first plot showing sample frames is clear and the frames selected show the beginning, middle and end of the acquisition. The second plot is also clear and shows calcium transients of three example cells over time. The last plot also appears to be well generated, although the axis labels are a bit small. Overall, the plots are well formatted and effectively communicate the data.",
+                    "score": 7.0,
+                    "thinking": "The notebook contains three sets of plots. The frame plots are clear, labeled, and show relevant data. The fluorescence time series plots are also clear and well-labeled. The spatial footprint plot is also informative with a colorbar, title, and clear image. These plots have proper formatting, clear labels, and are easy to understand. So a score of 7 is appropriate for these visualizations.",
                     "repnum": 2
                 }
             ]
@@ -157,21 +157,21 @@
         {
             "name": "plot-quantity",
             "version": 1,
-            "score": 2.0,
+            "score": 5.0,
             "reps": [
                 {
-                    "score": 2.0,
-                    "thinking": "The notebook provides three effective plots: sample frames from OnePhotonSeries, fluorescence time series, and spatial footprints. Each of these plots visualizes distinct aspects of the data (raw video, fluorescence traces, and cell locations), contributing to a comprehensive exploratory analysis. There were actually 3 plots. Thus, the score is 2.",
+                    "score": 5.0,
+                    "thinking": "The notebook provides three different plots.\n    1. Three sample frames from the OnePhotonSeries.\n    2. Fluorescence time series.\n    3. Composite spatial footprints.\n    These plots visualizes different aspects of calcium imaging data.",
                     "repnum": 0
                 },
                 {
-                    "score": 2.0,
-                    "thinking": "The notebook includes three plots. The first plot shows sample frames from OnePhotonSeries. The second shows fluorescence time series, and the third shows composite spatial footprints. All three plots are effective visualizations of the data. Thus, the notebook provides three effective plots.",
+                    "score": 5.0,
+                    "thinking": "The notebook has 3 effective plots:\n1. Sample frames from OnePhotonSeries\n2. Fluorescence Time Series (First 200 Frames)\n3. Composite Spatial Footprints (Max Projection)\n\nEach plot shows a different aspect of the data. Therefore the score is 5.",
                     "repnum": 1
                 },
                 {
-                    "score": 2.0,
-                    "thinking": "The notebook contains the following plots:\n1. Sample frames from OnePhotonSeries (3 subplots)\n2. Fluorescence Time Series (First 200 Frames)\n3. Composite Spatial Footprints (Max Projection)\n\nThese are three distinct effective plots, providing visualizations of the raw imaging data, fluorescence traces, and spatial footprints.\n\nTherefore, the score is 2.",
+                    "score": 5.0,
+                    "thinking": "There are three effective plots that demonstrate data variety. The first one shows sample frames from the OnePhotonSeries, the second one shows Fluorescence Time Series, and the final one plots spatial footprints.",
                     "repnum": 2
                 }
             ]

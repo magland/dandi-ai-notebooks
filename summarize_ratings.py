@@ -43,7 +43,7 @@ def load_rating(rating_path: str) -> Dict:
         return json.load(f)
 
 def create_markdown_table(questions: List[Dict], ratings: List[Tuple[str, str, Dict]]) -> str:
-    """Create markdown table from questions and ratings data."""
+    """Create markdown table from questions and ratings data with grouping by dandiset."""
     # Create header
     headers = ['Notebook', 'Subfolder', 'Overall']
     headers.extend([q['name'] for q in questions])
@@ -54,8 +54,20 @@ def create_markdown_table(questions: List[Dict], ratings: List[Tuple[str, str, D
     md += '| ' + ' | '.join(headers) + ' |\n'
     md += '| ' + ' | '.join(['---' for _ in headers]) + ' |\n'
 
+    # Sort ratings by dandiset_id and subfolder
+    sorted_ratings = sorted(ratings, key=lambda x: (x[0], x[1]))
+
+    # Track current dandiset for grouping
+    current_dandiset = None
+
     # Add rows
-    for dandiset_id, subfolder, rating_data in ratings:
+    for dandiset_id, subfolder, rating_data in sorted_ratings:
+        # Add separator between dandisets
+        if current_dandiset != dandiset_id:
+            if current_dandiset is not None:  # Not the first group
+                md += '| ' + ':---:|' * len(headers) + '\n'
+            current_dandiset = dandiset_id
+
         notebook_path = f'dandisets/{dandiset_id}/{subfolder}/{dandiset_id}.ipynb'
 
         # Create score lookup by question name
@@ -82,6 +94,34 @@ def create_markdown_table(questions: List[Dict], ratings: List[Tuple[str, str, D
 
     return md
 
+def create_json_data(questions: List[Dict], ratings: List[Tuple[str, str, Dict]]) -> Dict:
+    """Create JSON data structure from questions and ratings data."""
+    json_data = []
+
+    for dandiset_id, subfolder, rating_data in ratings:
+        # Create score lookup by question name
+        scores = {s['name']: s['score'] for s in rating_data['scores']}
+
+        # Calculate overall average
+        available_scores = [s['score'] for s in rating_data['scores']]
+        overall_score = sum(available_scores) / len(available_scores) if available_scores else None
+
+        entry = {
+            'notebook': f'{dandiset_id}.ipynb',
+            'dandiset_id': dandiset_id,
+            'subfolder': subfolder,
+            'overall_score': overall_score
+        }
+
+        # Add individual question scores
+        for question in questions:
+            name = question['name']
+            entry[name] = scores.get(name)
+
+        json_data.append(entry)
+
+    return {'ratings': json_data}
+
 def main():
     # Load questions
     questions = load_questions('questions.yml')
@@ -100,11 +140,18 @@ def main():
     # Create markdown table
     md_content = create_markdown_table(questions, ratings_data)
 
+    # Create JSON data
+    json_data = create_json_data(questions, ratings_data)
+
     # Write markdown file
     with open('ratings.md', 'w') as f:
         f.write(md_content)
 
-    print("Created ratings.md")
+    # Write JSON file
+    with open('ratings.json', 'w') as f:
+        json.dump(json_data, f, indent=2)
+
+    print("Created ratings.md and ratings.json")
 
 if __name__ == "__main__":
     main()

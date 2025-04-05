@@ -3,21 +3,21 @@
         {
             "name": "describe-dandiset",
             "version": 1,
-            "score": 3.0,
+            "score": 8.666666666666666,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID (001174), purpose (calcium imaging data from SMA and M1 of macaques), and data contents (activity patterns of projection neurons). It also mentions the use of miniature microscopes. Thus it has a clear description including title, ID, purpose and data contents.",
+                    "score": 10.0,
+                    "thinking": "The notebook includes the Dandiset ID, title, link to the archive, citation information, and a description of the data content (calcium imaging data from SMA and M1 of macaques). There is also a description of the structure as the notebook shows how to access the OnePhotonSeries and RoiResponseSeries.\nTherefore, the notebook provides a clear and comprehensive description including title, ID, purpose, contents and some data organization.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description of the Dandiset, including the title, ID (001174), purpose (calcium imaging data from SMA and M1 of macaques), and data contents (imaging data, fluorescence data associated with spatial footprints). It also includes a link to the DANDI Archive and corresponding publication.",
+                    "score": 9.0,
+                    "thinking": "The notebook includes the Dandiset ID, title, a brief overview of the contents (calcium imaging data from SMA and M1 of macaques), the purpose of the data acquisition (study activity patterns of projection neurons), the link to the DANDI Archive, and the corresponding publication. It describes the structure of the data in the NWB file including the location of the OnePhotonSeries and RoiResponseSeries. All the key components for a score of 9 are met. The data organization could be described in more detail. However, it is difficult to rate this notebook as having detailed description of data organization as required for a score of 10 since the Notebook skips over some of the organizational structure. The first cell also states, \"This notebook was AI-generated using dandi-notebook-gen and has not been fully verified.\" and \"Specifically, the AI can make factual claims and observations that are not valid.\"",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook includes the Dandiset ID (\"001174\"), title (\"Calcium imaging in SMA and M1 of macaques\"), purpose (explores calcium imaging data from SMA and M1), and a description of the data contents (acquired using miniature microscopes to study activity patterns of projection neurons). It also links to the DANDI archive.",
+                    "score": 7.0,
+                    "thinking": "The notebook provides the Dandiset ID, title, a brief overview of the contents (calcium imaging data from SMA and M1 of macaques), and a link to the Dandiset in the DANDI Archive. It also mentions the corresponding publication. Therefore, it offers a good, though not completely exhaustive, description of the Dandiset. It does not go deeply into the data organization, though.",
                     "repnum": 2
                 }
             ]
@@ -25,21 +25,21 @@
         {
             "name": "load-dandiset",
             "version": 1,
-            "score": 3.0,
+            "score": 7.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook sucessfully loads the dandiset and shows some metadata about it, such as session description, identifier and session start time.",
+                    "score": 7.0,
+                    "thinking": "The notebook loads the Dandiset using DandiAPIClient and explores multiple metadata fields, including session description, identifier, and start time. It also accesses specific data like OnePhotonSeries and RoiResponseSeries, indicating successful loading and exploration of relevant information. It does not include a comprehensive description of all fields, but it is more than minimal. It also provides descriptions of the data accessed.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully uses the DandiAPIClient to obtain the dandiset and subsequently list its assets. This goes beyond loading basic metadata, successfully obtaining and displaying the assets associated with the Dandiset. Therefore, it demonstrates key Dandiset metadata fields.",
+                    "score": 7.0,
+                    "thinking": "The notebook begins by loading the dandiset and listing its assets. It then loads an NWB file and extracts a session description, identifier, and session start time. This demonstrates the loading and exploration of multiple metadata fields extracted from the dandiset's assets and the NWB files themselves. Therefore, a score of 7 seems appropriate. It goes beyond just loading the ID, and explores more fields than a minimal metadata exploration would, but not to the extent where it provides field descriptions or demonstrates working with ALL key metadata fields.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook uses dandiapi client to load the dandiset and then loads the assets. The notebook then loads one of the nwb files and visualizes data from it. The notebook successfully demonstrates key dandiset metadata fields such as session description, start time and identifier.",
+                    "score": 7.0,
+                    "thinking": "The notebook starts by loading the Dandiset using the DandiAPIClient and retrieves the assets. It lists all assets and then loads a specific NWB file from the dandiset. The notebook displays basic metadata of the NWB file such as description, identifier, and session start time. Therefore, the notebook successfully loads and explores multiple metadata fields. Thus, the score is 7.",
                     "repnum": 2
                 }
             ]
@@ -47,21 +47,21 @@
         {
             "name": "load-dandiset-assets",
             "version": 1,
-            "score": 3.0,
+            "score": 6.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the Dandiset and lists the assets. It also loads one of the assets (an NWB file) and extracts some metadata such as session description, identifier, and session start time. Thus, the notebook successfully loads the assets and demonstrates working with asset metadata.",
+                    "score": 6.0,
+                    "thinking": "The notebook starts by loading the Dandiset assets and lists them. It then loads a specific .nwb file as an example asset and accesses its metadata. The notebook does not explore multiple asset types, but the single comprehensive example is the primary type of assets in the Dandiset. It loads basic information, demonstrates loading a specific asset, shows how to access it, and provides usage examples, however it lacks a metadata exploration aspect.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the Dandiset using the dandiapi library and lists all the assets available. It also loads one of the assets and shows some of its metadata.",
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates how to load assets of the DANDIset. The code successfully lists the remote blob assets and loads basic information from one asset 'sub-Q/sub-Q_ophys.nwb'. Specifically, the notebook demonstrates how to load the assets in the beginning and further explores assets such as OnePhotonSeries and RoiResponseSeries.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully uses the DandiAPIClient to load and list the assets of Dandiset 001174. It also shows the metadata associated with the RemoteBlobAssets",
+                    "score": 6.0,
+                    "thinking": "The notebook provides code to list assets (using dandiapi), and then loads and explores specific assets (NWB files) from the Dandiset. It then shows how to load data from the loaded assets. The exploration of the assets' content goes further than just accessing the metadata.)",
                     "repnum": 2
                 }
             ]
@@ -69,21 +69,21 @@
         {
             "name": "load-nwb",
             "version": 1,
-            "score": 3.0,
+            "score": 6.666666666666667,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and accesses key data structures like OnePhotonSeries and RoiResponseSeries. It then visualizes data from these structures. Therefore, it achieves level 3.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from the Dandiset using lindi, accesses and prints basic file metadata (session description, identifier, start time), and then explores the OnePhotonSeries and RoiResponseSeries objects. It visualizes image masks and RoiResponseSeries data, which demonstrates access to key data components. The notebook provides a solid demonstration of loading and navigating basic info within the NWB file structure, as well as accessing multiple NWB data structures. However, it doesn't show a comprehensive or detailed navigation of the NWB hierarchy. Therefore it deserves a 7.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file from a Dandiset, accesses basic information (description, identifier, start time), and demonstrates accessing key data structures (OnePhotonSeries, RoiResponseSeries, PlaneSegmentation). The notebook also demonstrates how to obtain the shapes of the timeseries data. The notebook also plots some data and summarizes the plots in a markdown cell.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI archive and accesses basic components like session description, identifier, and start time. It also explores OnePhotonSeries and RoiResponseSeries, demonstrating how to access data arrays within these components. It does not perform any detailed navigation of the NWB hierarchy but goes beyond simply opening a file. The notebook explores multiple NWB data structures. Thus, a 7/10 is appropriate.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads an NWB file from the Dandiset and demonstrates accessing key data structures like OnePhotonSeries and RoiResponseSeries. It also Visualizes Sample Data using the NWB file.",
+                    "score": 6.0,
+                    "thinking": "The notebook shows how to load an NWB file (score=4). It also demonstrates how to explore basic NWB data structures, specifically the ROI (Region of Interest) structure. This provides some navigation of the basic NWB hierarchy and a decent exploration of file contents.\n\n        In more detail:\n        * The notebook uses standard libraries (h5py, pynwb) to load the NWB file.\n        * It shows the basic structure of the NWB file by examining the root object.\n        * It goes into more detail by accessing the 'processing/roi_response' hierarchy and examining the ROI structure.\n        * It shows how to access the 'RoiResponseSeries' data structure.\n        * It plots the extracted data.\n\n        Missing:\n        * The 'info' sections are not printed.\n        * More essential items (e.g. the electrophysiology data) are not explored.\n        * The notebook has little descriptive text.\n        * The code could be more descriptive (e.g. variable names, comments).\n\n        Therefore, the overall score is above average but below a complete demonstration.",
                     "repnum": 2
                 }
             ]
@@ -91,21 +91,21 @@
         {
             "name": "load-nwb-data",
             "version": 1,
-            "score": 2.3333333333333335,
+            "score": 6.333333333333333,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads data from a remote NWB file using the lindi library. It accesses basic data like session description and identifier, and also loads the OnePhotonSeries and RoiResponseSeries data. It then visualizes the image masks and fluorescence data, demonstrating data access and utilization. There is no error in data loading or code execution. However, the data access is limited to some fundamental aspects and the notebook does not showcase particularly advanced data access techniques. It successfully load multiple data types. Therefore, the notebook demonstrates a successful loading and shows access to data fields.",
+                    "score": 5.0,
+                    "thinking": "The notebook begins by importing necessary libraries for working with NWB files, such as `hdmf.utils`, `pynwb.file`, `display` from IPython, `matplotlib.pyplot`, and `numpy`. It then proceeds to load an NWB file from a Dandiset. The core functionality is demonstrated with the following steps:\n            1.  Loading the NWB file using `pynwb.NWBHDF5IO`.\n            2.  Accessing the data using `nwb.electrode_table.to_dataframe()`.\n            3.  Loading a `RoiResponseSeries` object.\n            4.  Extracting the `data` and `rois` properties from the `RoiResponseSeries` object into a numpy array and pandas DataFrame, respectivley.\n            5.  Plotting the data using `matplotlib`.\n\n        The notebook primarily focuses on one type of data element: `RoiResponseSeries`, and doesn't show how to work with other data types such as `SpikeTrains` or `ElectricalSeries`. However, it does demonstrate how to access data and ROIs, so it loads basic data arrays and demonstrates specific data types well.",
                     "repnum": 0
                 },
                 {
-                    "score": 2.0,
-                    "thinking": "The notebook demonstrates how to access data from an NWB file. It shows how to load \"rois\" and \"roi_response_series\" and accesses the data array. However, the content is limited to a demonstration of basic access. It does not include examples of advanced data access for multiple data types, or more sophisticated analysis.",
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates how to load data from an NWB file within the Dandiset. It first installs necessary packages, then downloads and opens an example .nwb file from the Dandiset archive, and prints some fields. Next, the notebook demonstrates accessing specific data (`OnePhotonSeries` and `RoiResponseSeries`), prints their info, and visualizes sample data using matplotlib, including imaging masks and activity traces of some neurons.\n\nSpecifically, it shows how to:\n1.  Load an NWB file from a DANDI archive using `lindi` and `pynwb`.\n2.  Access basic metadata such as session description, identifier, and session start time.\n3.  Access the image data and fluorescence data stored in `OnePhotonSeries` and `RoiResponseSeries` respectively.\n4.  Uses the loaded data to perform basic visualization.\n\nTherefore, the notebook provides a demonstration of downloading, loading, and exploring different data types within the NWB file. The access to both OnePhotonSeries and RoiResponseSeries, with visualization, makes the notebook score higher than just loading basic data arrays. It uses `LindiH5pyDataset`, suggesting it goes beyond basic loading, and handles the different data types appropriately. Complex is relative, but the selection of series and their data seems to be targeted, and there's no real missing part to increase the score further.",
                     "repnum": 1
                 },
                 {
-                    "score": 2.0,
-                    "thinking": "The notebook successfully uses the lindi and pynwb libraries to load an NWB file from the DANDI archive. It demonstrates how to access basic data such as session description, identifier, and start time. It also shows accessing specific data like OnePhotonSeries and RoiResponseSeries. Thus, it loads data successfully and demonstrates basic data access.",
+                    "score": 6.0,
+                    "thinking": "The notebook successfully displays data from an NWB file in the Dandiset. It shows how to load basic data arrays, demonstrates loading specific data types (RoiResponseSeries) and shows how to access multiple data elements (neurons). The code runs without any errors and therefore earns a high score.",
                     "repnum": 2
                 }
             ]
@@ -113,21 +113,21 @@
         {
             "name": "visualize-nwb-data",
             "version": 1,
-            "score": 3.0,
+            "score": 6.666666666666667,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully visualizes two data types from the NWB file: image masks and RoiResponseSeries data (fluorescence). It also provides clear explanations of the plots and the types of data shown. It loads an NWB file from a DANDI archive.",
+                    "score": 6.0,
+                    "thinking": "The notebook includes sections for installing required libraries, loading an NWB file from the Dandi archive, and visualizing data. It demonstrates basic plots, including spatial data, timeseries, and spike raster plots. While there are some labeling issues and it doesn't explore advanced visualization techniques, it presents a good foundation for visualizing NWB data.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides code to visualize both the image masks (spatial footprints of cells) and the ROI response series (fluorescence data). The plots are generated successfully and there are brief explanations for the plots. The code is functional and successfully visualizes multiple data types from the NWB file. The notebook sucessfully visualizes basic data types and extends this to visualizing multiple types with some explanations and examples.",
+                    "score": 7.0,
+                    "thinking": "This notebook provides basic visualizations of data from an NWB file, specifically the ROIs. The plots are simple but properly labeled, and the notebook shows how to access data to generate the time series. However, it lacks detail in terms of analysis and visualization techniques. It doesn't achieve a publication-quality level. Therefore, a score of 7 is appropriate.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "This notebook effectively demonstrates how to visualize data from an NWB file using the DataJoint interface. It provides code examples that successfully visualize common data types like images, ROIs, and RegionResponseSeries. Explanations are also included, but the notebook could be further improved by adding more context and discussion about the scientific relevance of the visualized data. The notebook does a good job showing the different data types from an NWB file.\n\n        However, because the questions asks about the Dandiset, a point is being deducted. While the notebook focuses on NWB files, it does not present the work inside the full context of the DataJoint interface.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully shows how to visualize two data types (image masks and RoiResponseSeries), loading the data from an NWB file. Both plots are appropriately labeled. However, the visualizations are relatively basic and lack advanced formatting or analysis. Therefore, a 7 is appropriate.",
                     "repnum": 2
                 }
             ]
@@ -135,21 +135,21 @@
         {
             "name": "plot-quality",
             "version": 1,
-            "score": 3.0,
+            "score": 6.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook produces two plots. The first plot visualizes the superimposed image masks, showing cell locations. The second plot displays the RoiResponseSeries data for a subset of neurons over time. Both plots have titles, axis labels, and legends, making them relatively easy to interpret. The plots are clear and well formatted, effectively communicating the data. I see no significant issues.",
+                    "score": 5.0,
+                    "thinking": "The notebook provides two plots. Both demonstrate relevant information with basic axes labels, although a title would add to the usefulness of the time seriers plot. Formatting is minimal (e.g., y axis label has the unusual 'Fluorescence' title and 'Time (frames)' is missing), but the plots are generally readable. The color map for the first plot is not that informative. Therefore, the ranking should be around 5.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The plots are clear, formatted well and easy to interpret. Labels are present, and the data is visualized effectively. However, the plots are limited to image segmentation and fluorescence data, which limits the range of analyses.",
+                    "score": 7.0,
+                    "thinking": "The notebook provides two plots. Both plots are clear and easily interpretable. They both have titles and axis labels. The second plot has a legend. The images are of reasonably high quality. The plots are well-formatted and understandable. Therefore, a rating of 7 is justified.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook has two plots. Both plots are fairly clear. The first plot's colorbar is useful. The second plot's legend is useful to distinguish between the neurons. The plots are well-formatted. They effectively communicate the data. There are no issues.",
+                    "score": 6.0,
+                    "thinking": "The plots are readable with proper titles, axis labels, and legends. The use of the seaborn library to set the plot theme is appreciated although basic. The colorbar is labeled. The plots are well-formatted but lack more detailed formatting that would merit a higher score.",
                     "repnum": 2
                 }
             ]
@@ -157,21 +157,21 @@
         {
             "name": "plot-quantity",
             "version": 1,
-            "score": 1.0,
+            "score": 3.6666666666666665,
             "reps": [
                 {
-                    "score": 1.0,
-                    "thinking": "The notebook includes two effective plots: one shows image masks and the other shows RoiResponseSeries data. Therefore the score is 1.",
+                    "score": 4.0,
+                    "thinking": "The notebook contains two effective plots: one visualizing image masks and another visualizing RoiResponseSeries data for a subset of neurons over time. Both plots are well-labeled and contribute to exploring different aspects of the data. Therefore, the score is 4. The plots visually represent different aspects of the calcium imaging data. The first plot shows a heatmap of the image masks, representing the spatial location and intensity of individual neurons. The second plot displays the fluorescence activity of selected neurons over time, illustrating changes in neuronal activity patterns. The addition of labels to both plots greatly increase their usefulness.",
                     "repnum": 0
                 },
                 {
-                    "score": 1.0,
-                    "thinking": "The notebook includes two plots: one showing superimposed image masks and another showing RoiResponseSeries data for a subset of neurons. Both plots provide visual insights into the data, so the notebook contains two effective plots.",
+                    "score": 3.0,
+                    "thinking": "The notebook includes two plots. The first one represents \"Image Masks (Superimposed),\" providing a superimposed view of image masks. The second plot visualizes \"RoiResponseSeries Data,\" showing the fluorescence response of regions of interest (ROIs) over time. While they offer different perspectives of the data, they are basic plots. Therefore, the notebook contains two basic plots.",
                     "repnum": 1
                 },
                 {
-                    "score": 1.0,
-                    "thinking": "The notebook includes two plots. One shows the superimposed image masks, and the other shows the ROI response series data for a subset of neurons. These plots effectively visualize the spatial distribution of cells and their activity over time. The plots show the data effectively.",
+                    "score": 4.0,
+                    "thinking": "There are two plots in the notebook. The first plot shows \"Image Masks (Superimposed)\" and the second shows \"RoiResponseSeries Data\". Both plots effectively visualize the data, showing different aspects of the calcium imaging data. Therefore, the notebook contains two effective plots showing different aspects.",
                     "repnum": 2
                 }
             ]

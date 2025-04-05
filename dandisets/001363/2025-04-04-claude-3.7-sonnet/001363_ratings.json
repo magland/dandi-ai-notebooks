@@ -3,21 +3,21 @@
         {
             "name": "describe-dandiset",
             "version": 1,
-            "score": 3.0,
+            "score": 9.666666666666666,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description of the Dandiset, including the title, ID, purpose of the study, data contents and experimental parameters. It also details the number of assets and provides a useful summary. The initial markdown cells clearly set out the context of the study and data.",
+                    "score": 10.0,
+                    "thinking": "The notebook provides a comprehensive description of the Dandiset, including its ID, title, purpose, content, and data organization. It delves into the experimental design, explains the different ultrasound stimulation parameters, and details the structure of the NWB files within the Dandiset. Specific metadata fields are extracted and displayed, and the notebook even attempts to compare data across different experimental conditions, which is part of understanding the Dandiset's contents. It also gives an overview of available files, organized by subject information. This aligns well with a score of 10. The only minor thing is a more in-depth look at all available metadata fields. The discussion around the data included the key metadata fields available in the dandiset in the overview and the analysis.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description including title, ID, purpose, and data contents.",
+                    "score": 9.0,
+                    "thinking": "The notebook includes the Dandiset ID, title, a description of the experimental purpose, the contents of the Dandiset (neural spiking data in response to tFUS), and the data organization (by subject and session). It also describes the different tFUS parameters, which are important metadata for understanding the Dandiset content. Therefore, it merits a score of 9.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a clear description of the Dandiset, including its title, ID, purpose (neural spiking data in response to transcranial focused ultrasound), and a summary of the data contents.",
+                    "score": 10.0,
+                    "thinking": "The notebook provides a comprehensive description of the Dandiset including the ID, title, purpose of the study, contents, and the data organization within the Dandiset. It also explores various metadata fields such as contributors and variables measured.",
                     "repnum": 2
                 }
             ]
@@ -25,21 +25,21 @@
         {
             "name": "load-dandiset",
             "version": 1,
-            "score": 3.0,
+            "score": 7.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook uses the dandiapi client to load and display key dandiset metadata such as description, contributors and variables measured.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the Dandiset metadata, extracts key information like the description, contributors, and measured variables. It also iterates through contributors/variables which could be strings or dictionaries and accurately displays this, demonstrating a good grasp of handling the metadata structure. Furthermore, the code executes without errors. The notebook goes beyond simply loading basic information. It does not provide a description of each field. Therefore, I believe it is slightly better than 7.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads the Dandiset metadata, extracts key information like description, contributors, and variables measured and displays that information. Thus, it showcases how to load and access this descriptive data.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the Dandiset and explores several metadata fields, including the description, contributors, and variables measured. It organizes assets by subject and displays information about available files. The notebook also includes some explanations of the steps in markdown. However, the descriptions could be more detailed to warrant a higher score.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads and prints dandiset metadata. It also extracts and displays the description, contributors, and variables measured. The code handles cases where these fields could be strings or dictionaries, showing robust code. Therefore, the notebook successfully loads and demonstrates key Dandiset metadata fields.",
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the Dandiset and explores multiple metadata fields. The code extracts and displays the Dandiset name, description, contributors, and variables measured. The notebook also includes code for listing assets, identifying subjects, and displaying file paths and sizes, thus demonstrating thorough metadata exploration. Further, the notebook includes a comprehensive overview of the components of the dandiset.",
                     "repnum": 2
                 }
             ]
@@ -47,21 +47,21 @@
         {
             "name": "load-dandiset-assets",
             "version": 1,
-            "score": 1.6666666666666667,
+            "score": 7.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads assets from the Dandiset, by first listing available assets and then using the Lindi client to load specific NWB files. It also demonstrates working with asset metadata to print information about the files, thus demonstrating how to explore and use these assets. The listing also includes asset size information, which contributes to understanding the dataset composition.",
+                    "score": 9.0,
+                    "thinking": "The notebook uses `dandiapi` to list the assets in the Dandiset, then it uses `lindi` to load specific assets from the Dandiset. Also the Dandiset's metadata is accessed.",
                     "repnum": 0
                 },
                 {
-                    "score": 2.0,
-                    "thinking": "The notebook exhibits good code structure, showing imports. The noteobok actually *attempts* to perform a meaningful scientific activity, which is very good. However, there is no actual attempt to load or work with any specific assets provided by the benchmark, so a higher score is not warranted. No need to penalize.",
+                    "score": 6.0,
+                    "thinking": "The notebook successfully lists available assets, loads basic asset information, and demonstrates loading specific assets using URLs. It also extracts and displays Dandiset metadata. Therefore, the notebook fulfills the requirements for score 6. It does not explicitly show how to access asset-specific metadata or demonstrate exploration of multiple asset types beyond NWB files, which would be needed for a higher score.",
                     "repnum": 1
                 },
                 {
-                    "score": 0.0,
-                    "thinking": "The notebook aims to analyze neurophysiology data related to responses to visual stimulation. However, it does not directly load or use data from a Dandiset. The core of the notebook analyses the effects of different stimulus parameters by showing averaged responses over time. Therefore, the notebook does not demonstrate how to load either the assets themselves or the metadata within a Dandiset. It only shows example data after analysis has occurred. The notebook does contain code, but it's not focused on loading specifically Dandiset assets.",
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates how to load assets from the Dandiset using the DandiAPIClient and lindi libraries. It successfully lists the available assets, loads specific NWB files, and accesses their metadata. The notebook also compares the trial structures of two different files, showing a good understanding of the dataset's organization but only loads the basic asset information. The notebook does work with NWB files, so the asset loading and usage is pretty strong.",
                     "repnum": 2
                 }
             ]
@@ -69,21 +69,21 @@
         {
             "name": "load-nwb",
             "version": 1,
-            "score": 3.0,
+            "score": 9.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook uses lindi to successfully load an NWB file from the Dandi archive (as specified in the prompt) and access key datastructures, such as session description, identifier, start time, subject information, electrode information, trial information and electrical series data.\nThus, the notebook demonstrates loading basic information from an NWB file, accessing key data structures, and visualizing and analyzing neuronal information.",
+                    "score": 9.0,
+                    "thinking": "The notebook successfully loads NWB files using the lindi library, accesses and prints basic file information (session description, identifier, subject ID, etc.), explores different data structures within the NWB file (groups, datasets), examines electrode information, and displays trial information. It also compares trial structure and neural responses between two different NWB files. This demonstrates a detailed navigation of the NWB hierarchy and a comprehensive exploration of its contents. Thus, the notebook well exceeds showing basic NWB file structure and key data components.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads NWB files using the lindi library and demonstrates accessing key data structures such as electrodes, trials, and electrical series. Basic information such as session description, subject ID, and sampling rate are extracted and printed.",
+                    "score": 9.0,
+                    "thinking": "The notebook successfully loads NWB files, explores their structure (including groups and datasets), electrode information, and trial information. It demonstrates accessing and visualizing raw neural data, performs frequency content analysis, and aligns neural data to trial onsets. The notebook sufficiently demonstrates how to load and explore data from an NWB file, exhibiting a comprehensive approach. The comparison part is less detailed but still contributing to a high score.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads two NWB files using the lindi library, and then accesses key data structures such as trials, electrodes, and electrical series. The notebook displays basic information about the loaded NWB files such as session description, identifier, subject ID, the number of trials and also explores and compares the trial structure across the two files. Therefore the notebook has demonstrated loading and extraction of data from NWB files.",
+                    "score": 9.0,
+                    "thinking": "The notebook effectively demonstrates loading NWB files from the Dandiset and explores various aspects of the NWB file structure, including session information, electrode details, and trial data. It displays the hierarchy and accesses key data components. The notebook covers several NWB data structures and provides a good overview of how to navigate and extract relevant information from the files. The notebook opens two files for comparisons. The analyses performed are basic, but the exploration of NWB file contents is comprehensive for this level of analysis.",
                     "repnum": 2
                 }
             ]
@@ -91,21 +91,21 @@
         {
             "name": "load-nwb-data",
             "version": 1,
-            "score": 3.0,
+            "score": 9.333333333333334,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook demonstrates successfully loading NWB files from a Dandiset using the `lindi` library. It shows how to extract and display different types of information from the NWB files, including metadata, electrode information, trial data, and neural electrical series data. The notebook accesses raw data, computes power spectra, performs time-frequency analysis, and generates raster plots based on the loaded data. It also does comparisons with a second file. This demonstrates advanced data access. `pynwb` also used. The notebook clearly shows correct code for loading and exploring the data contained in the NWB files.",
+                    "score": 9.0,
+                    "thinking": "The notebook demonstrates a clear and progressive approach to loading and exploring NWB data. It starts with listing assets, presenting subject-wise organization, loading NWB files using lindi, and then progressively explores various data elements, including session information, electrode information, trial structures, and neural data. By loading data using the lindi library, the notebook demonstrates an advanced data access technique. It effectively handles data types, creates Pandas dataframes to properly represent electrodes and trials information, and compares statistics on trial/intertrial intervals demonstrating advanced data handling. It addresses potential edge cases, ensuring data integrity and comparability.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads data from NWB files using the `lindi` and `pynwb` libraries. It shows how to access various data types, including electrode information, trial data, and electrical series data. It also demonstrates how to extract and compare data from multiple NWB files within the Dandiset, showcasing advanced data access. Figures are generated for the different kinds of data that are accessed to add to a better understanding, demonstrating basic data access for multiple data types",
+                    "score": 9.0,
+                    "thinking": "The notebook successfully loads and explores multiple NWB files, accesses various data types including electrode and trial information, and analyzes neural activity. It appropriately handles different data types by converting them to pandas dataframes when needed. It does well loading trials, electrode information, and electricalseries data from an NWB file. Therefore, it is a comprehensive demonstration of loading and handling multiple data types. However, there is an AI disclaimer and it does not do any spike detection or sorting which brings the score down slightly.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook successfully loads data from NWB files using lindi and pynwb. It explores the content of the files, accesses electrical series data, trials information, and electrode information. It compares two session from two different NWB files. The notebook does a good job in displaying the data that are being utilized. The only thing that is missing is the demonstration of spike detection and sorting.",
+                    "score": 10.0,
+                    "thinking": "The notebook demonstrates loading and exploring NWB files from a DANDI dataset. It loads the NWB file using lindi, accesses metadata, electrode information, trial information, and neural data. It also compares data from two different files. It handles different data types appropriately, and explores complex data structures. It showcases advanced data access techniques making it a comprehensive exploration.\n\nThe notebook loads trial and electrical series data successfully. It accesses multiple data elements such as trial start/stop times and electrode locations. The electrode data handling and trial data extraction are well implemented. It also demonstrate loading different nwb versions.",
                     "repnum": 2
                 }
             ]
@@ -113,21 +113,21 @@
         {
             "name": "visualize-nwb-data",
             "version": 1,
-            "score": 3.0,
+            "score": 7.333333333333333,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook effectively demonstrates the visualization of various data types from NWB files, including electrode locations, trial structures, raw neural data, frequency content, trial-aligned activity, time-frequency representations, and raster plots. The visualizations are accompanied by clear explanations and examples, contributing to a comprehensive guide on visualizing data within the NWB format in the context of the Dandiset. The notebook also goes further by comparing data across two different NWB files.",
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates a clear progression from basic data exploration to more advanced visualization techniques applied to neural data from the NWB files. It covers several key aspects using plots. There are some issues though.\n\nSpecifically, it demonstrates how to:\n*   Access and explore Dandiset metadata.\n*   List and organize assets (files) within the Dandiset.\n*   Load and explore NWB files using both `lindi` (for remote access) and `pynwb`.\n*   Visualize raw neural data over time for selected channels, including trial boundaries.\n*   Analyze the frequency content of neural data using power spectral density plots.\n*   Align neural data to trial onsets and calculate trial-averaged responses.\n*   Perform time-frequency analysis (though with potential computational limitations).\n*   Create raster plots to visualize neural activity across trials.\n*   Compare neural responses from different NWB files. It generates plots to do all these things properly.\n\nHowever:\n\n1.  The \"Trial Duration Distribution\" plot is broken.\n2.  The raster plot and time frequency look odd (horizontal banding)\n\nSo, the plots are not publication quality (especially the time-frequency and raster plot), and the notebook doesn't show comprehensive visualizations of all data types, but the notebook demonstrates multiple visualization types, the visualizations are pretty clear, and there are good labeling.\n\nSo, it's almost as 7. I'll go with 6.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook demonstrates several methods for visualizing data from NWB files, including: visualizing the distribution of trial and inter-trial intervals, the raw neural data as timeseries, the power spectrum of neural data, trial-aligned neural data with confidence intervals, a time-frequency representation of neural data through Morlet wavelet transforms, and a trial raster plot showing events around stimulus onset. The notebook also successfully loads data from two different files and compares their trial-averaged neural responses. The methods are clearly explained via accompanying markdown for each step.",
+                    "score": 9.0,
+                    "thinking": "The notebook has several visualization techniques. It plots the raw data, trial timings, power spectra, trial-aligned neural activity, time-frequency analysis, raster plot, and comparison of trial-averaged responses. The plots are clear, labeled, and visualized in a meaningful way. The only thing that could be improved is the addition of interactivity, as is common in neuroscience, but given the limitations I would score this as high as I could and maintain a skeptical eye towards a perfect score. The lack of interactivity is not the fault of the code but more of a limitation on the format used.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook effectively visualizes multiple data types from the NWB file, including raw neural data, trial structures, power spectra, trial-aligned responses, time-frequency representations, and raster plots. The plots are generally well-labeled and the code includes explanations of the visualization methods. The notebook progresses from simple visualizations to more complex analyses of single and multiple files which justifies the score of 3. The images generated from the NWB files confirms that the visualizations are successful.",
+                    "score": 7.0,
+                    "thinking": "The notebook explores the neural spiking data from rat somatosensory cortex in response to transcranial focused ultrasound stimulation. It demonstrates how to access and visualize neural data stored in NWB files within a DANDI dataset. Basic visualizations are created of raw neural data, spectral analysis of neural data and trial-triggered average responses.\n\nMultiple visualization types are demonstrated\nData are visualized with labeling\n\nWhile the plots are not publication quality, the visualizations are helpful",
                     "repnum": 2
                 }
             ]
@@ -135,21 +135,21 @@
         {
             "name": "plot-quality",
             "version": 1,
-            "score": 3.0,
+            "score": 6.333333333333333,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook contains several plots that are generally well-formatted and clear. The raw data visualization provides a good overview of the signal, and the trial-aligned plots and time-frequency analysis offer insights into potential neural responses. The comparison plot between the files is very beneficial. The only issue is with the trial duration plot histogram which is essentially empty because the duration is equal for all trials. Otherwise, the plots successfully convey the information.",
+                    "score": 8.0,
+                    "thinking": "The plots are generally well-formatted and readable, with appropriate labels for axes and titles. The plots presented cover several different analysis steps, including trial duration statistics, raw neural data visualization, power spectra analysis, trial-aligned neural activity, time-frequency analysis, raster plots, and comparisons between files. Some plots, like the raw data visualization, have overlaid trial markers which are helpful. The comparison plots make use of colors and shaded regions for clarity.\n\nHowever, there are minor issues. The time axis in the trial duration distribution plot is not properly scaled (1e-9 + 1.5e3). The power spectral density plots are semilog plots. The trial aligned responses and the comparison plots are quite noisy, indicating that more trials would be more helpful. The raster plots and time-frequency plots are appropriately constructed. overall, the quality of the plots is high, but there are some minor issues that prevent it from being publication ready. Therefore, a score of 8 is appropriate.",
                     "repnum": 0
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook includes several plots, including histograms of trial duration and inter-trial intervals, raw neural data, power spectra, trial-averaged responses, time-frequency representations, and raster plots. The plots are generally well-formatted and labeled, making them reasonably clear and interpretable. However, some plots, particularly the time-frequency representation and the raster plots, could benefit from better visualization parameters such as different colormaps or smoothing. The axes are labeled and titles provided, but the quality varies. However, the main analyses plots such as 'Trial-Averaged Response Comparison' are well done and aid in interpretation.\n    \n    The inter-trial interval in the first plot appear reasonable, however, the trial duration is suspicious. In the second plot, vertical lines representing stimulus are too close to each other, limiting some of the usefulness. In the power spectrum plot, the y axis could be better scaled. The third figure is reasonable in terms of axes and labels. The time-frequency representation is properly labeled, the use of other colormap might be appropriate. The raster plot is labeled properly, but could improve on visualization parameters. The final plot is very well done.\n    Overall, the plots serve their purpose, but have some limitations which could be improved, but overall their presentation is appropriate.",
+                    "score": 6.0,
+                    "thinking": "The notebook contains a variety of plots, including histograms, time series plots, power spectra, trial-averaged responses, time-frequency representations, and raster plots. While the plots convey the intended information, they exhibit some formatting limitations. The axes labels are present, but in some cases, they are not optimally formatted. Some plots overlap. Overall, the plots are mostly readable and informative but not of publication quality.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook provides a variety of different plots, including histograms, time series plots, power spectra, trial-averaged responses, time-frequency representations, and raster plots. These plots are generally well-formatted, with clearly labeled axes and titles. The use of seaborn styling also enhances the visual appeal of the plots. The final plot compares trial-averaged responses between two files. However, the plots lack some finer details. For example, in the raster plot and trial-averaged plots, the y axis label should be more descriptive. The units for power spectral density plot are missing. There are some minor formatting issues like scientific notation appearing on the x-axis for the trial duration distribution. Some plots are a bit noisy, which might be improved with smoothing or filtering. The time-frequency analysis is not perfect. Therefore, the plots effectively communicate the data, but there are some areas for improvement.",
+                    "score": 5.0,
+                    "thinking": "The notebook contains plots. They are functional, but the formatting is quite rudimentary, and the absence of axes labels on the last plot is a significant issue.",
                     "repnum": 2
                 }
             ]
@@ -157,21 +157,21 @@
         {
             "name": "plot-quantity",
             "version": 1,
-            "score": 2.3333333333333335,
+            "score": 9.0,
             "reps": [
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook contains plenty of plots. A majority of them are actually effective for the task at hand. The trial-averaged response with filled confidence intervals plots and also the raw data plot with individual trials marked are quite good.\n\nThe time-frequency analysis and raster plots are also helpful. The comparison between files with trial-averaged data is also excellent.\n\nTrial duration distribution is incorrect and not helpful.\n\nBecause there are more than 4 plots that are effective and show different data types, the score is 3.",
+                    "score": 9.0,
+                    "thinking": "The notebook contains the following plots:\n    1. Trial duration and inter-trial interval distributions (2 plots)\n    2. Raw neural data for a short time segment (4 channels)\n    3. Power spectra of selected channels (4 channels)\n    4. Trial-averaged responses for each channel (4 channels)\n    5. Time-frequency representation\n    6. Trial raster plot\n    7. Comparison of trial-averaged responses from two files (4 channels)\n\n    That is a total of 17 plots of which I'd consider 7 distinct effective plots with diverse visualizations demonstrating comprehensive coverage.\n\n    Therefore, the score is 8. Considering that a single plot consists of more than 1 channel visualized I will increase the score to 9.",
                     "repnum": 0
                 },
                 {
-                    "score": 1.0,
-                    "thinking": "The notebook includes several plots, including one comparing the signal from multiple channels. However, the plots lack labels required to properly understand what is being visualized (including axis labels and plot titles). The x-axis of the final plot is incorrectly labeled (\"Time from Oms\"). Given the level of effectiveness, the notebook warrants a score of 1.",
+                    "score": 10.0,
+                    "thinking": "The notebook contains several effective plots.\n1. Trial Duration Distribution and Inter-Trial Interval Distribution.\n2. Raw neural data visualization over time, marked with trial boundaries.\n3. Power spectra of selected channels.\n4. Trial-averaged responses for each channel with confidence intervals.\n5. Time Frequency analysis showing frequency changes over time for a single channel.\n6. Trial Raster plot visualizing activity across trials for a single channel.\n7. Comparison of trial-averaged responses from two files.\n\nThese plots demonstrate various data types and visualization methods, providing a comprehensive view of the data. Therefore, the notebook includes more than eight effective plots.",
                     "repnum": 1
                 },
                 {
-                    "score": 3.0,
-                    "thinking": "The notebook contains effective plots, including plots of trial duration and ITI distributions, raw neural data, frequence content, trial-aligned neural activity, time-frequency representation and trial raster plots. Also, there are plots comparing file1 and file2.\n    These plots show the properties of the data and are sufficient to convey different aspects of the data.",
+                    "score": 8.0,
+                    "thinking": "The notebook contains 8 effective plots: histograms of trial duration and inter-trial interval, raw data plots of 4 channels, power spectra of 4 channels, trial-averaged responses of 4 channels, a time-frequency representation, a trial raster plot, and comparison plots of trial-averaged responses from two files for the 4 channels. These plots cover a variety of aspects of the data, and employ visualizations appropriate for the specific datasets involved.",
                     "repnum": 2
                 }
             ]
