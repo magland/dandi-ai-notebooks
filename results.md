@@ -15,11 +15,13 @@
 | [001174.ipynb](dandisets/001174/2025-04-03-claude-3.7-sonnet/001174.ipynb) | 2025-04-03-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-03 14:29:14 | 475.38 | 9 | 783.5k + 14.305k / 16.8k + 1.935k | 2.60 + 0.07 |
 | [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k + 0.0k / 4.0k + 0.0k | 0.05 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:41:41 | 54.46 | 2 | 202.9k + 3.219k / 4.0k + 0.183k | 0.02 + 0.00 |
+| [001174.ipynb](dandisets/001174/2025-04-07-quasar-alpha-exp/001174.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:20:24 | 249.35 | 3 | 198.6k + 1.181k / 5.1k + 0.248k | nan + nan |
 | [001176.ipynb](dandisets/001176/2025-04-02-claude-3.7-sonnet/001176.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 17:40:27 | 770.31 | 8 | 1166.3k + 9.979k / 23.6k + 1.345k | 3.85 + 0.05 |
 | [001176.ipynb](dandisets/001176/2025-04-04-gemini-2.0-flash-001/001176.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:45:14 | 75.16 | 3 | 267.9k + 5.593k / 4.5k + 0.203k | 0.03 + 0.00 |
 | [001275.ipynb](dandisets/001275/2025-04-02-claude-3.7-sonnet/001275.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 19:31:07 | 1976.51 | 11 | 1003.1k + 10.921k / 22.1k + 2.157k | 3.34 + 0.07 |
 | [001275.ipynb](dandisets/001275/2025-04-04-deepseek-chat-v3-0324/001275.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:56:59 | 420.59 | 3 | 189.0k + 0.134k / 3.8k + 0.338k | 0.06 + 0.00 |
 | [001275.ipynb](dandisets/001275/2025-04-04-gemini-2.0-flash-001/001275.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:43:52 | 42.87 | 1 | 151.9k + 1.863k / 3.7k + 0.074k | 0.02 + 0.00 |
+| [001275.ipynb](dandisets/001275/2025-04-07-quasar-alpha-exp/001275.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:26:28 | 193.64 | 5 | 200.0k + 2.637k / 5.5k + 0.489k | nan + nan |
 | [001276.ipynb](dandisets/001276/2025-04-02-claude-3.7-sonnet/001276.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 20:26:59 | 2024.90 | 0 | 2625.4k + 6.834k / 42.4k + 1.059k | 8.51 + 0.04 |
 | [001276.ipynb](dandisets/001276/2025-04-04-deepseek-chat-v3-0324/001276.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:14:18 | 435.83 | 1 | 336.4k + 0.098k / 4.9k + 0.303k | 0.10 + 0.00 |
 | [001276.ipynb](dandisets/001276/2025-04-04-gemini-2.0-flash-001/001276.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:31:32 | 138.77 | 1 | 229.4k + 1.359k / 3.8k + 0.063k | 0.02 + 0.00 |
@@ -27,6 +29,7 @@
 | [001333.ipynb](dandisets/001333/2025-04-02-claude-3.7-sonnet/001333.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 20:43:44 | 646.79 | 7 | 1043.4k + 7.406k / 17.6k + 1.856k | 3.39 + 0.05 |
 | [001333.ipynb](dandisets/001333/2025-04-04-deepseek-chat-v3-0324/001333.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 14:34:28 | 140.00 | 1 | 163.5k + 0.0k / 2.0k + 0.0k | 0.05 + 0.00 |
 | [001333.ipynb](dandisets/001333/2025-04-04-gemini-2.0-flash-001/001333.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:36:12 | 117.28 | 1 | 800.6k + 2.412k / 12.7k + 0.066k | 0.09 + 0.00 |
+| [001333.ipynb](dandisets/001333/2025-04-07-quasar-alpha-exp/001333.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:16:12 | 172.43 | 1 | 203.2k + 1.206k / 4.8k + 0.094k | nan + nan |
 | [001335.ipynb](dandisets/001335/2025-04-02-claude-3.7-sonnet/001335.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 21:13:15 | 1119.79 | 17 | 1231.4k + 19.491k / 34.4k + 2.609k | 4.21 + 0.10 |
 | [001335.ipynb](dandisets/001335/2025-04-03-gemini-2.0-flash-001/001335.ipynb) | 2025-04-03-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-03 17:29:06 | 134.58 | 2 | 389.2k + 3.788k / 7.2k + 0.305k | 0.04 + 0.00 |
 | [001335.ipynb](dandisets/001335/2025-04-07-quasar-alpha-exp/001335.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 11:59:17 | 242.15 | 3 | 329.4k + 3.607k / 7.3k + 0.279k | nan + nan |
@@ -34,6 +37,7 @@
 | [001363.ipynb](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363.ipynb) | 2025-04-04-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-04 14:49:55 | 923.82 | 7 | 1341.8k + 13.194k / 22.7k + 2.138k | 4.37 + 0.07 |
 | [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k + 0.0k / 2.9k + 0.0k | 0.03 + 0.00 |
 | [001363.ipynb](dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:42:55 | 67.30 | 3 | 304.7k + 6.159k / 5.2k + 0.391k | 0.03 + 0.00 |
+| [001363.ipynb](dandisets/001363/2025-04-07-quasar-alpha-exp/001363.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:23:11 | 164.81 | 1 | 171.2k + 1.22k / 4.8k + 0.107k | nan + nan |
 | [001366.ipynb](dandisets/001366/2025-04-04-claude-3.7-sonnet/001366.ipynb) | 2025-04-04-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-04 13:09:35 | 975.82 | 13 | 1596.3k + 25.839k / 36.5k + 3.695k | 5.34 + 0.13 |
 | [001366.ipynb](dandisets/001366/2025-04-04-deepseek-chat-v3-0324/001366.ipynb) | 2025-04-04-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-04 12:53:17 | 190.71 | 1 | 112.8k + 0.104k / 2.5k + 0.169k | 0.03 + 0.00 |
 | [001366.ipynb](dandisets/001366/2025-04-04-gemini-2.0-flash-001/001366.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:22:58 | 57.61 | 1 | 214.4k + 4.176k / 3.9k + 0.288k | 0.02 + 0.00 |
@@ -242,6 +246,22 @@
 ![001174_15_0.png](dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174_files/001174_15_0.png)  
 ![001174_17_0.png](dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174_files/001174_17_0.png)  
 
+### 2025-04-07-quasar-alpha-exp
+
+**Model:** openrouter/quasar-alpha  
+**Generated:** 2025-04-07 13:20:24  
+**Generation Time:** 249.35s  
+**Prompt Tokens:** 198.6k  
+**Completion Tokens:** 5.1k  
+**Estimated Cost:** unknown  
+**Notebook:** [001174.ipynb](dandisets/001174/2025-04-07-quasar-alpha-exp/001174.ipynb)  
+
+**Generated Images:**
+
+![001174_10_0.png](dandisets/001174/2025-04-07-quasar-alpha-exp/001174_files/001174_10_0.png)  
+![001174_13_0.png](dandisets/001174/2025-04-07-quasar-alpha-exp/001174_files/001174_13_0.png)  
+![001174_7_0.png](dandisets/001174/2025-04-07-quasar-alpha-exp/001174_files/001174_7_0.png)  
+
 
 ## Dandiset 001176
 
@@ -338,6 +358,24 @@
 **Generated Images:**
 
 ![001275_21_1.png](dandisets/001275/2025-04-04-gemini-2.0-flash-001/001275_files/001275_21_1.png)  
+
+### 2025-04-07-quasar-alpha-exp
+
+**Model:** openrouter/quasar-alpha  
+**Generated:** 2025-04-07 13:26:28  
+**Generation Time:** 193.64s  
+**Prompt Tokens:** 200.0k  
+**Completion Tokens:** 5.5k  
+**Estimated Cost:** unknown  
+**Notebook:** [001275.ipynb](dandisets/001275/2025-04-07-quasar-alpha-exp/001275.ipynb)  
+
+**Generated Images:**
+
+![001275_11_0.png](dandisets/001275/2025-04-07-quasar-alpha-exp/001275_files/001275_11_0.png)  
+![001275_14_0.png](dandisets/001275/2025-04-07-quasar-alpha-exp/001275_files/001275_14_0.png)  
+![001275_17_0.png](dandisets/001275/2025-04-07-quasar-alpha-exp/001275_files/001275_17_0.png)  
+![001275_5_0.png](dandisets/001275/2025-04-07-quasar-alpha-exp/001275_files/001275_5_0.png)  
+![001275_8_0.png](dandisets/001275/2025-04-07-quasar-alpha-exp/001275_files/001275_8_0.png)  
 
 
 ## Dandiset 001276
@@ -444,6 +482,20 @@
 **Generated Images:**
 
 ![001333_10_0.png](dandisets/001333/2025-04-04-gemini-2.0-flash-001/001333_files/001333_10_0.png)  
+
+### 2025-04-07-quasar-alpha-exp
+
+**Model:** openrouter/quasar-alpha  
+**Generated:** 2025-04-07 13:16:12  
+**Generation Time:** 172.43s  
+**Prompt Tokens:** 203.2k  
+**Completion Tokens:** 4.8k  
+**Estimated Cost:** unknown  
+**Notebook:** [001333.ipynb](dandisets/001333/2025-04-07-quasar-alpha-exp/001333.ipynb)  
+
+**Generated Images:**
+
+![001333_8_0.png](dandisets/001333/2025-04-07-quasar-alpha-exp/001333_files/001333_8_0.png)  
 
 
 ## Dandiset 001335
@@ -577,6 +629,20 @@
 ![001363_11_0.png](dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363_files/001363_11_0.png)  
 ![001363_6_0.png](dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363_files/001363_6_0.png)  
 ![001363_8_0.png](dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363_files/001363_8_0.png)  
+
+### 2025-04-07-quasar-alpha-exp
+
+**Model:** openrouter/quasar-alpha  
+**Generated:** 2025-04-07 13:23:11  
+**Generation Time:** 164.81s  
+**Prompt Tokens:** 171.2k  
+**Completion Tokens:** 4.8k  
+**Estimated Cost:** unknown  
+**Notebook:** [001363.ipynb](dandisets/001363/2025-04-07-quasar-alpha-exp/001363.ipynb)  
+
+**Generated Images:**
+
+![001363_13_0.png](dandisets/001363/2025-04-07-quasar-alpha-exp/001363_files/001363_13_0.png)  
 
 
 ## Dandiset 001366
