@@ -1,0 +1,15 @@
+Session description: Block 1:UE (ABC), Block 2:SE (DEF), Block3:Localizer
+Identifier: M541-2024-08-31
+Session start time: 2025-02-14 10:53:25.647928-05:00
+Experimenter(s): ('Mohapatra, Manish',)
+Experiment description: Head-fixed mouse presented with odor sequences
+Institution: Dartmouth College
+Lab: vandermeerlab
+Keywords: <LindiH5pyDataset: /general/keywords>
+
+Subject info:
+  subject_id: M541
+  species: Mus musculus
+  sex: M
+  age: P8W/
+  description: Headbarr-ed mouse with craniotomies over dCA1
