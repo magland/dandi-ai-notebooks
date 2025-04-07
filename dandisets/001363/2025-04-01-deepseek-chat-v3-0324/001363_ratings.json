@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 8.333333333333334,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides the Dandiset ID, title, purpose (investigating neuronal response to tFUS), and basic contents (neural spiking data from rat somatosensory cortex, ultrasound parameters). Key metadata such as subjects and recording details are outlined in the initial markdown cell. Therefore, the notebook provides a detailed description including purpose, contents, and basic metadata. The quality of the description is good.\n    However, figures look strange and should be investigated.",
+                    "repnum": 0
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides the Dandiset ID, title, a brief description, and mentions the subjects, recording details, and the number of trials. This provides a detailed view of the Dandiset elements including the title, ID, purpose, contents, and some aspects of data organization.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides the Dandiset ID, title, a brief description of the contents (neural spiking data from rat somatosensory cortex in response to transcranial focused ultrasound stimulation), and some key metadata such as the number of trials and recording details. It also describes the purpose, which is to investigate neuronal response to tFUS using a flexible electrode array. Therefore, the notebook meets the criteria for a score of 9.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the dandiset using the dandiapi library and retrieves a list of assets. It then prints the number of assets found. It also later loads metadata like the Session ID, Recording start time and Subject ID from an example nwb file in the dataset.\n\nThe notebook loads key metadata fields but doesn't explore them extensively, which leads to a score of 6 instead of a higher score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the DandiAPIClient and retrieves the Dandiset ID. It also accesses and displays basic metadata fields like the session ID, recording start time, and subject ID from the NWB file. Therefore, it gets a score of 6 following the rubric.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the DandiAPIClient and retrieves the Dandiset ID. It also retrieves and prints some key metadata fields, such as recording start time and subject ID. It fetches the asset list as well. Based on this, it gets a 6.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 5.666666666666667,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully uses the DandiAPIClient to connect to the DANDI archive, retrieves the specified Dandiset (001363), and lists the available assets in the Dandiset using `dandiset.get_assets()`. The code loads the data and displays basic information. Thus, the notebook demonstrates loading specific assets and explores the metadata associated with them. Therefore, a score of 6 is suitable. The plots are not showing correct traces but this is not the question.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully utilizes the DandiAPIClient to load and list the assets associated with the Dandiset \"001363.\" It proceeds to load a specific NWB file from the Dandiset, demonstrating how to access specific asset information for further analysis. The notebook also shows how to access basic meta-data associated with the Dandiset i.e. recording rate, number of electrodes, etc.",
+                    "repnum": 1
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook successfully loads assets from the Dandiset \"001363\" using the DandiAPIClient. It lists the number of assets found. The notebook also demonstrates how to load a specific asset (an NWB file) and access basic information about the session, recording start time, and subject ID. Therefore, it goes beyond just listing assets and shows loading and accessing basic asset information. Also the two plots are blank which hints at errors in the notebook.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file, accesses key metadata like session ID, start time, and subject ID. It also accesses trial information and electrical recordings, plots trial durations and example waveforms. All of this demonstrates accessing basic NWB components. However, there are some errors in the plots that should be fixed.\n\nThe first plot's y axis has unexpected values.\nThe second plot shows flat lines which is unexpected.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from a DANDI dataset and accesses basic components such as session ID, recording start time, subject ID, trial information (start/stop times, durations), and electrical recording data (sampling rate, electrode IDs, example waveforms). This corresponds to demonstrating accessing basic NWB components. However, the resulting plots have issues which is a minor distraction, but the code runs correctly and displays relevant information. The notebook could be said to explore multiple NWB data structures, but the exploration is not extensive, and there isn't detailed navigation or comprehensive exploration. Given the successful loading and accessing of basic components, the score should be a 6.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the NWB file, prints basic information like session ID and subject ID, accesses trial information, and plots trial durations. It also accesses electrical recording data and plots example waveforms. Therefore it accesses basic NWB components.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 5.333333333333333,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from a URL and accesses several key data points: session ID, recording start time, subject ID, trial information (start/stop times, durations), and electrical recordings (sample rate, electrode IDs, example waveforms). It demonstrates how to extract different data types like strings, numerical arrays, and time series data, handling them appropriately. However, the visualizations plot strange outputs that may be due to issues with data scaling or another processing error, but the data *is* loaded and the access to the elements is correct. Given that the basic data is loaded effectively and visualized, and the goal is accessing data, not visualizing per se, I would grade this a 6 demonstrating how to access a limited number of data elements (trials, electrical series, etc).",
+                    "repnum": 0
+                },
+                {
+                    "score": 4.0,
+                    "thinking": "The notebook successfully loads data from an NWB file using `pynwb` and `lindi`. It accesses basic data arrays such as trial start/stop times and electrical recordings. The code runs without significant errors, and it demonstrates loading specific data types like `ElectricalSeries`. Multiple data elements (e.g., trial durations, electrode IDs, waveforms from different electrodes) are accessed and plotted. However, it doesn't delve into more advanced data access techniques or handle exceptionally complex data structures. The plots are not readable and suggest a problem with the data, but the code itself runs and attempts to load different data types. This means the loading is successful, but interpreting the data could be problematic depending on its corruption. I will lower the score to reflect this issue. Furthermore, the plots generated are uninformative (the time vs duration plot looks incorrect, with a very large y axis scale). The waveforms are also just flat lines. The code executed, but failed to produce correct plots indicating some issue with underlying data accessibility and integrity. The data is essentially loaded, but its useless for analysis purposes. Since it does attempt to access different data elements and loads different data types to a degree, I'll assign a 4.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file and accesses several data types, including trial information (start times, stop times, durations) and electrical recordings (sample rate, electrode IDs, waveforms). It demonstrates accessing multiple data elements (e.g., plotting trial durations for all trials, plotting waveforms for multiple electrodes). The use of lindi helps load the data. However, the plots are not very informative. The trial duration plot seems to have an issue with scaling, and the example waveforms plot are essentially flat. This makes it difficult to fully evaluate the \"handling\" of different data types beyond their basic loading. No advanced data access techniques are shown.(e.g. slicing electrical series to get a particular window) Therefore the notebook presents loading of data, but further exploration of data is not done. So, while the essential data is loaded, the handling and exploration is low, making a higher score difficult to justify.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 4.0,
+            "reps": [
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook provides some basic visualizations, including a plot of trial durations and example waveforms from electrical recordings. The plots have labels, but the \"trial durations\" plot seems to have some kind of underflow/overflow issue as all the points end up on a line (likely near zero due to the y axis scale). It does not demonstrate advanced visualization techniques. The example waveforms are just flat lines, which is unexpected.\n\n    The visualizations show two different data types, but there appear to be issues with the plots, diminishing the quality. The labels are there, but not much in the way of explanation during the plotting.\n\n    Considering the points above, a 5 seems to be appropriate.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook successfully loads an NWB file from a Dandiset and visualizes some of its data. The notebook generates a plot of trial durations and example waveforms demonstrating the visualization of trial information and electrical recording data. However, the plots have several significant issues. The trial duration plot is on the order of 1e12+15, which is not reasonable for a duration. Similarly, the waveforms are extremely compressed and nearly flat. It does show basic plots, but there appear to be scaling/plotting issues; this results in a score of 3.",
+                    "repnum": 1
+                },
+                {
+                    "score": 4.0,
+                    "thinking": "The notebook successfully loads data from an NWB file in the Dandiset and creates basic visualizations. It visualizes the trial durations and example waveforms from the electrical recordings. Basic formatting and labeling are included. However, the plots have significant issues (wrong y-axis scale), and could be improved in terms of clarity and the types of data visualized. The notebook touches upon two main data types (trial information and electrical recordings). Given these factors, a score of 4 is appropriate.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 3.6666666666666665,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook produces two plots. In the first plot, the y-axis is not scaled correctly, and the units are unreadable. The second plot shows flat lines for voltage, which is not very informative. Both plots have axes labeled and titles, but due to the scaling issues and content, the overall quality is low. Therefore, the plots have major formatting issues, making them not very readable.",
+                    "repnum": 0
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook provides two plots. The first plot displaying trial durations has a y-axis that is not scaled properly, making it difficult to interpret the actual trial durations. The second plot shows example waveforms, and it is also difficult to interpret, since the waveforms are just flat lines. Overall, the plot quality needs improvement, as the plots are not clear or informative. The labels and titles are present, but scaling prevents useful data interpretation.",
+                    "repnum": 1
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The plots are present but they don't look quite right. The y axis of the first plot is in scientific notation and the y axis of the second plot is shifted up for each electrode so it isn't easily able to be interpreted. The labels and titles are good. These plots could use some more formatting fixing.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 3.0,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "There are two plots in the notebook. The first is a scatter plot of trial durations, and the second shows waveforms from three electrodes. Both plots don't effectively display the data. In the first plot, all durations appear to be the same, while in the second, all waveforms are flat. It seems that there might have been an error generating the plots. Thus, the notebook contains two basic plots that fail to show different data aspects.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "Two plots are displayed. The first plot shows trial durations, and the second plot shows example waveforms. It appears that there may be an issue with the scaling of the y-axis for the trial duration plot. Given the issue, I am giving the notebook a score of 2.",
+                    "repnum": 1
+                },
+                {
+                    "score": 4.0,
+                    "thinking": "The notebook has two plots: One shows the trial durations and the other show example waveforms. Furthermore, the plots show different aspects of the data. However, the plots appear incorrect.\n    - The trial duration plot has a very high y axis scale.\n    - The example waveforms are just flat lines.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
