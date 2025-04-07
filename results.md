@@ -19,6 +19,7 @@
 | [001174.ipynb](dandisets/001174/2025-04-01-deepseek-chat-v3-0324/001174.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 07:50:06 | 465.49 | 3 | 182.9k + 0.0k / 4.0k + 0.0k | 0.05 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-04-gemini-2.0-flash-001/001174.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:41:41 | 54.46 | 2 | 202.9k + 3.219k / 4.0k + 0.183k | 0.02 + 0.00 |
 | [001174.ipynb](dandisets/001174/2025-04-07-quasar-alpha-exp/001174.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:20:24 | 249.35 | 3 | 198.6k + 1.181k / 5.1k + 0.248k | nan + nan |
+| [001176.ipynb](dandisets/001176/2025-04-07-claude-3.5-sonnet/001176.ipynb) | 2025-04-07-claude-3.5-sonnet | anthropic/claude-3.5-sonnet () | 2025-04-07 15:12:07 | 176.68 | 2 | 204.7k + 2.101k / 4.5k + 0.37k | 0.68 + 0.01 |
 | [001176.ipynb](dandisets/001176/2025-04-02-claude-3.7-sonnet/001176.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 17:40:27 | 770.31 | 8 | 1166.3k + 9.979k / 23.6k + 1.345k | 3.85 + 0.05 |
 | [001176.ipynb](dandisets/001176/2025-04-04-gemini-2.0-flash-001/001176.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:45:14 | 75.16 | 3 | 267.9k + 5.593k / 4.5k + 0.203k | 0.03 + 0.00 |
 | [001176.ipynb](dandisets/001176/2025-04-07-quasar-alpha-exp/001176.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:30:55 | 264.52 | 4 | 294.6k + 2.232k / 5.7k + 0.405k | nan + nan |
@@ -322,6 +323,21 @@
 
 
 ## Dandiset 001176
+
+### 2025-04-07-claude-3.5-sonnet
+
+**Model:** anthropic/claude-3.5-sonnet  
+**Generated:** 2025-04-07 15:12:07  
+**Generation Time:** 176.68s  
+**Prompt Tokens:** 204.7k  
+**Completion Tokens:** 4.5k  
+**Estimated Cost:** $0.68  
+**Notebook:** [001176.ipynb](dandisets/001176/2025-04-07-claude-3.5-sonnet/001176.ipynb)  
+
+**Generated Images:**
+
+![001176_6_0.png](dandisets/001176/2025-04-07-claude-3.5-sonnet/001176_files/001176_6_0.png)  
+![001176_9_0.png](dandisets/001176/2025-04-07-claude-3.5-sonnet/001176_files/001176_9_0.png)  
 
 ### 2025-04-02-claude-3.7-sonnet
 
