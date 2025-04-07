@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 8.333333333333334,
+            "reps": [
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides the title, DOI (ID), keywords, contributors, funding information, number of NWB files, and a brief description of the data (calcium imaging in SMA and M1 of macaques during rest or reaching tasks). It also describes the contents regarding imaging data and traces, and provides details about the experimental paradigm. This provides a detailed description, including purpose, contents, and key metadata. Thus the notebook provides overall a clear and relatively comprehensive description of the dandiset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides a good description of the Dandiset, including the title, DOI, keywords, contributors, funding, and a brief overview of the contents. It also mentions the number of NWB files and provides details about the data structure within the NWB files (e.g., acquisition types, processing modules). Therefore it includes the title, ID and a brief overview in addition to detailing the Dandiset purpose, contents, and basic metadata. It does not provide a comprehensive description of the Dandiset structure, or data organization however.\n\nThe notebook has a section titled About this Dandiset that discusses the purpose of what the Dandiset contains as well as some basic metadata fields. The title is mentioned, and the DOI is available.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook includes the title, DOI link (which functions as an ID), a brief description of the contents (calcium imaging in SMA and M1 of macaques), keywords, contributors, funding, and the approximate number of NWB files. It gives a good overview of the Dandiset purpose and its main contents, as well as key metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook uses the DandiAPIClient to load Dandiset \"001174\" and retrieves a list of assets. It then prints the first 5 asset paths. This demonstrates loading and displaying metadata about the Dandiset, including the paths to individual data assets. The notebook loads and displays Dandiset ID and explore assets and print the names, this could be considered metadata and it does this successfully. It also loads some basic information about the NWB file as well such as session description, subject ID, session start time, acquisition types. So the notebook loads and displays basic metadata fields.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook uses the DandiAPIClient to successfully load the Dandiset by its ID and then prints the number of assets, along with the paths of the first 5 assets. It proceeds to load and display basic metadata fields like session description, subject ID, session start time, acquisition types, and processing modules. Therefore, the notebook loads and displays basic metadata fields about the dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook uses the DandiAPIClient to load the Dandiset and its assets. It then prints the number of assets and the paths of the first five assets. Further, the loaded NWB file contains metadata like session description, subject ID, and session start time, which are printed. This demonstrates loading and displaying basic metadata fields, meriting a score of 6.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully lists available assets in the Dandiset using the DANDI API client. It also demonstrates how to load a specific NWB file (an asset) and access its basic information (session description, subject ID, session start time, acquisition types, processing modules). Therefore, the notebook shows how to load assets of the Dandiset and access their metadata.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook lists the assets in the Dandiset and then loads specific assets for further analysis. It also displays basic information and metadata of the loaded asset such as the subject ID, session description, and start time.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates listing the assets in the Dandiset using the DANDI API client. It also shows loading a specific NWB file (asset) from the Dandiset using a URL. This involves accessing and printing basic asset information such as session description, subject ID, session start time, acquisition types, and processing modules. Therefore, it demonstrates loading specific assets and accessing basic asset information related to them. However, it lacks a comprehensive exploration of numerous asset types or detailed metadata of each asset. Therefore a score of 6 is appropriate.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from a URL using the Lindi API. It then prints basic information, including the session description, subject ID, session start time, acquisition types, and processing modules. This demonstrates accessing basic NWB components like session metadata and module keys. Therefore a score of 6 is most appropriate.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from a URL, prints the session description, subject ID, session start time, acquisition types, and processing modules. This demonstrates the ability to access basic components of the NWB file. The notebook does not simply open the file but proceeds to extract key information, fitting the definition of level 6.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from a URL, reads basic information such as session description, subject ID, session start time, acquisition types, and processing modules. This shows that the notebook demonstrates accessing basic NWB components. The notebook also loads imaging data, fluorescence traces and segementation masks which are basic NWB data structures.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 6.333333333333333,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates loading data from a remote NWB file using the Lindi API and pynwb. It successfully loads and prints basic metadata like session description, subject ID, and start time. It also accesses acquisition data ('OnePhotonSeries') and processing modules ('ophys'). The notebook then proceeds to load and visualize specific data arrays like the calcium imaging frames and ROI masks. It shows how to handle numerical data for visualization purposes. Considering the outlined rubric, this notebook successfully loads specific data types and demonstrates how to access multiple data elements within the NWB file structure. Therefore, a score of 6 is appropriate.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook effectively demonstrates loading data from an NWB file within the Dandiset. It utilizes `lindi` to access the file remotely and `pynwb` to handle the NWB format. The code successfully loads basic data arrays like the mean calcium imaging frame and fluorescence traces. It shows how to explore different data elements like session description, subject ID, acquisition types, and processing modules. Although it doesn't cover every possible data type in the NWB file, it handles the imaging data and ROI responses appropriately, and it does not show advanced data access techniques.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from a remote URL using lindi. It then proceeds to access and display data from the 'OnePhotonSeries', 'Fluorescence', and 'ImageSegmentation' sections. This includes accessing the data array for the imaging frames, the RoiResponseSeries data, and the image_mask data. It demonstrates how to access multiple data elements within the NWB file and handles different data types like image data and time series data. It does not delve into very complex data structures or advanced data access, but it provides a functional and clear demonstration of loading and handling multiple relevant data types from the NWB file.\n\nIt loads a remote NWB file using lindi, accesses different data modalities like imaging data and fluorescence traces, and visualizes these data, showing a good grasp of accessing various parts of the data structure in the NWB file. Therefore, it deserves a score of 7.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook effectively demonstrates the visualization of calcium imaging data stored in an NWB file accessed from a Dandiset. It showcases three key visualization types: a mean calcium imaging frame, calcium traces averaged over ROIs, and segmentation masks of ROIs. Each visualization is accompanied by a title, axis labels, and a brief description of the results. The plots provide a reasonable overview of the data, showing spatial features, temporal dynamics, and ROI distributions. While improvements are possible (e.g., more sophisticated visualization techniques, interactive plots), the notebook presents clear and informative visualizations, making it a valuable resource for understanding how to visualize data from NWB files in Dandisets. Code runs without failure.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from the specified Dandiset and visualizes three different data types: a mean calcium imaging frame, average calcium traces over ROIs, and segmentation masks. The plots are clear and have proper labels, although they are relatively basic. The notebook demonstrates multiple visualization types, moving beyond simple visualizations of just one data type, justifying a score of 6.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains several examples of visualizing data from the NWB file. It displays a mean calcium imaging frame, average calcium traces over ROIs, and segmentation masks. The visualizations are clear and properly labeled, demonstrating different data types within the NWB file. The notebook also downloads the data remotely using lindi. neusosift.org API. However, it doesn't reach the level of advanced or publication-quality visualizations, nor does it explore every possible visualization type, warranting a score of 7. The autogenerated quality brings it out of the range for 8, 9, and 10.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The plots are readable and provide basic labels (title, axis labels). The formatting is adequate, but not overly detailed. The plots are sufficient for exploratory data analysis. The notebook generated 3 plots, one showing the mean calcium imaging frame, one showing the average calcium trace, and one showing a max projection of segmentation masks. There are no major issues with making sense of the plots produced. Hence the score is 6. 3 plots were produced and formatted well and readable with appropriate plots.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The plots are readable and have axis labels. The plots about cell traces and segmentation masks especially include details to improve understanding, such as units on the time and fluorescence axes and a colorbar on the segmentation mask plot. The plot titles are appropriate. There may be some formatting improvements that could be made, but overall, the plots are of reasonable quality.\n\nScore: 7",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The plots provided are clear and readable with proper axis labels and titles, and use reasonable color schemes. The plots are well-formatted, conveying the information effectively.\n\nTherefore, the quality of the plots is high.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 5.0,
+            "reps": [
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook contains three effective plots. The first visualizes a mean calcium imaging frame, providing a spatial overview of the recording area. The second displays the average calcium trace over ROIs, illustrating temporal dynamics of neural activity. The third shows the max projection of segmentation masks, allowing to inspect the spatial distribution of segmented ROIs. Each plot illustrates different aspects of the data, demonstrating data variety. Thus the score is 5.",
+                    "repnum": 0
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook includes three effective plots:\n1. Mean Calcium Imaging Frame: Shows the spatial features of the imaging FOV.\n2. Average Calcium Trace over ROIs: Illustrates the temporal dynamics of calcium signals.\n3. Max Projection of Segmentation Masks: Shows the spatial distribution of ROIs.\n\nThese plots demonstrate different aspects of the calcium imaging data, including spatial features, temporal dynamics, and ROI distribution.",
+                    "repnum": 1
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook contains three effective plots: a mean calcium imaging frame, calcium traces averaged over cells, and segmentation masks of ROIs. These plots demonstrate different aspects of the data: spatial features, temporal dynamics, and ROI distribution.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

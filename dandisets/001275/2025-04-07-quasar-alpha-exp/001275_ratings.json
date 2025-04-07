@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 9.0,
+            "reps": [
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook includes the Dandiset ID, title, a brief overview of the contents, the purpose of the data, and some key metadata fields like subject ID, species, and total trials. It also mentions publication information.",
+                    "repnum": 0
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook does a good job describing the dandiset. It mentions the ID, title, purpose, content and some metadata. The intial overview and the abstract given is also helpful. The plots also help understand the contents of the dandiset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides a Dandiset ID (001275) as well as a more detailed description. It also names the publication associated with the Dandiset along with links so it earns a high score. It provides an overview including trial data, reaction times, spike data, unit depths, and electrode geometry. The notebook also cautions the user on the auto generated nature of the notebook analysis.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook loads and displays basic metadata fields such as the session description, experiment data, subject ID, species, institution, lab, total trials, units, and electrodes from the specified NWB file within the Dandiset. This represents a good initial exploration of the metadata. However, some key metadata fields may have been skipped. Also the description of each field is missing which could be improved.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the Dandi API Client and outputs descriptive information/metadata about it such as session description, experiment date, subject ID, species, institution, lab, and counts of trials, units, and electrodes.  It goes beyond just the Dandiset ID and loads several key metadata fields and displays them.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the dandiset ID and explores assets (files), so it loads dandiset information successfully. It displays basic metadata fields like session description, experiment date, subject ID, species, institution, lab, total trials, total units and total electrodes. Thus it successfully loads and explores multiple metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook demonstrates how to use the Dandi API client to get a Dandiset. Then it uses `.get_assets()` to list all assets of the Dandiset, and prints a few out with sizes. Finally, it demonstrates loading NWB formatted data from the lindi server. Lindi is setup for efficient data loading. So the notebook shows how to list the available assets for a specific Dandiset and load the data from one of them.",
+                    "repnum": 0
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook displays code that successfully loads the Dandiset's assets, lists them, and accesses their basic information like path and size. The notebook uses the DandiAPIClient to get the dandiset and its assets. It prints the total number of assets and then prints the path and size of the first five assets. This functionality corresponds to loading basic asset information, but doesn't demonstrate loading specific assets or exploring other asset types.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates listing assets using the DANDI API and provides basic information such as path and size. It subsequently loads a single NWB file from a URL. Therefore, the notebook successfully lists available assets and also successfully loads specific assets.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from the dandiset using lindi, and it then demonstrates accessing several basic NWB components such as session description, experiment date, subject ID, institution, trials, units and electrodes. The notebook then generates plots based on data extracted from the NWB file, further indicating successful loading and exploration of the data within.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from a Dandiset using lindi, prints basic information about it, and accesses trials, units, and electrodes data. It successfully explores multiple NWB data structures. Therefore, the score is 7.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file using lindi and pynwb. It then proceeds to extract and print basic information such as session description, experiment date, subject ID, species, institution, lab, total trials, total units, and total electrodes. This demonstrates accessing and exploring key components of the NWB file structure. The notebook also makes several visualizations from the raw NWB data. However, it does not show very detailed navigation of the NWB hierarchy.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads data from an NWB file using pynwb and lindi. It accesses basic metadata (session description, experiment date, subject ID, etc.) and loads data arrays for trials (success, reaction time), spike data (number of spikes per unit, depth), and electrode geometry (relative x, y coordinates). It iterates through assets. It doesn't handle different data types particularly deeply or perform any advanced data access techniques, but it does get multiple data elements.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the NWB file using pynwb and lindi, which allows for efficient access. It then proceeds to print several metadata attributes, such as session description, experiment date, subject ID, species, institution, lab, trial counts, unit counts, and electrode counts. The notebook also loads and visualizes specific data arrays such as trial outcomes, reaction times, spike counts, unit depths, and electrode locations. Given these aspects, the notebook successfully demonstrates the retrieval of relevant data from the nwb file. It showcases the loading of basic data arrays and accessing multiple data elements and different data types, but falls short of handling very complex structures or employing advanced data access techniques.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads data from an NWB file using pynwb and lindi. It shows how to access metadata, trial data (success, reaction time), spike data (number of spikes), unit depths, and electrode geometry. It covers multiple data elements, and loads basic data arrays, so this suggests a score of 6.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook provides code that successfully visualizes several key aspects of the NWB file: trial success distribution, reaction time distribution, spike count distribution per unit, unit depth distribution, and electrode geometry. The visualizations are simple histograms and scatter plots with appropriate labels. The visualizations provide a good overview of the data, but they lack some advanced features or customization often expected of publication-quality work. Nevertheless, multiple visualization types are demonstrated and the generated plots help to explore the data. Therefore, it demonstrates multiple visualization types well, which suggests a score of 6.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides several visualizations of data extracted from the NWB file. It visualizes trial success distribution, reaction time distribution, spike data, unit depth distribution, and electrode geometry. The plots are labeled, but the analysis is basic. No advanced visualization techniques are used. The plots are not publication quality as the formatting could be improved.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides code to load an NWB file from a DANDI dataset and visualize several key aspects of the data, including trial success distribution, reaction time distribution, spike counts per unit, unit depth distribution, and electrode geometry. The visualizations are generally clear and labeled, although they are relatively basic and lack advanced formatting or customization. The notebook effectively demonstrates how to extract and visualize data from a NWB file within the specified Dandiset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 6.333333333333333,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The plots are readable and have axis labels and titles. The only formatting is the bin sizes aren't optimized for the reaction time histogram, but the axes are clearly labeled overall and the success/failure plot allows extraction of approximate numbers of each case. The x-axis of the unit depth distribution is somewhat less clear than the others. The electrode location is clear and well labeled.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook contains several plots that are easily readable and properly labeled for axes and titles. The formatting overall is adequate. The plots do not have advanced formatting options such as legends in some plots but are of sufficient quality.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The plots are generally well-formatted and readable. They have axis labels and titles. The electrode geometry plot is particularly clear. The other plots are also quite readable, but not exceeding expectations. Therefore, a score of 7 reflects the notebook's quality.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains 5 effective plots. Each plot shows different aspects, specifically the distribution of trial success, reaction time, number of spikes per unit, depths of units, and relative coordinates of electrodes.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook includes 5 plots: trial success distribution, reaction time distribution, number of spikes per unit, unit depth distribution, and electrode relative coordinates. All these plots are effective and showing various data aspects.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains five plots: Trial Success Distribution, Reaction Time Distribution, Number of Spikes per Unit, Unit Depth Distribution, and Electrode Relative Coordinates. Each plot visualizes different aspects of the neural and behavioral data, providing a comprehensive overview. Therefore, they are considered effective plots demonstrating data variety.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

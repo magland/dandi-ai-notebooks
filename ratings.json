@@ -3,6 +3,20 @@
     {
       "notebook": "001366.ipynb",
       "dandiset_id": "001366",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 6.375,
+      "describe-dandiset": 7.666666666666667,
+      "load-dandiset": 7.0,
+      "load-dandiset-assets": 7.0,
+      "load-nwb": 6.0,
+      "load-nwb-data": 5.666666666666667,
+      "visualize-nwb-data": 7.0,
+      "plot-quality": 5.666666666666667,
+      "plot-quantity": 5.0
+    },
+    {
+      "notebook": "001366.ipynb",
+      "dandiset_id": "001366",
       "subfolder": "2025-04-04-gemini-2.0-flash-001",
       "overall_score": 5.958333333333333,
       "describe-dandiset": 9.0,
@@ -45,6 +59,20 @@
     {
       "notebook": "000673.ipynb",
       "dandiset_id": "000673",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 6.416666666666666,
+      "describe-dandiset": 7.333333333333333,
+      "load-dandiset": 6.333333333333333,
+      "load-dandiset-assets": 6.666666666666667,
+      "load-nwb": 7.0,
+      "load-nwb-data": 6.333333333333333,
+      "visualize-nwb-data": 6.666666666666667,
+      "plot-quality": 6.0,
+      "plot-quantity": 5.0
+    },
+    {
+      "notebook": "000673.ipynb",
+      "dandiset_id": "000673",
       "subfolder": "2025-04-02-claude-3.7-sonnet",
       "overall_score": 7.291666666666666,
       "describe-dandiset": 9.666666666666666,
@@ -83,6 +111,20 @@
       "visualize-nwb-data": 7.0,
       "plot-quality": 6.0,
       "plot-quantity": 5.0
+    },
+    {
+      "notebook": "001276.ipynb",
+      "dandiset_id": "001276",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 5.5,
+      "describe-dandiset": 9.333333333333334,
+      "load-dandiset": 7.333333333333333,
+      "load-dandiset-assets": 4.333333333333333,
+      "load-nwb": 6.0,
+      "load-nwb-data": 5.0,
+      "visualize-nwb-data": 5.0,
+      "plot-quality": 5.0,
+      "plot-quantity": 2.0
     },
     {
       "notebook": "001276.ipynb",
@@ -199,6 +241,20 @@
     {
       "notebook": "000945.ipynb",
       "dandiset_id": "000945",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 6.541666666666667,
+      "describe-dandiset": 8.0,
+      "load-dandiset": 6.333333333333333,
+      "load-dandiset-assets": 6.0,
+      "load-nwb": 6.666666666666667,
+      "load-nwb-data": 6.333333333333333,
+      "visualize-nwb-data": 7.0,
+      "plot-quality": 7.0,
+      "plot-quantity": 5.0
+    },
+    {
+      "notebook": "000945.ipynb",
+      "dandiset_id": "000945",
       "subfolder": "2025-04-02-claude-3.7-sonnet",
       "overall_score": 8.125,
       "describe-dandiset": 10.0,
@@ -297,6 +353,20 @@
     {
       "notebook": "001174.ipynb",
       "dandiset_id": "001174",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 6.375,
+      "describe-dandiset": 8.333333333333334,
+      "load-dandiset": 6.0,
+      "load-dandiset-assets": 6.0,
+      "load-nwb": 6.0,
+      "load-nwb-data": 6.333333333333333,
+      "visualize-nwb-data": 6.666666666666667,
+      "plot-quality": 6.666666666666667,
+      "plot-quantity": 5.0
+    },
+    {
+      "notebook": "001174.ipynb",
+      "dandiset_id": "001174",
       "subfolder": "2025-04-04-gemini-2.0-flash-001",
       "overall_score": 6.374999999999999,
       "describe-dandiset": 8.666666666666666,
@@ -325,6 +395,20 @@
     {
       "notebook": "001363.ipynb",
       "dandiset_id": "001363",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 6.125,
+      "describe-dandiset": 9.333333333333334,
+      "load-dandiset": 7.0,
+      "load-dandiset-assets": 6.333333333333333,
+      "load-nwb": 7.0,
+      "load-nwb-data": 6.666666666666667,
+      "visualize-nwb-data": 4.666666666666667,
+      "plot-quality": 6.0,
+      "plot-quantity": 2.0
+    },
+    {
+      "notebook": "001363.ipynb",
+      "dandiset_id": "001363",
       "subfolder": "2025-04-04-gemini-2.0-flash-001",
       "overall_score": 6.125,
       "describe-dandiset": 7.333333333333333,
@@ -349,6 +433,20 @@
       "visualize-nwb-data": 7.333333333333333,
       "plot-quality": 6.333333333333333,
       "plot-quantity": 9.0
+    },
+    {
+      "notebook": "001275.ipynb",
+      "dandiset_id": "001275",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 6.875,
+      "describe-dandiset": 9.0,
+      "load-dandiset": 6.666666666666667,
+      "load-dandiset-assets": 6.666666666666667,
+      "load-nwb": 6.666666666666667,
+      "load-nwb-data": 6.0,
+      "visualize-nwb-data": 6.666666666666667,
+      "plot-quality": 6.333333333333333,
+      "plot-quantity": 7.0
     },
     {
       "notebook": "001275.ipynb",
@@ -391,6 +489,20 @@
       "visualize-nwb-data": 6.333333333333333,
       "plot-quality": 6.333333333333333,
       "plot-quantity": 5.0
+    },
+    {
+      "notebook": "001176.ipynb",
+      "dandiset_id": "001176",
+      "subfolder": "2025-04-07-quasar-alpha-exp",
+      "overall_score": 7.041666666666667,
+      "describe-dandiset": 9.333333333333334,
+      "load-dandiset": 7.0,
+      "load-dandiset-assets": 8.333333333333334,
+      "load-nwb": 6.333333333333333,
+      "load-nwb-data": 6.666666666666667,
+      "visualize-nwb-data": 7.0,
+      "plot-quality": 5.666666666666667,
+      "plot-quantity": 6.0
     },
     {
       "notebook": "001176.ipynb",
