@@ -1,9 +1,0 @@
-Block 1: #epochs=1; start=[616.]; stop=[2144.]; duration=[1528.]
-Block 2: #epochs=1; start=[2712.]; stop=[4243.]; duration=[1531.]
-Block 3: #epochs=1; start=[4859.]; stop=[6182.]; duration=[1323.]
-Odor A ON: #epochs=101; mean_duration=2.001s; first_start=645.080s
-Odor B ON: #epochs=101; mean_duration=2.000s; first_start=627.418s
-Odor C ON: #epochs=101; mean_duration=2.001s; first_start=621.837s
-Odor D ON: #epochs=101; mean_duration=2.000s; first_start=2717.422s
-Odor E ON: #epochs=101; mean_duration=2.001s; first_start=2724.063s
-Odor F ON: #epochs=101; mean_duration=2.000s; first_start=2729.775s

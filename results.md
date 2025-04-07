@@ -34,7 +34,6 @@
 | [001335.ipynb](dandisets/001335/2025-04-02-claude-3.7-sonnet/001335.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 21:13:15 | 1119.79 | 17 | 1231.4k + 19.491k / 34.4k + 2.609k | 4.21 + 0.10 |
 | [001335.ipynb](dandisets/001335/2025-04-03-gemini-2.0-flash-001/001335.ipynb) | 2025-04-03-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-03 17:29:06 | 134.58 | 2 | 389.2k + 3.788k / 7.2k + 0.305k | 0.04 + 0.00 |
 | [001335.ipynb](dandisets/001335/2025-04-07-quasar-alpha-exp/001335.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 11:59:17 | 242.15 | 3 | 329.4k + 3.607k / 7.3k + 0.279k | nan + nan |
-| [001335.ipynb](dandisets/001335/2025-04-07-quasar-alpha/001335.ipynb) | 2025-04-07-quasar-alpha | openrouter/quasar-alpha () | 2025-04-07 11:39:49 | 152.03 | 2 | 269.8k + 1.382k / 6.2k + 0.216k | nan + nan |
 | [001363.ipynb](dandisets/001363/2025-04-04-claude-3.7-sonnet/001363.ipynb) | 2025-04-04-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-04 14:49:55 | 923.82 | 7 | 1341.8k + 13.194k / 22.7k + 2.138k | 4.37 + 0.07 |
 | [001363.ipynb](dandisets/001363/2025-04-01-deepseek-chat-v3-0324/001363.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:07:58 | 230.45 | 2 | 116.7k + 0.0k / 2.9k + 0.0k | 0.03 + 0.00 |
 | [001363.ipynb](dandisets/001363/2025-04-04-gemini-2.0-flash-001/001363.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:42:55 | 67.30 | 3 | 304.7k + 6.159k / 5.2k + 0.391k | 0.03 + 0.00 |
@@ -578,21 +577,6 @@
 ![001335_10_0.png](dandisets/001335/2025-04-07-quasar-alpha-exp/001335_files/001335_10_0.png)  
 ![001335_13_0.png](dandisets/001335/2025-04-07-quasar-alpha-exp/001335_files/001335_13_0.png)  
 ![001335_16_0.png](dandisets/001335/2025-04-07-quasar-alpha-exp/001335_files/001335_16_0.png)  
-
-### 2025-04-07-quasar-alpha
-
-**Model:** openrouter/quasar-alpha  
-**Generated:** 2025-04-07 11:39:49  
-**Generation Time:** 152.03s  
-**Prompt Tokens:** 269.8k  
-**Completion Tokens:** 6.2k  
-**Estimated Cost:** unknown  
-**Notebook:** [001335.ipynb](dandisets/001335/2025-04-07-quasar-alpha/001335.ipynb)  
-
-**Generated Images:**
-
-![001335_11_0.png](dandisets/001335/2025-04-07-quasar-alpha/001335_files/001335_11_0.png)  
-![001335_8_0.png](dandisets/001335/2025-04-07-quasar-alpha/001335_files/001335_8_0.png)  
 
 
 ## Dandiset 001363
