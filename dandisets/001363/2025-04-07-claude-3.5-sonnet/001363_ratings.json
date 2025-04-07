@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 9.0,
+            "reps": [
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides a good description of the Dandiset, including the title, ID (implicitly, as it's used for loading), purpose (investigating neural response to tFUS), contents (neural spiking data, ultrasound stimulation parameters), and some metadata (subject ID, species, age, institution). It overviews the experimental design and the types of analyses that can be performed, so it has a good level of detail. However, I wouldn't say it's a comprehensive description of the data organization.",
+                    "repnum": 0
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides a comprehensive description of the Dandiset, including its ID, title, purpose, contents (neural spiking data from rat somatosensory cortex in response to tFUS), key metadata fields (subject ID, species, age, institution), and data organization (trials, electrodes). The initial markdown clearly states the purpose of the dataset and also mentions different ultrasound pressure levels, duty cycles and PRF. The \"Dataset Overview\" section clearly states the purpose, contents and key metadata. Therefore, it aligns well with a score of 9.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides the DANDI archive URL, the Dandiset ID (001363), and a detailed description of the dataset's purpose, contents, experimental design, and key metadata such as subject details and stimulation parameters. It outlines the number of trials, stimulation duration, inter-trial interval, pressure levels, duty cycles, and PRF. This makes it a clear and comprehensive description. The notebook also prints the dataset's session description, subject ID, species, age and institution. I would rate this as a 9.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook loads the dandiset ID and displays some metadata fields such as session description, subject ID, subject species, subject age and institution. It successfully loads and displays multiple metadata fields, so deserves a score of 7.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully connects to the DANDI archive, retrieves and identifies a Dandiset, and accesses several metadata fields such as session description, subject ID, subject species, subject age, and institution. The code executes without errors and displays these metadata fields. Therefore, it goes beyond just loading the Dandiset ID and showing minimal metadata but falls short of exploring all available fields. Hence, a score of 6 is appropriate.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook connects to DANDI, retrieves Dandiset \"001363\", lists available assets (NWB files), and then opens a specified NWB file from the Dandiset. It also prints basic metadata such as session description, subject ID, species, age and institution, demonstrating successful loading and display of metadata. Therefore, the notebook successfully loads and explores multiple Dandiset related metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the dataset from the DANDI archive, lists the available assets, and loads a specific NWB file. It also accesses basic metadata, like the session description and subject information, from the loaded NWB file. The code runs without significant errors and effectively demonstrates how to access and utilize assets of the Dandiset. It also shows how assets are accessed via a lindih5pyfile.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads assets from the DANDI archive. It lists all the available assets and also accesses and loads a specific NWB file, demonstrating how to load a specific asset. The notebook explores some metadata associated with these assets. However, it does not explore multiple asset types explicitly or provide an exhaustive examination of different metadata fields.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully lists available assets using the DandiAPIClient and then loads a specific NWB file, demonstrating loading specific assets and accessing basic metadata. Thus, the code loads basic asset information, loads specific assets, show how to access asset metadata.\n    The notebook could be improved, for example, by accessing further metadata of the selected asset.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file using `lindi` and `pynwb`, accesses basic metadata (session description, subject ID, species, age, institution), and explores the electrode configuration and trial information. It demonstrates accessing basic NWB components like electrodes, trials, and electrical series. The notebook also shows some data structures. Therefore, it deserves a 6.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI archive using lindi and pynwb, and extracts basic metadata such as session description, subject ID, species, age, and institution. It also explores the electrode configuration and trial information from the NWB file. Therefore, the notebook demonstrates accessing basic NWB components and provides a basic demonstration of the NWB data structure. Thus, a score of 6 is warranted.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads an NWB file from a DANDI archive, prints basic dataset information (session description, subject ID, etc.), explores the recording setup by visualizing the electrode configuration, and analyzes neural responses to transcranial focused ultrasound stimulation. It accesses trial information, visualizes neural activity for individual trials, and calculates/plots trial-averaged responses. It demonstrates accessing multiple NWB data structures. Therefore, the notebook demonstrates accessing basic NWB components.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates loading data from an NWB file hosted on the DANDI archive. It successfully loads the NWB file, accesses metadata, electrode positions, trial information, and electrical series data. It extracts and visualizes single-trial and trial-averaged responses, showing how to access specific data types using pynwb. It would be rated higher if it explored more complex data structures, but it provides a good demonstration of basic loading and data access, with multiple data elements. Therefore, a score of 6 is appropriate, because multiple data elements are accessed but not more complex data structures.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from the DANDI archive using lindi and pynwb, and accesses various data elements within the file, including session metadata, electrode positions, and neural activity (electrical series). It also demonstrates how to access trial information. The notebook appropriately handles these different data types and provides examples of how to visualize and analyze the loaded data. The notebook could be improved further by addressing channel maps and further details about spike sorting if those are contained within the datasets, but nonetheless, the core data is successfully loaded and used.",
+                    "repnum": 1
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook successfully loads and explores data from an NWB file in the Dandiset. It connects to DANDI, lists assets, and loads a specific NWB file using lindi. It accesses basic metadata (session description, subject info, etc.) and explores more complex data structures like electrode positions and trial information (start times, stop times). It also extracts and visualizes neural activity during trials, including single-trial examples and trial-averaged responses. The notebook adequately handles different data types, loading and using data from different fields of the NWB file. It doesn't demonstrate advanced data access techniques. Therefore, the score is 8.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook effectively demonstrates the visualization of data from an NWB file. It loads the data from a remote source using the lindi client, plots the electrode array configuration, and shows both single-trial and trial-averaged neural responses. The visualizations are clear, properly labeled, and relevant to the analysis. However, it is using pretty basic plotting methods. The plotting could be improved to be publication quality.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook effectively visualizes neural spiking data from an NWB file, demonstrating multiple ways to represent the data. It includes plots of electrode configuration, single-trial responses, and trial-averaged responses, enhancing understanding of the dataset. Proper labeling and formatting are applied, contributing to the clarity and interpretability of the visualizations. I would mark it down for lack of advanced techniques.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads and visualizes several data types from an NWB file. It shows examples of visualizing electrode positions, single-trial responses, and trial-averaged responses. The plots have labels, titles, and legends, although the single-trial plots are a bit noisy. Overall, the notebook provides good examples of visualizing data from an NWB file. The average responses are also shown which removes some of the noise from single sweeps and are easier to interpret. Visualizations can be improved by averaging more trials and using more advanced techniques.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 7.666666666666667,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains three plots. The first plot visualizes the electrode array configuration. The axes are labeled correctly and a colorbar is used to show the z-position of each electrode. The title and gridlines are present. The second plot shows example single trial responses for 4 channels. The stimulation period is indicated with vertical lines. The axes are properly labeled with units. Each channel is represented by a different color and labeled in the legend. The title and gridlines are present. The third plot shows the trial-averaged response for 4 channels. The stimulation period is indicated with vertical lines. The axes are properly labeled with units. Each channel is represented by a different color and labeled in the legend. The title and gridlines are present. All three plots are readable and well-labeled, making them of good quality.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains several plots. The first plot shows the electrode array configuration and it is clear, readable, and has proper labels, including axis labels and a colorbar. The second plot displays example single trial responses, having labels for each channel, stimulation start, and stimulation end. The x and y axis are also labeled, with a title for the entire plot. The trial-averaged response plot also contains similar formatting and labels to the previous plot. All plots have grid lines which help in readability. Thus, I would rank the quality of the plots at a score of 7 out of 10.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook contains three plots. The electrode array configuration plot is well-formatted and the labels are clear. The two plots showing single trial responses and trial-averaged responses are similarly well-formatted. Labels are complete. Overall the plots look quite good. I don't see anything I would necessarily change if I had to include these plots in a publication.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 5.0,
+            "reps": [
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook provides three effective plots:\n1. Electrode array configuration\n2. Example single trial responses\n3. Trial-averaged response\nThese plots cover different aspects of the data - electrode setup and individual/averaged neural responses to stimulation. These plots demonstrate data variety. Thus, the notebook should be rated 5.",
+                    "repnum": 0
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook effectively uses three plots to visualize different aspects of the neural data. The first plot shows the electrode array configuration. The second visualizes the example single trial responses. The third presents the trial-averaged response for different channels. All three plots are effective and relevant to the notebook's objective. Thus the score should be 5. Visualizing the electrode configuration (electrode positions), single trial responses, and trial-averaged responses provides a good overview of the data.",
+                    "repnum": 1
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook creates three effective plots:\n1. Electrode Array Configuration: Demonstrates the spatial arrangement of the electrodes.\n2. Example Single Trial Responses: Shows neural activity during individual trials, including activity before and after stimulation, and the stimulation period is indicated.\n3. Trial-Averaged Response: Displays neural activity averaged across trials, reducing noise and highlighting consistent patterns correlated with the stimulation period.\n\nTherefore, the notebook has three effective plots, each showing different aspects of the data.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

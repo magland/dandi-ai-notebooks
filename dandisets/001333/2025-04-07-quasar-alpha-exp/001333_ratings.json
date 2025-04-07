@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 7.666666666666667,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook includes the Dandiset ID, title, a brief overview of the contents (beta average rectified voltage and LFP), and the purpose of the dataset (electrophysiological signals from healthy and Parkinsonian subjects). It also includes a link to the dataset citation and an arXiv link providing more information.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides the Dandiset ID and title. It also describes the purpose and key contents of the Dandiset, including different types of data contained within it. It also explains that data are electrophysiological signals.\n    The notebook provides a good explanation of the dandiset content and basic metadata.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides the Dandiset ID, title, purpose, and a description of its contents including the type of data it contains (beta ARV and LFP), the condition of the subjects (healthy and Parkinsonian), and some key metadata fields. It describes the type of signals contained within the NWB files and notes that the data is electrophysiological.It also provides the link to the dataset citation.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook starts by loading the Dandiset using the DandiAPIClient and retrieves all assets, printing out their names and paths. This demonstrates the successful loading and exploration of key metadata fields. It shows Dandiset ID and allows to see paths to files.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook loads the dandiset using the DandiAPIClient and retrieves a list of assets. It then prints the total number of assets and displays the paths of the first 5 assets, demonstrating the loading and exploration of basic information about the dandiset and its contents. The dandiset id is hardcoded, but successfully used via the api.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook loads a dandiset using the DandiAPIClient and displays the total number of assets and example asset paths, demonstrating successful loading and exploration of basic metadata related to the dandiset's contents and organization. The code executes without errors. It also loads more than just the ID although it doesn't go into detail.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 5.333333333333333,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates how to load assets of the Dandiset using the Dandi API. It lists the available assets and downloads a sample NWB file. The code runs without significant errors. The notebook also shows how to access and print basic asset information, such as the path of the assets. Thus it meets the criteria for a score of 6.",
+                    "repnum": 0
+                },
+                {
+                    "score": 4.0,
+                    "thinking": "The notebook successfully loads the assets of the Dandiset using the DandiAPIClient and lists the available assets. The code runs without errors and prints the names of the assets. Therefore, it receives a score of 4.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook uses the DandiAPIClient to get the Dandiset and its assets, then lists the paths of the first 5 assets. Thus, it demonstrates loading specific assets and lists available assets.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 5.666666666666667,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook presents code that opens an NWB file using h5py to list the top-level groups and processing modules, demonstrating the basic structure of the file. Additionally, the notebook successfully extracts and visualizes data from the NWB file. Therefore, it goes a bit beyond just showing the basic structure or opening the file. But navigates and presents data from components",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook loads data using h5py library and prints the top-level groups and processing modules, revealing the structure and allowing access to basic components. The notebook opens a NWB file and demonstrates how to access data and metadata, and it briefly explains the use of pynwb. This allows the user to explore some structures within the file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook opens the NWB file using h5py and prints the top-level groups and processing modules, demonstrating access to basic NWB components and file structure.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 5.333333333333333,
+            "reps": [
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook successfully loads and visualizes beta band voltage data from a sample NWB file. It shows how to access specific data groups within the file using `h5py`, extracts the data and timestamps, and plots the extracted data. It demonstrates loading specific data types (Beta Band Voltage, timestamps and electrode id). It handles the case where the data is 1D and reshapes it for plotting, though this could be improved to handle different electrode setups more robustly. Therefore, it loads and plots some specific data types. It does not explore all data types, or data from multiple files. It does inspect the NWB file structure.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook demonstrates how to load data from an NWB file using `h5py`. It opens the file, inspects its structure, and then extracts beta band voltage data along with timestamps and electrode IDs. The code accesses data within nested groups ('processing', 'ecephys', 'LFP', 'Beta_Band_Voltage') and handles the shape of the data array to ensure correct plotting. While it doesn't delve into comprehensive data handling, it provides a solid example of loading specific data types. Therefore, it shows how to load multiple data elements successfully, and is thus rated 6.",
+                    "repnum": 1
+                },
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook successfully loads data from an NWB file using h5py and extracts beta band voltage data, along with timestamps and electrode IDs. It handles potential differences in data dimensionality and provides a visualization of the extracted data. The notebook effectively demonstrates how to load and visualize specific data within the NWB file. It earns a score of 5 because it demonstrates loading specific data types but doesn't comprehensively handle multiple data types or more complex scenarios.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook loads an NWB file, extracts beta band voltage data and timestamps and then visualizes it in a plot. The plot has axis labels and title. There is only one type of data from a single file. The visualizations are not particularly advanced but they are clear and properly labeled. The notebook would benefit from additional visualization techniques to merit a higher score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides code to extract beta band power data from a sample NWB file and visualizes it over time. The plot has labels and a title, and a legend. It loads the data and timestamps, loops through electrodes (though only one is displayed in the image), and plots the beta band power. The visualization is relatively simple but effective in showing the data. The plot has labels and a title, demonstrating some attention to formatting. The code is functional and produces a useful visualization, thus meriting a score of 7.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook loads data from an NWB file and generates a basic plot of beta band voltage signals. The plot has axis labels and a title, making it reasonably clear. The notebook shows a simple visualization of one data type, beta band power. The x and y axis are correctly labelled with time and beta band power respectively. A legend is also present, albeit for a single electrode. The plot is adequate but not advanced; it could be improved with more sophisticated plotting techniques, multiple electrodes, or statistical summaries. The quality of visualization is good enough for understanding the data, but it is not publication quality.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The plot is clearly readable and includes appropriate labels for the axes (\"Time (s)\", \"Beta Band Power (a.u.)\"), a title (\"Beta Band Voltage signals across electrodes\"), and a legend (\"Electrode 0\"). The formatting is acceptable, making it easy to interpret the data. However, it is a simple plot with only one electrode shown. More elaborate formatting such as grid lines or different colors/linestyles to distinguish multiple electrodes within the same electrode group could have further enhanced clarity.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The plot is readable and contains labels for the axes, title and data shown. The plot isn't overly complicated and clearly conveys the data. There is a legend as well. It could be improved by showing more than one electrode at a time, but as a demonstration of how to extract the data it fulfils the desired outcome. Therefore the plot is clear and properly formatted.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook has one plot. The plot is readable and has axis labels, a title, and a legend. The formatting is acceptable, though not exceptional. There's nothing wrong with it, but publication-ready plots would have more polished aesthetics.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 2.0,
+            "reps": [
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains a single plot visualizing beta band voltage signals across electrodes. Therefore, the plot can be considered as a single basic plot.",
+                    "repnum": 0
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook contains only one plot that is effective in showing the beta band voltage signals across electrodes over time. Therefore, the notebook contains a single basic plot.",
+                    "repnum": 1
+                },
+                {
+                    "score": 2.0,
+                    "thinking": "The notebook includes one plot visualizing beta band voltage signals across electrodes. Although the plot is informative, it is the only one present and can be considered a basic plot, showing the core aspect of the data being analyzed. Therefore the score is 2.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}

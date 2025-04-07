@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 5.0,
+                    "thinking": "The notebook mentions the Dandiset ID and provides a brief overview of the data contained within, including the task and subjects. The title also clearly states the Dandiset ID and a descriptive name for the data. It doesn't delve into a detailed structural overview or metadata, but provides sufficient context.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook provides the Dandiset ID \"001275\" and the title \"Primate Mental Navigation Dataset\". Moreover, it gives an overview of the dataset's purpose which is to analyze a primate mental navigation task, and describes the basic contents, including behavioral data and neural recordings. In particular, the contents seem to relate to the task design (navigation between landmarks on a linear track) and the type of neural recordings (electrodes in the posterior parietal cortex). This aligns more with a score of 6 than a score of 5, as it also describes the overall purpose (mental navigation task) in addition to the ID/title and overviews. Scoring lower seems inadequate as the notebook does convey substantial basic information about the Dandiset whereas scoring higher would require further metadata and more structure on how the data of the dandiset is organized.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook provides a good description of the Dandiset, including the ID, title, purpose, contents, and some metadata. The notebook includes a title, provides the DANDI ID, and states the dataset is a primate mental navigation task. It briefly describes the task and what data is available, including behavioral and neural data. It also provides subject ID and session date as metadata. The notebook does provide sufficient amount of information to the dataset",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 6.333333333333333,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook uses the DandiAPIClient to load a Dandiset and fetches the list of assets. Then loads the NWB file using the lindi.LindiH5pyFile.\nThe notebook then displays the following metadata:\n- Subject ID\n- Session Date\n- Task Description\n\nTherefore it loads and displays basic metadata fields. There is no detailed exploration, such as using more advanced search to isolate a subset of relevant metadata.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the Dandiset using the DandiAPIClient and retrieves the dandiset ID. It also lists all assets within the dandiset. The notebook proceeds to present the Subject ID, Session Date, and Task Description as part of the session information. Therefore, the notebook is capable of loading and displaying several metadata fields. The fields have sufficient information to characterise the data making it a comprehensive introduction to the metadata of the experiment. It also uses lindi for file access.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully loads the dandiset and displays basic metadata fields such as subject ID, session date, and task description. Additionally, it lists all assets within the dataset. This suggests a basic but successful exploration of relevant metadata fields. Therefore, a score of 6 is appropriate, as it loads and displays basic metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 6.0,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully uses the Dandi API to list the assets of the dandiset and loads one of the assets for further analysis. Therefore, it loads basic asset information and demonstrates loading a specific asset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully lists the assets of the Dandiset and then demonstrates how to load and read a specific asset using lindi, which is a higher level than simply listing assets. The 'Session Information' includes basic metadata from the NWB file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook successfully uses the DandiAPIClient to get and list the assets associated with the Dandiset \"001275\". The asset is then loaded for further analysis. This demonstrates loading specific assets and extracting basic session information, including \"Subject ID\", \"Session Date\", and \"Task Description\", which is metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the NWB file from DANDI using lindi and pynwb. It then accesses and prints basic session information such as subject ID, session date and task description, as well as demonstrates plotting electrode locations, firing rate distribution and unit quality distribution. Therefore, the notebook effectively demonstrates how to open and explore the basic components of an NWB file. Although it doesn't explore every possible data structure, it goes beyond simply opening the file and demonstrates accessing several key data structures related to behavior and electrophysiology. The notebook effectively loads basic information and explores multiple NWB data structures. A score of 7 is appropriate.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook loads an NWB file from the DANDI API (score 4). It then accesses the subject ID, session date, and task description (score 6). It also accesses trial information, electrode locations, and unit firing rates, and plots these data (score 7). It doesn't demonstrate complete navigation of the NWB hierarchy, so it gets a 7 rather than a higher score.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook loads an NWB file from DANDI using lindi, prints basic session information such as subject ID, session date, and task description, and accesses trials data including trial types, success, reaction time, start position, and target position. It also examines neural data, including electrode locations and firing rates and investigates spike rasters around the go cue. The notebook effectively accesses and explores various components of the NWB file. Therefore the notebook demonstrates accessing basic NWB components. I am assigning 6.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 7.333333333333333,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads the datasets using lindi and pynwb, retrieves different data elements, and plots several types of data, showcasing how to access multiple data elements and handles different data types appropriately. However, given the fact that it is only exploring basic plots, not complex analysis, I won't give an advanced score higher than 7.",
+                    "repnum": 0
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook successfully loads the NWB file using lindi and pynwb. It accesses various data elements like trials, units, electrodes, and their properties. The notebook handles different data types such as trial types, success rates, firing rates, and electrode positions, displaying examples of how to extract and process these data. Therefore, the notebook effectively demonstrates loading and handling multiple data types from the NWB file, justifying a high score. It does not perform advanced techniques like lazy loading or data streaming but covers the basics well. The notebook fails in one spot and produces a warning, but the analysis continues. Also, there is no Center Visible trial type as one of the plots shows, potentially an error in processing / understanding of the data.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook successfully loads an NWB file from DANDI using lindi and pynwb. It then accesses various data elements like trials, neural units, electrode locations, and spike times. The notebook also appropriately separates different data types such as numerical data, strings, and arrays. The score is less than perfect because more advanced data access techniques such as using complex indexing or filtering for specific analysis is not demonstrated, even though basic loading and handling is present.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 6.666666666666667,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides examples of how to visualize data from the NWB file, including trial type distribution, success rate, electrode locations, firing rates, unit quality, and spike rasters. The plots include titles and axis labels, which makes them relatively clear. However, some formatting could be improved. For example, the electrode locations are not scaled appropriately. Overall, the notebook provides multiple visualization types and is more than basic (score &gt;5), and provides clear labeling (score &gt; 6). The visualizations are not advanced, so the score is less than 8.",
+                    "repnum": 0
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The notebook provides several examples of visualizing data from the NWB file, including distributions of trial types, success rates, electrode locations, firing rates, and unit qualities. It also includes a raster plot of neural activity around the go cue. The plots are generally clear and labeled, but there are some areas that could be improved, like using more sophisticated plotting techniques or adding more contextual information. The notebook successfully demonstrates multiple visualization types, meriting a score of 6.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates multiple visualization types applied to both behavioral and neural data extracted from an NWB file in the specified Dandiset. The visualizations include distributions of trial types, success rates, electrode locations, firing rates, unit quality, and spike rasters around the go cue. Most visualizations have proper labeling and titles. However, the formatting is basic and the plots are not publication quality. There appears to be some minor issue with NTS, Center Visible and MNAV counts and the order on the plot being incorrect - possibly due to a mistake in the input data (the code is attempting to read the different trial types). Also, units with the highest firing rates are selected, but no explicit justification is provided for this specific choice. The quality of the figures is reasonable, so I will score this a 7.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 6.333333333333333,
+            "reps": [
+                {
+                    "score": 6.0,
+                    "thinking": "The plots are generally clear and readable, with labels for axes and titles. Some plots have slightly better formatting than others. All plots could use some formatting improvements. For example, markersizes and colors, legends, and font sizes could be improved. The plots are not of the highest quality but mostly passable. Also, one of the bar plots had an entry of 0 which caused an artifact. Overall, they are well above basic but have room for improvement.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains several plots, each serving a distinct purpose in visualizing behavioral and neural data. The plots are generally readable and informative, with appropriate labels for axes and titles. The formatting is basic but sufficient for understanding the data. The plots convey essential information about trial types, success rates, electrode locations, firing rate distributions, and neural activity around task events.\n    There are some formatting issues e.g. with the \"Distribution of Trial Types\" and \"Success Rate by Trial Type\" plots. Namely, the \"plot trial type distribution\" plots `Center Visible` even though it appears to have no data. Also, in the \"plot unit quality distribution\" plot, 'unssorted' is listed even though it should have had 'unsorted'.\n    These plots are not publication-ready, but they are well above minimal formatting.\n    Therefore, the rating should be higher than 5 and lower than 8. A rating of 7 is the most appropriate here.",
+                    "repnum": 1
+                },
+                {
+                    "score": 6.0,
+                    "thinking": "The plots are generally well-formatted and readable, include axis labels and titles, and convey the information effectively. There are some minor formatting or labeling issues. Most plots are good. The electrode locations plot is very basic\nThe bar plots could be improved in terms of visual appeal, but are functional.\nThe raster plot is somewhat dense but conveys the information about spike timing.\nOverall, the plots are good, but there is room for improvement in terms of aesthetics and more detailed labeling.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 9.0,
+            "reps": [
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook contains 7 plots: distribution of trial types, success rate by trial type, success rate vs distance, electrode locations, distribution of firing rates, distribution of unit quality and finally spike raster around go cue. All 7 plots are effective to visualize the data.",
+                    "repnum": 0
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "The notebook contains the following effective plots:\nPlot 1: Distribution of Trial Types\nPlot 2: Success Rate by Trial Type\nPlot 3: Success Rate vs Distance Between Landmarks\nPlot 4: Electrode Locations\nPlot 5: Distribution of Firing Rates\nPlot 6: Distribution of Unit Quality\nPlot 7: Spike Raster Around Go Cue\n\nTherefore there are 7 effective plots provided.",
+                    "repnum": 1
+                },
+                {
+                    "score": 9.0,
+                    "thinking": "There are seven plots in the notebook: 'Distribution of Trial Types', 'Success Rate by Trial Type', 'Success Rate vs Distance Between Landmarks', 'Electrode Locations', 'Distribution of Firing Rates', 'Distribution of Unit Quality', and 'Spike Raster Around Go Cue'. These plots show various aspects of the data, from the distribution of trial types and success rates to electrode locations and neural activity, and use different visualization types. The plot 'Distribution of Trial Type' produced by the code is slightly inaccurate, but another version containing the correct information is presented at the beginning of the notebook.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
