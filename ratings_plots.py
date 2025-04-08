@@ -4,8 +4,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the data
-with open('ratings.json', 'r') as f:
+model = None
+# model = "anthropic/claude-3.5-sonnet"
+
+if model is None:
+    ratings_json_file = 'ratings.json'
+else:
+    ratings_json_file = f'ratings_{model.split("/")[-1]}.json'
+with open(ratings_json_file, 'r') as f:
     ratings_data = json.load(f)
 
 with open('questions.yml', 'r') as f:
@@ -68,7 +74,11 @@ for i, v in enumerate(overall_scores):
     ax.text(v + 0.1, i, f'{v:.2f}', va='center')
 ax.set_xlim(0, 10)
 plt.tight_layout()
-plt.savefig('overall_scores.png', dpi=300, bbox_inches='tight')
+if model is None:
+    overall_scores_file = 'overall_scores.png'
+else:
+    overall_scores_file = f'overall_scores_{model.split("/")[-1]}.png'
+plt.savefig(overall_scores_file, dpi=300, bbox_inches='tight')
 plt.close()
 
 # Create plots for each question
@@ -80,5 +90,9 @@ for i, question in enumerate(questions):
     plot_metric(df, question, f'Scores for {question}', axes[i], model_to_color)
 
 plt.tight_layout()
-plt.savefig('question_scores.png', dpi=300, bbox_inches='tight')
+if model is None:
+    question_scores_file = 'question_scores.png'
+else:
+    question_scores_file = f'question_scores_{model.split("/")[-1]}.png'
+plt.savefig(question_scores_file, dpi=300, bbox_inches='tight')
 plt.close()

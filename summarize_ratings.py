@@ -5,6 +5,9 @@ import json
 import yaml
 from typing import Dict, List, Tuple
 
+model = None
+# model = "anthropic/claude-3.5-sonnet"
+
 def load_questions(questions_yaml: str) -> List[Dict]:
     """Load questions from questions.yml."""
     with open(questions_yaml, 'r') as f:
@@ -30,7 +33,10 @@ def find_rating_files(base_dir: str) -> List[Tuple[str, str, str]]:
                 continue
 
             # Look for ratings.json file
-            ratings_file = f"{dandiset_id}_ratings.json"
+            if model is None:
+                ratings_file = f"{dandiset_id}_ratings.json"
+            else:
+                ratings_file = f'{dandiset_id}_ratings_{model.split("/")[-1]}.json'
             ratings_path = os.path.join(subfolder_path, ratings_file)
             if os.path.isfile(ratings_path):
                 rating_files.append((dandiset_id, subfolder, ratings_path))
@@ -144,14 +150,22 @@ def main():
     json_data = create_json_data(questions, ratings_data)
 
     # Write markdown file
-    with open('ratings.md', 'w') as f:
+    if model is None:
+        ratings_md_file = 'ratings.md'
+    else:
+        ratings_md_file = f'ratings_{model.split("/")[-1]}.md'
+    with open(ratings_md_file, 'w') as f:
         f.write(md_content)
 
     # Write JSON file
-    with open('ratings.json', 'w') as f:
+    if model is None:
+        ratings_json_file = 'ratings.json'
+    else:
+        ratings_json_file = f'ratings_{model.split("/")[-1]}.json'
+    with open(ratings_json_file, 'w') as f:
         json.dump(json_data, f, indent=2)
 
-    print("Created ratings.md and ratings.json")
+    print(f"Created {ratings_md_file} and {ratings_json_file}")
 
 if __name__ == "__main__":
     main()

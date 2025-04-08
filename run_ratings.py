@@ -4,6 +4,9 @@ import os
 from notebook_grader import rate_notebook
 from typing import List, Tuple
 
+model = None
+# model = "anthropic/claude-3.5-sonnet"
+
 def find_notebooks(base_dir: str) -> List[Tuple[str, str]]:
     """Find notebooks matching the pattern dandisets/<DANDISET_ID>/subfolder/<DANDISET_ID>.ipynb."""
     notebook_paths = []
@@ -40,18 +43,23 @@ def main():
         print(f"Path: {notebook_path}")
 
         # Construct output path by replacing .ipynb with _ratings.json
-        output_path = notebook_path.replace('.ipynb', '_ratings.json')
+        a = '_ratings.json'
+        if model is not None:
+            a = f'_ratings_{model.split("/")[-1]}.json'
+        output_path = notebook_path.replace('.ipynb', a)
 
         try:
             rate_notebook(
                 notebook_path_or_url=notebook_path,
-                model=None,
+                model=model,
                 auto=True,
                 questions_yaml='questions.yml',
                 output_json=output_path
             )
             print(f"Successfully created: {output_path}")
         except Exception as e:
+            import traceback
+            traceback.print_exc()
             print(f"Error processing {notebook_path}: {e}")
 
         # # Skip the pause after the last notebook
