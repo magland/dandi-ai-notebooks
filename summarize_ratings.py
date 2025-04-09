@@ -74,7 +74,7 @@ def create_markdown_table(questions: List[Dict], ratings: List[Tuple[str, str, D
                 md += '| ' + ':---:|' * len(headers) + '\n'
             current_dandiset = dandiset_id
 
-        notebook_path = f'dandisets/{dandiset_id}/{subfolder}/{dandiset_id}.ipynb'
+        notebook_link = "https://github.com/dandi-ai-notebooks/" + dandiset_id + "/blob/main/" + subfolder + "/" + dandiset_id + ".ipynb"
 
         # Create score lookup by question name
         scores = {s['name']: s['score'] for s in rating_data['scores']}
@@ -84,7 +84,7 @@ def create_markdown_table(questions: List[Dict], ratings: List[Tuple[str, str, D
         overall_score = f"{sum(available_scores) / len(available_scores):.2f}" if available_scores else ""
 
         # Add notebook link, subfolder and overall score
-        row = [f'[{dandiset_id}.ipynb]({notebook_path})', subfolder, overall_score]
+        row = [f'[{dandiset_id}.ipynb]({notebook_link})', subfolder, overall_score]
 
         # Add score for each question (or blank if not found)
         for question in questions:
