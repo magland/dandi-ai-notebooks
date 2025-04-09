@@ -751,6 +751,50 @@
     },
     {
       "dandiset_id": "001335",
+      "subfolder": "2025-04-09-claude-3.7-sonnet",
+      "config": {
+        "model": "anthropic/claude-3.7-sonnet"
+      },
+      "metadata": {
+        "dandi_notebook_gen_version": "0.1.0",
+        "system_info": {
+          "platform": "Linux-5.10.234-225.921.amzn2.x86_64-x86_64-with-glibc2.39",
+          "hostname": "jupyter-magland",
+          "processor": "x86_64",
+          "python_version": "3.11.10"
+        },
+        "model": "anthropic/claude-3.7-sonnet",
+        "vision_model": "anthropic/claude-3.7-sonnet",
+        "total_prompt_tokens": 1164208,
+        "total_completion_tokens": 28311,
+        "total_vision_prompt_tokens": 15305,
+        "total_vision_completion_tokens": 2310,
+        "timestamp": "2025-04-09 23:51:58",
+        "elapsed_time_seconds": 673.3654189109802
+      },
+      "paths": {
+        "notebook": "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335.ipynb",
+        "html": "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335.html",
+        "images": [
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_21_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_28_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_30_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_32_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_36_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_38_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_40_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_40_1.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_44_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_46_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_46_2.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_48_0.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_48_1.png",
+          "dandisets/001335/2025-04-09-claude-3.7-sonnet/001335_files/001335_48_2.png"
+        ]
+      }
+    },
+    {
+      "dandiset_id": "001335",
       "subfolder": "2025-04-03-gemini-2.0-flash-001",
       "config": {
         "model": "google/gemini-2.0-flash-001"
