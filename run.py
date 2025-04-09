@@ -180,7 +180,8 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         model = nb['config'].get('model', 'N/A')
         vision_model = nb['config'].get('vision_model', model)
         image_count = len(nb['paths'].get('images', []))
-        notebook_link = nb['paths']['notebook']
+        dandiset_id = nb['dandiset_id']
+        notebook_link = "https://github.com/dandi-ai-notebooks/" + dandiset_id + "/blob/main/" + nb["subfolder"] + "/" + dandiset_id + ".ipynb"
 
         total_prompt_tokens = nb['metadata'].get('total_prompt_tokens', 0)
         total_completion_tokens = nb['metadata'].get('total_completion_tokens', 0)
@@ -223,7 +224,8 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
             md += f"**Estimated Cost:** ${est_cost:.2f}  \n"
         else:
             md += f"**Estimated Cost:** unknown  \n"
-        md += f"**Notebook:** [{nb['dandiset_id']}.ipynb]({nb['paths']['notebook']})  \n"
+        notebook_link = "https://github.com/dandi-ai-notebooks/" + nb['dandiset_id'] + "/blob/main/" + nb["subfolder"] + "/" + nb["dandiset_id"] + ".ipynb"
+        md += f"**Notebook:** [{nb['dandiset_id']}.ipynb]({notebook_link})  \n"
 
         # Add images if any
         if nb['paths'].get('images'):
