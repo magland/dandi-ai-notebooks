@@ -14,6 +14,7 @@ git submodule foreach '
         git push origin HEAD
         echo "Changes pushed for $(basename $(pwd))"
     else
-        echo "No changes in $(basename $(pwd))"
+        echo "No changes in $(basename $(pwd)). Trying push"
+        git push origin HEAD
     fi
 '
