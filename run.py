@@ -1,8 +1,6 @@
 import os
 import json
-from matplotlib.pylab import f
 import yaml
-import time
 import shutil
 import platform
 from typing import Dict, List, Any
@@ -51,7 +49,7 @@ def collect_notebook_info(notebook_dir: str, dandiset_id: str, subfolder: str) -
     image_files = []
     if os.path.exists(images_dir):
         image_files = [
-            get_relative_path(os.path.join(images_dir, f))
+            f"https://github.com/dandi-ai-notebooks/{dandiset_id}/raw/main/{subfolder}/{dandiset_id}_files/" + f
             for f in os.listdir(images_dir)
             if os.path.isfile(os.path.join(images_dir, f))
         ]
@@ -230,8 +228,8 @@ def generate_markdown_report(notebooks_data: List[Dict[str, Any]]) -> str:
         # Add images if any
         if nb['paths'].get('images'):
             md += "\n**Generated Images:**\n\n"
-            for img_path in nb['paths']['images']:
-                md += f"![{os.path.basename(img_path)}]({img_path})  \n"
+            for img_url in nb['paths']['images']:
+                md += f"![{os.path.basename(img_url)}]({img_url})  \n"
 
         md += "\n"
 
