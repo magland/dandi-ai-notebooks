@@ -12,6 +12,7 @@
 | [000673.ipynb](https://github.com/dandi-ai-notebooks/000673/blob/main/2025-04-07-quasar-alpha-exp/000673.ipynb) | 2025-04-07-quasar-alpha-exp | openrouter/quasar-alpha () | 2025-04-07 13:06:02 | 234.77 | 3 | 230.6k + 1.599k / 5.5k + 0.29k | nan + nan |
 | [000673.ipynb](https://github.com/dandi-ai-notebooks/000673/blob/main/2025-04-09-quasar-alpha/000673.ipynb) | 2025-04-09-quasar-alpha | openrouter/quasar-alpha () | 2025-04-09 21:09:50 | 319.95 | 4 | 710.5k + 3.194k / 6.3k + 0.443k | nan + nan |
 | [000945.ipynb](https://github.com/dandi-ai-notebooks/000945/blob/main/2025-04-07-claude-3.5-sonnet/000945.ipynb) | 2025-04-07-claude-3.5-sonnet | anthropic/claude-3.5-sonnet () | 2025-04-07 14:50:38 | 256.28 | 3 | 264.4k + 3.411k / 6.1k + 0.599k | 0.88 + 0.02 |
+| [000945.ipynb](https://github.com/dandi-ai-notebooks/000945/blob/main/2025-04-09-claude-3.7-sonnet/000945.ipynb) | 2025-04-09-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-10 00:02:16 | 614.27 | 5 | 1259.3k + 6.65k / 25.1k + 1.25k | 4.15 + 0.04 |
 | [000945.ipynb](https://github.com/dandi-ai-notebooks/000945/blob/main/2025-04-02-claude-3.7-sonnet/000945.ipynb) | 2025-04-02-claude-3.7-sonnet | anthropic/claude-3.7-sonnet () | 2025-04-02 17:00:27 | 740.43 | 11 | 738.7k + 9.765k / 23.1k + 2.224k | 2.56 + 0.06 |
 | [000945.ipynb](https://github.com/dandi-ai-notebooks/000945/blob/main/2025-04-01-deepseek-chat-v3-0324/000945.ipynb) | 2025-04-01-deepseek-chat-v3-0324 | deepseek/deepseek-chat-v3-0324 () | 2025-04-01 09:03:57 | 1090.70 | 4 | 485.2k + 0.0k / 11.4k + 0.0k | 0.14 + 0.00 |
 | [000945.ipynb](https://github.com/dandi-ai-notebooks/000945/blob/main/2025-04-04-gemini-2.0-flash-001/000945.ipynb) | 2025-04-04-gemini-2.0-flash-001 | google/gemini-2.0-flash-001 () | 2025-04-04 12:33:24 | 64.18 | 2 | 279.9k + 4.297k / 5.3k + 0.137k | 0.03 + 0.00 |
@@ -216,6 +217,24 @@
 ![000945_10_0.png](dandisets/000945/2025-04-07-claude-3.5-sonnet/000945_files/000945_10_0.png)  
 ![000945_13_0.png](dandisets/000945/2025-04-07-claude-3.5-sonnet/000945_files/000945_13_0.png)  
 ![000945_7_0.png](dandisets/000945/2025-04-07-claude-3.5-sonnet/000945_files/000945_7_0.png)  
+
+### 2025-04-09-claude-3.7-sonnet
+
+**Model:** anthropic/claude-3.7-sonnet  
+**Generated:** 2025-04-10 00:02:16  
+**Generation Time:** 614.27s  
+**Prompt Tokens:** 1259.3k  
+**Completion Tokens:** 25.1k  
+**Estimated Cost:** $4.15  
+**Notebook:** [000945.ipynb](https://github.com/dandi-ai-notebooks/000945/blob/main/2025-04-09-claude-3.7-sonnet/000945.ipynb)  
+
+**Generated Images:**
+
+![000945_15_0.png](dandisets/000945/2025-04-09-claude-3.7-sonnet/000945_files/000945_15_0.png)  
+![000945_17_0.png](dandisets/000945/2025-04-09-claude-3.7-sonnet/000945_files/000945_17_0.png)  
+![000945_19_0.png](dandisets/000945/2025-04-09-claude-3.7-sonnet/000945_files/000945_19_0.png)  
+![000945_23_0.png](dandisets/000945/2025-04-09-claude-3.7-sonnet/000945_files/000945_23_0.png)  
+![000945_26_0.png](dandisets/000945/2025-04-09-claude-3.7-sonnet/000945_files/000945_26_0.png)  
 
 ### 2025-04-02-claude-3.7-sonnet
 
